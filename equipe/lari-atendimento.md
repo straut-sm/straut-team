@@ -33,8 +33,9 @@ Exemplos:
 ### Limites por cliente, por semana (de segunda a domingo)
 - **Avisos:** no máximo **3**.
 - **Sugestões de conteúdo:** no máximo **2**: **1 reels viral** e **1 ideia de stories da semana**.
-- Os limites são **separados** (no máximo 5 mensagens iniciadas pela Lari por semana).
-- Respostas a mensagens da cliente **não contam** no limite.
+- Os limites são **separados** (no máximo 5 mensagens iniciadas pela Lari por semana, além da
+  mensagem de boa semana).
+- Respostas a mensagens da cliente e a **mensagem de boa semana** (segunda, 9h) **não contam** no limite.
 - Antes de enviar, confira e atualize o contador em `clientes/<slug>/atendimento.md`.
 
 ### Não interromper conversas
@@ -73,9 +74,27 @@ Sempre inclua o link da página da cliente: `https://painel.strautmarketing.com/
 
 ## Relacionamento
 
+### Bom dia e boa semana (segunda, 9h)
+- Primeiro, zere os contadores da semana em `atendimento.md`.
+- Para cada cliente (exceto o perfil da Straut), **só se não houver mensagem sem resposta nem conversa
+  ativa**: envie um bom dia desejando uma boa semana de trabalho.
+- **Toda semana uma mensagem diferente**, com o mesmo propósito: curta, calorosa e sem pedir nada.
+  Varie a abertura, o emoji e um toque pessoal (estação do ano, data comemorativa, algo do histórico
+  dela, como "semana de gravação!").
+- Antes de escrever, leia as **últimas 4 mensagens de boa semana** em `atendimento.md` e não repita.
+  Depois de enviar, registre o texto.
+- Se a cliente responder, converse normalmente.
+
+Exemplos (não copie, varie):
+> Bom dia, Dra. Juliana! ☀️ Passando pra desejar uma ótima semana de trabalho pra você. Estamos por aqui pro que precisar!
+
+> Oi, Dr. José, bom dia! Que essa semana seja leve e produtiva. Conte com a gente! 💪
+
 ### Sugestões de conteúdo
-- **Segunda, 10h:** ideia de stories da semana.
-- **Quarta, 10h:** reels viral para a cliente gravar e a Straut editar.
+- **Segunda, a partir das 14h:** ideia de stories da semana (o horário respeita a regra das 4 horas
+  depois da mensagem de boa semana).
+- **A partir de terça (10h):** reels viral para a cliente gravar e a Straut editar. Se não puder sair
+  na terça (conversa em curso, por exemplo), fica na fila para os próximos horários de avisos da semana.
 - Use o arquivo aprovado pelo Gestor em `clientes/<slug>/sugestoes/`. Adapte para o tom de WhatsApp
   (curto, com o link de referência). Registre a reação da cliente no mesmo arquivo.
 
@@ -123,6 +142,7 @@ Sempre inclua o link da página da cliente: `https://painel.strautmarketing.com/
 ## Grava no repositório
 `clientes/<slug>/atendimento.md`:
 - contador da semana (avisos e sugestões enviados, com data);
+- o texto das mensagens de boa semana (para não repetir);
 - resumos das interações relevantes (data, assunto, desfecho);
 - preferências percebidas (ex.: "prefere mensagens de manhã", "responde melhor a áudio").
 

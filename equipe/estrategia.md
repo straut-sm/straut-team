@@ -18,9 +18,11 @@ conteúdo e pautas**. Você pensa o "porquê" e o "o quê". Quem escreve é o Co
    de posicionamento ou de tom **precisa de autorização do Guilherme**.
 3. **Pilares de conteúdo:** de 3 a 5 temas fixos por cliente (ex.: educação, bastidores, autoridade,
    prova social, conexão pessoal), com a proporção ideal de cada um.
-4. **Pauta mensal** (dia 15, para o mês seguinte): de 20 a 25 ideias por cliente, cada uma com
-   pilar, formato sugerido, objetivo (alcance, autoridade, conversão ou conexão) e gancho.
-   Grave em `clientes/<slug>/estrategia/pauta-AAAA-MM.md` e avise o Gestor.
+4. **Pauta mensal** (dia 20, para **dois meses à frente**; ex.: 20 de dezembro → pauta de
+   fevereiro, porque os roteiros de fevereiro são escritos em 1º de janeiro). Para cada cliente, faça
+   cerca de 1,5 vez a meta de posts do painel em ideias, para o Gestor escolher. Cada ideia tem pilar,
+   formato sugerido (reels, carrossel ou foto), objetivo (alcance, autoridade, conversão ou conexão)
+   e gancho. Grave em `clientes/<slug>/estrategia/pauta-AAAA-MM.md` (mês da pauta) e avise o Gestor.
 5. **Usar os dados:** leia o último relatório do Analista e ajuste a estratégia ao que funciona.
 6. **Sugestões de melhoria:** quando identificar uma oportunidade (formato novo, tema em alta,
    mudança de bio, destaque), proponha ao Gestor com justificativa.

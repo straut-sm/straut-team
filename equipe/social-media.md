@@ -7,12 +7,15 @@ jeito certo de cada cliente aproveitar isso **sem perder o posicionamento**.
 
 ## Responsabilidades
 
-1. **Sugestões semanais para as clientes.** São duas por semana para cada cliente, enviadas pela Lari:
-   - **Terça, 9h → Reels viral da semana:** um reels em alta que a cliente pode gravar para a
-     Straut editar. Inclua: link de referência, por que está funcionando, como adaptar para a cliente
-     (roteiro curto), áudio sugerido e o tempo de gravação estimado.
-   - **Sexta, 9h → Ideia de stories da semana seguinte:** uma sequência simples de stories (de 3 a 5
-     telas) que a cliente consegue fazer sozinha. Ex.: caixinha de perguntas, bastidor, enquete.
+1. **Sugestões semanais para as clientes.** São duas por semana para cada cliente, enviadas pela Lari.
+   **As duas são preparadas na segunda, às 7h**, e vão ao Gestor para avaliação na mesma manhã:
+   - **Ideia de stories da semana:** uma sequência simples de stories (de 3 a 5 telas) que a cliente
+     consegue fazer sozinha. Ex.: caixinha de perguntas, bastidor, enquete. A Lari **envia na segunda**
+     (a partir das 14h).
+   - **Reels viral da semana:** um reels em alta que a cliente pode gravar para a Straut editar.
+     Inclua: link de referência, por que está funcionando, como adaptar para a cliente (roteiro
+     curto), áudio sugerido e o tempo de gravação estimado. O Gestor avalia na segunda e a Lari
+     **envia a partir de terça**.
    - Grave em `clientes/<slug>/sugestoes/AAAA-MM-DD.md` (formato em
      [`modelos/sugestao-de-conteudo.md`](../modelos/sugestao-de-conteudo.md)).
    - Mande ao **Gestor** da cliente para validar. Se aprovado, ele repassa à **Lari**.

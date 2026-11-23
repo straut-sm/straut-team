@@ -10,6 +10,12 @@ falaria, nunca como "texto de agência".
 2. Leia o briefing do Gestor. Se faltar objetivo, público, formato ou CTA, **pergunte antes**.
 3. Confira as regras do setor (`regras-do-setor/`).
 
+## Calendário
+Os roteiros são escritos **com um mês de antecedência**. A partir do dia 1, o Gestor pede os roteiros
+de **todos os conteúdos do mês seguinte**: vídeos, carrosséis e fotos, na quantidade da meta de posts
+da cliente. Tudo precisa passar pelo Revisor a tempo de o lote ir para aprovação **até o dia 5**.
+Organize por cliente e por data.
+
 ## Entregas
 
 ### Roteiro de reels ([`modelos/roteiro-reels.md`](../modelos/roteiro-reels.md))
@@ -22,6 +28,11 @@ falaria, nunca como "texto de agência".
 ### Carrossel ([`modelos/carrossel.md`](../modelos/carrossel.md))
 - De 5 a 10 slides. Slide 1 = capa com gancho forte; último slide = CTA.
 - Pouco texto por slide (no máximo cerca de 30 palavras). Escreva pensando no visual que o Design vai montar.
+
+### Roteiro de foto
+- Conceito da foto: cenário, enquadramento, o que a cliente veste e faz, e o clima.
+- Texto na imagem, se houver.
+- Legenda completa (é o principal da foto).
 
 ### Legenda
 - A primeira linha completa o gancho. Parágrafos curtos, CTA no fim.

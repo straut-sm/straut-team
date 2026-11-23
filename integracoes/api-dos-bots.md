@@ -33,6 +33,12 @@ de tudo o que fazem.
 | GET | `/clientes/:slug/blocos?de=AAAA-MM-DD&ate=AAAA-MM-DD&status=` | Blocos do período (sem mídias pesadas, só links temporários) |
 | GET | `/blocos/:id` | Bloco completo: textos, status, mídias, sugestão pendente, comentários, histórico |
 | GET | `/pendencias` | De todas as clientes: aguardando aprovação há mais de 48 horas, ajustes sugeridos, comentários novos |
+| GET | `/blocos?data=AAAA-MM-DD&excluir_formato=roteiro` | Posts do dia de todas as clientes (rotina diária do Samuel), com status, mídias e **link direto** |
+| GET | `/blocos?formato=reels&com_video=sim&sem_capa=sim` | Reels que já têm vídeo e ainda não têm capa (rotina do Design) |
+
+Todo bloco retornado deve trazer um **`link`** para abrir aquele conteúdo direto no painel
+(ex.: `https://painel.strautmarketing.com/c/<slug>?bloco=<id>`). O Samuel envia esse link ao Guilherme.
+Se o painel ainda não abre um bloco pelo link, o Straut Brain · App precisa criar isso.
 
 ### Escrita (sem nada destrutivo)
 | Método | Rota | Faz | Regras |
@@ -42,6 +48,7 @@ de tudo o que fazem.
 | POST | `/blocos/:id/upload-url` | Gera links de upload assinados (como `createUploadUrl`) | Só imagens e vídeos |
 | POST | `/blocos/:id/midias` | Anexa as mídias enviadas (como `attachMedia`), na ordem | Não remove mídias existentes |
 | PUT | `/blocos/:id/ordem-midias` | Reordena os slides | — |
+| POST | `/blocos/:id/avancar` | Roteiro aprovado → formato planejado (como `advanceScript`) | Só roteiros `aprovado` |
 | POST | `/blocos/:id/enviar-para-aprovacao` | `em_producao` → `aguardando_aprovacao` | Só a partir de `em_producao` |
 | POST | `/blocos/:id/comentarios` | Comentário da Straut no bloco | — |
 
@@ -52,6 +59,9 @@ restaurar versões, editar o cadastro da cliente, ativar ou desativar páginas, 
 ## Quem usa o quê (garantido pelas instruções)
 | Bot | Usa |
 |---|---|
-| Samuel, Analista, Estratégia, Social Media, Copy, Revisor, Lari | Só leitura |
-| Gestores | Leitura + criar e editar blocos + enviar para aprovação (com autorização) + comentários |
-| Design | Leitura + upload, anexar e reordenar mídias |
+| Analista, Estratégia, Social Media, Copy, Revisor, Lari | Só leitura |
+| Samuel | Leitura + comentários (registrar "Agendado no mLabs para HH:MM") |
+| Gestores | Leitura + criar e editar blocos + avançar roteiros aprovados + enviar para aprovação (com autorização) + comentários |
+| Design | Leitura + upload, anexar e reordenar mídias + comentários (link do Canva) |
+
+O agendamento dos posts é feito pelo Samuel **no mLabs**, não pela API do painel.

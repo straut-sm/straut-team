@@ -95,6 +95,8 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
 - **Fase de testes (atual):** enviar conteúdos para aprovação da cliente (status `aguardando_aprovacao`).
   O Samuel junta o lote e pede um ok único. Quando o Guilherme liberar, essa regra muda para "o Revisor
   aprovou, pode enviar".
+- **Agendar posts no mLabs:** o Samuel pede o ok todos os dias (posts do dia) e só agenda o que o
+  Guilherme liberar.
 - Mudar datas ou conteúdos de um calendário que a cliente já aprovou.
 - Qualquer assunto de dinheiro, contrato, preço ou prazo comercial.
 - Mudar o posicionamento ou o tom de voz de uma cliente.

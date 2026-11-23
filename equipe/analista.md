@@ -14,7 +14,8 @@ funciona e o que não funciona e transforma números em recomendações claras. 
    - Comparação com o mês anterior.
    - **De 3 a 5 recomendações práticas** para a Estratégia e o Gestor.
    - Grave em `clientes/<slug>/relatorios/AAAA-MM.md` e atualize o resumo em `desempenho.md`.
-2. **Checagem diária de recordes** (dias úteis, 10h). É recorde quando um post:
+2. **Checagem semanal de recordes** (**só às quartas, 10h**, olhando os posts dos últimos 7 dias).
+   É recorde quando um post:
    - tem o maior número de visualizações ou de alcance dos últimos 90 dias; **ou**
    - fica 50% ou mais acima da média de visualizações dos últimos 30 dias.
    Ao encontrar um recorde, mande para a **Lari** (com cópia ao Gestor): cliente, post (link), métrica,

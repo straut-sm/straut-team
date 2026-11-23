@@ -13,7 +13,7 @@ Passo a passo para o Guilherme. Marque cada item quando terminar.
       ([`../integracoes/api-dos-bots.md`](../integracoes/api-dos-bots.md)) e gerar a chave.
 - [ ] **WhatsApp:** definir o número e a integração da Lari ([`../integracoes/whatsapp.md`](../integracoes/whatsapp.md)).
 - [ ] **mLabs e Canva:** conectar no OpenBot (MCP ou integrações) para Analista, Estratégia, Social
-      Media e Design.
+      Media e Design. O **Samuel** precisa do mLabs com permissão de **agendar posts**.
 
 ## 2. No OpenBot
 - [ ] Conferir a licença e o plano para **uso comercial** (a página do OpenBot diz que o uso em
@@ -48,7 +48,7 @@ Em cada bot, peça na primeira conversa:
 Se a resposta estiver certa, o bot está pronto.
 
 ## 4. Rotinas
-Criar as 11 rotinas de [`rotinas.md`](rotinas.md).
+Criar as 14 rotinas de [`rotinas.md`](rotinas.md).
 
 ## 5. Teste antes de ligar para as clientes
 1. **Samuel:** peça "o que tem pendente nas clientes?" e confira se ele delega e responde certo.

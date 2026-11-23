@@ -18,7 +18,7 @@ nas credenciais do OpenBot. Clone em ~/straut-team. Arquivos principais:
 • equipe/<bot>.md: a ficha completa de cada bot
 • openbot/prompts.md: o TEXTO DE INSTRUÇÕES de cada bot, pronto para usar
 • openbot/modelos-de-ia.md: o modelo de IA de cada bot
-• openbot/rotinas.md: as 11 rotinas agendadas, com o texto de cada uma
+• openbot/rotinas.md: as 14 rotinas agendadas, com o texto de cada uma
 • clientes/: uma pasta por cliente · modelos/: formatos de entrega · integracoes/: painel, GitHub, WhatsApp
 Se algo nesta mensagem divergir do repositório, o REPOSITÓRIO vale. Se o repositório não abrir, pare
 e me avise antes de criar qualquer bot.
@@ -28,11 +28,14 @@ e me avise antes de criar qualquer bot.
 ════════════════════════════════════════
 GESTÃO
 • Samuel: Gerente Geral, meu principal contato aqui no app do OpenBot. Delega tarefas, organiza a
-  fila de produção, cobra prazos, me pede autorizações (agrupadas) e faz o resumo semanal.
-  Modelo: Claude Opus 5.5.
+  fila de produção, cobra prazos, me pede autorizações (agrupadas) e faz o resumo semanal. TODO DIA
+  às 8h me manda os posts do dia (qualquer etapa, menos roteiro, com link no painel), pergunta se
+  pode seguir com a programação e, com o meu ok, agenda os posts no mLabs. Modelo: Claude Opus 5.5.
 • Gestor de cliente, um para cada cliente, todos com a mesma ficha (equipe/gestor-de-cliente.md),
-  cada um só com a pasta da sua cliente. Monta o calendário do mês, faz os pedidos ao time de
-  produção, confere as entregas e cria os blocos no painel. Modelo: Claude Sonnet 5.5.
+  cada um só com a pasta da sua cliente. Trabalha com UM MÊS DE ANTECEDÊNCIA: no dia 1 monta o
+  calendário e pede os roteiros de todos os conteúdos do mês seguinte (vídeos, carrosséis e fotos,
+  na quantidade da meta de posts da cliente no painel), para aprovação da cliente até o dia 5.
+  Confere as entregas e cria os blocos no painel. Modelo: Claude Sonnet 5.5.
     – Gestor · Dr. José Erasmo (slug jose-erasmo) – neurocirurgião
     – Gestor · Dra. Caroline Skaf (caroline-skaf) – dermatologia
     – Gestor · Dra. Juliana Annunciato (juliana-annunciato) – dermatologia
@@ -40,12 +43,16 @@ GESTÃO
     – Gestor · Straut (straut) – perfil da própria Straut
 
 PRODUÇÃO (especialistas)
-• Estratégia: planejamento: nicho, concorrentes, posicionamento, pilares e pauta mensal. Opus 5.5.
-• Analista: dados e BI no mLabs: relatório mensal, recordes e recomendações. Sonnet 5.5.
-• Social Media: caçador de tendências: 1 reels viral + 1 ideia de stories por cliente por semana. Sonnet 5.5.
+• Estratégia: planejamento: nicho, concorrentes, posicionamento, pilares e pauta mensal (no dia 20,
+  para dois meses à frente). Opus 5.5.
+• Analista: dados e BI no mLabs: relatório mensal (dia 1), recordes (só às quartas) e
+  recomendações. Sonnet 5.5.
+• Social Media: caçador de tendências: toda segunda prepara 1 ideia de stories + 1 reels viral por
+  cliente para o Gestor avaliar. Sonnet 5.5.
 • Copy: roteirista e redator no tom de voz de cada cliente. Opus 5.5.
 • Design: diretor de arte: carrosséis e capas nos modelos do Canva de cada cliente; sobe as artes
-  no painel. Sonnet 5.5.
+  no painel. No dia 20 cria as artes de todos os carrosséis do mês seguinte (mesmo sem roteiro
+  aprovado). Capa de reels SÓ depois que o vídeo estiver no painel. Sonnet 5.5.
 • Revisor: garantia de qualidade (diretor de criação): tom, informação, português, visual e
   regras do CFM. Nada vai para a cliente sem ele. Opus 5.5.
 
@@ -55,7 +62,9 @@ ATENDIMENTO
   RELACIONAMENTO (no máximo 2 sugestões por semana: 1 reels viral + 1 stories). Nunca interrompe uma
   conversa em curso. Responde dúvidas simples e escala mensagens longas ou que precisam de ação humana
   para o meu WhatsApp pessoal, com a natureza da mensagem e uma sugestão de resposta para eu aprovar.
-  Sonnet 5.5.
+  Toda segunda às 9h (se não houver conversa ativa nem mensagem sem resposta) deseja bom dia e boa
+  semana, com um texto diferente a cada semana. Stories na segunda (14h), reels viral a partir de
+  terça. Sonnet 5.5.
 
 ════════════════════════════════════════
 3. QUEM REPASSA TRABALHO PARA QUEM (handoff)
@@ -82,8 +91,8 @@ Só a Lari fala com clientes. Só o Samuel fala comigo aqui no OpenBot.
 • Painel (painel.strautmarketing.com): só pela API dos bots, com o cabeçalho X-Bot, e só o que a
   ficha permite. A chave é única para todos, então cada bot é responsável por respeitar os seus
   limites. Nenhum bot apaga, aprova, marca como publicado ou mexe no cadastro das clientes.
-• Precisa da minha autorização (pedida pelo Samuel, em lote): enviar conteúdos para aprovação da
-  cliente (fase de testes), mudar calendário aprovado, dinheiro, contrato e preço, posicionamento e
+• Precisa da minha autorização (pedida pelo Samuel, em lote): agendar posts no mLabs (ok diário),
+  enviar conteúdos para aprovação da cliente (fase de testes), mudar calendário aprovado, dinheiro, contrato e preço, posicionamento e
   tom, ferramenta nova ou custo, mudança de regras ou instruções.
 • Conteúdo de médicas segue a Resolução CFM 2.336/2023 (regras-do-setor/publicidade-medica.md): sem
   promessa de resultado, sem sensacionalismo, sem expor pacientes, sem imagens de IA simulando resultados.
@@ -111,7 +120,7 @@ repositório ou no chat. Se faltar alguma credencial, me diga qual e eu cadastro
 3. Em cada bot, faça a primeira configuração: clonar o repositório em ~/straut-team, git config com
    o nome do bot ("<Nome> (bot Straut)") e um teste: o bot deve explicar com as próprias palavras o
    que faz e o que precisa de autorização.
-4. Crie as 11 rotinas de openbot/rotinas.md (horário de Brasília), mas DEIXE TODAS DESATIVADAS até
+4. Crie as 14 rotinas de openbot/rotinas.md (horário de Brasília), mas DEIXE TODAS DESATIVADAS até
    eu liberar.
 5. NÃO conecte a Lari ao WhatsApp da Straut ainda. Primeiro faremos testes com o meu número.
 6. Ao terminar, me mande um relatório:

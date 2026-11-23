@@ -28,33 +28,46 @@ O motivo de cada modelo está em [`openbot/modelos-de-ia.md`](../openbot/modelos
 
 Todos usam a mesma ficha: [`gestor-de-cliente.md`](gestor-de-cliente.md). Só muda a pasta da cliente.
 
-## Fluxo 1: conteúdo do mês
+## Fluxo 1: roteiros com um mês de antecedência
+
+Exemplo: no dia 1º de janeiro são criados os roteiros de **fevereiro**.
 
 ```
-Dia 15  Estratégia   → pauta do mês seguinte para cada cliente (com base no relatório do Analista)
-Dia 20  Samuel       → aciona os Gestores para montar os calendários
-        Gestor       → monta o calendário (datas + formatos + pautas) → Samuel pede ok ao Guilherme
-        Gestor       → pede os roteiros e textos ao Copy (briefing: modelos/briefing-de-demanda.md)
-        Copy         → escreve → Revisor
-        Revisor      → aprova ou devolve com ajustes (no máximo 2 rodadas, depois escala ao Gestor)
-        Gestor       → cria os blocos no painel (status "em_producao")
-        Samuel       → pede ok do lote ao Guilherme → blocos vão para "aguardando_aprovacao"
-        Lari         → avisa a cliente que há conteúdos para aprovar
+Dia 20 (dez)  Estratégia → pauta de FEVEREIRO para cada cliente (com base no relatório do Analista)
+Dia 1  (jan)  Samuel     → aciona os Gestores
+              Gestor     → calendário de fevereiro: quantidade = meta de posts da cliente no painel,
+                           com datas e formatos (reels, carrossel, foto)
+              Gestor     → pede ao Copy os ROTEIROS de todos os conteúdos (briefing: modelos/briefing-de-demanda.md)
+              Copy       → escreve → Revisor (no máximo 2 rodadas, depois escala ao Gestor)
+              Gestor     → cria os blocos "roteiro" no painel (com data e formato planejado)
+Até dia 5     Samuel     → pede o ok do lote ao Guilherme → "aguardando_aprovacao"
+              Lari       → avisa a cliente que há roteiros para aprovar
 ```
 
-## Fluxo 2: carrossel e capa
+## Fluxo 2: carrossel
 
 ```
-Gestor → Copy (texto slide a slide) → Design (arte no modelo do Canva da cliente)
-       → Revisor (texto + arte) → Design sobe as imagens no bloco do painel
-       → Gestor confere → (ok do Guilherme na fase de testes) → aguardando_aprovacao → Lari avisa
+Dia 20 (jan)  Design → artes de TODOS os carrosséis de fevereiro no Canva, mesmo sem roteiro aprovado
+              → Revisor
+Roteiro aprovado → Gestor avança o bloco (roteiro → carrossel) → Design sobe as artes
+                   (ajustando se o texto aprovado mudou) → Gestor confere
+                   → (ok do Guilherme na fase de testes) → aguardando_aprovacao → Lari avisa
 ```
 
 ## Fluxo 3: reels
 
 ```
-Roteiro aprovado pela cliente → gravação presencial (equipe humana) → edição (equipe humana)
-→ Design faz a capa → Revisor → vídeo + capa no bloco → aprovação da cliente → postagem
+Roteiro aprovado → Gestor avança o bloco (roteiro → reels) → gravação presencial (equipe humana)
+→ edição (equipe humana) → vídeo no painel
+→ Design faz a capa (SÓ depois do vídeo no painel; checagem diária às 11h) → Revisor → capa no bloco
+→ aprovação da cliente → postagem
+```
+
+## Fluxo 3b: foto
+
+```
+Roteiro aprovado → Gestor avança o bloco (roteiro → foto) → foto (equipe humana) + legenda
+→ Revisor → aprovação da cliente → postagem
 ```
 
 Gravação e edição de vídeo são feitas por pessoas, não pelos bots.
@@ -80,9 +93,22 @@ Cliente manda mensagem no WhatsApp
 ## Fluxo 6: avisos e sugestões
 
 ```
-Analista detecta recorde ─────────────┐
-Painel: conteúdos aguardando aprovação ┼→ Lari → cliente  (até 3 avisos por semana)
-Social Media: viral + stories da semana → Gestor valida → Lari → cliente  (até 2 sugestões por semana)
+Segunda 9h      Lari → bom dia e boa semana (se não houver conversa ativa nem mensagem sem resposta)
+Segunda 7h      Social Media → stories da semana + reels viral → Gestor valida (segunda de manhã)
+Segunda 14h     Lari → stories da semana
+Terça em diante Lari → reels viral
+Quarta 10h      Analista → recordes dos últimos 7 dias → Lari
+Dias úteis      Lari → avisos de aprovação pendente e lembretes (até 3 avisos por semana)
+```
+Sugestões: até 2 por semana. A mensagem de boa semana não conta no limite.
+
+## Fluxo 7: postagem do dia
+
+```
+Todo dia, 8h   Samuel → posts de hoje de todas as clientes (qualquer etapa, menos roteiro),
+                        com link no painel → Guilherme
+               Guilherme → "ok" (ou ajustes)
+               Samuel → agenda no mLabs os posts liberados → confirma → comenta no bloco
 ```
 
 ## Quem pode repassar trabalho para quem (handoff no OpenBot)
