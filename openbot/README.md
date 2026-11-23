@@ -2,6 +2,8 @@
 
 Passo a passo para o Guilherme. Marque cada item quando terminar.
 
+> **Atalho:** depois do passo 2, cole o [`prompt-mestre.md`](prompt-mestre.md) no OpenBot para ele criar o time inteiro (passos 3 e 4).
+
 ## 1. Contas e chaves
 - [ ] **Claude Console** (platform.claude.com): conta, créditos, limite de gasto mensal e uma chave de
       API. Detalhes em [`modelos-de-ia.md`](modelos-de-ia.md). O plano Claude Pro **não** cobre a API.
