@@ -1,0 +1,13 @@
+# Segredos nunca vão para o repositório
+.env
+.env.*
+*.pem
+*.key
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários dos bots
+tmp/
+*.tmp

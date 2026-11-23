@@ -1,0 +1,37 @@
+# Straut: perfil
+
+> Status da ficha: ⏳ aguardando informações do Guilherme
+
+## Dados básicos
+| Campo | Valor |
+|---|---|
+| Nome | Straut |
+| Slug no painel | `straut` |
+| Especialidade / nicho | Social Media (perfil da própria Straut) |
+| Área da saúde? | Não (segue as regras gerais de publicidade) |
+| Registro profissional (CRM / RQE ou outro) | _a preencher_ |
+| Cidade / região de atendimento | _a preencher_ |
+| Instagram | _a preencher_ |
+| Posts por mês (contrato) | 10 |
+| Página no painel (Straut) | https://painel.strautmarketing.com/c/straut |
+| Página no painel (cliente) | https://painel.strautmarketing.com/p/straut |
+| Como a Lari deve chamá-la | Não se aplica (perfil da própria Straut: a Lari não envia mensagens) |
+
+## Sobre a cliente
+- Quem é, a trajetória e o que a torna única: _a preencher_
+- Serviços / procedimentos que mais quer divulgar: _a preencher_
+- Objetivos com o Instagram (autoridade, agenda cheia, lançamento...): _a preencher_
+
+## Público
+- Quem é o paciente / cliente ideal: _a preencher_
+- Principais dúvidas e dores desse público: _a preencher_
+
+## Restrições
+- Temas que **não** quer abordar: _a preencher_
+- Coisas que não gosta (palavras, formatos, estilos): _a preencher_
+- Cuidados específicos da especialidade: _a preencher_
+
+## Rotina de produção
+- Frequência das gravações presenciais: _a preencher_
+- Disponibilidade típica (dias e horários): _a preencher_
+- Prefere aprovar em lote ou aos poucos? _a preencher_
