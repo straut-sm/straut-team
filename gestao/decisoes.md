@@ -5,6 +5,10 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-24 · Complemento das referências com o que faltava das skills `copywriting` e `social`:
+  `escrita-de-copy.md` (método de escrita e fórmulas de título), `reaproveitamento-de-conteudo.md`,
+  vícios de redes sociais em `texto-sem-cara-de-ia.md`, limites do Instagram em `ganchos-e-roteiros.md`
+  e o "manual do nicho" (engenharia reversa) em `perfil-de-concorrentes.md`.
 - 2026-11-24 · Referências de marketing adicionadas em `referencias/`, adaptadas do repositório
   `coreyhaines31/marketingskills` (licença MIT): ganchos, carrosséis, texto sem cara de IA, revisão,
   pesquisa de público, concorrentes e rotinas seguras. Só as skills úteis para a Straut, em português e

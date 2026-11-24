@@ -27,6 +27,9 @@ funciona e o que não funciona e transforma números em recomendações claras. 
 5. **Desempenho por gancho e estrutura:** quando o roteiro indicar o tipo de gancho
    ([`referencias/ganchos-e-roteiros.md`](../referencias/ganchos-e-roteiros.md)) ou a estrutura de
    carrossel, compare no relatório mensal quais funcionam melhor para cada cliente.
+6. **Candidatos a republicação:** no relatório mensal, indique conteúdos atemporais que foram muito
+   bem há 3 a 6 meses e podem ser atualizados e republicados
+   ([`referencias/reaproveitamento-de-conteudo.md`](../referencias/reaproveitamento-de-conteudo.md)).
 
 ## Ferramentas
 - **mLabs**: métricas, posts publicados, crescimento de seguidores, melhores horários, concorrentes.

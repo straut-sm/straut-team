@@ -69,6 +69,29 @@ Data da análise: AAAA-MM-DD · Analisado por: <bot> · Tipo: <direto | referên
 - <ex.: "Ninguém do nicho na região explica X em carrossel. Vale testar?">
 ```
 
+## Engenharia reversa do nicho (análise em lote)
+Além dos perfis individuais, a cada 3 meses a Estratégia (com apoio do Social Media) monta o
+**"manual do nicho"** de cada cliente: o que está funcionando de verdade, com base em dados.
+
+1. **Escolha os perfis:** de 10 a 20 perfis do nicho que postam com frequência (3 ou mais vezes por
+   semana) e têm engajamento alto **em relação ao número de seguidores**. Misture perfis consolidados e
+   em crescimento.
+2. **Colete os posts:** pelo menos **100 posts** no total (manualmente pelo Instagram de pesquisa,
+   que é só leitura, ou pela análise de concorrentes do mLabs). **Não use ferramentas de raspagem
+   automática.** Anote: formato, tema, primeira linha ou gancho, CTA, data e hora, e as métricas
+   visíveis.
+3. **Analise:** ordene pelo engajamento e separe os **10% melhores**. Que tipos de gancho, formatos,
+   tamanhos, temas e CTAs se repetem neles? O que aparece nos piores?
+4. **Monte o manual:** documente os **padrões** (os 10 ganchos que mais aparecem, os 5 formatos, os
+   5 CTAs), cada um com um exemplo e o porquê de funcionar. Grave em
+   `clientes/<slug>/estrategia/manual-do-nicho-AAAA-MM.md`.
+5. **Aplique a voz da cliente:** os padrões são a forma. O conteúdo e o jeito de falar são dela.
+   Passe tudo pelos filtros do CFM: padrões que funcionam mas ferem as regras ficam marcados com ⛔.
+6. **Teste e meça:** o Analista acompanha nos relatórios se os padrões aplicados funcionam para a
+   cliente. **O dado dela vale mais que o do nicho.**
+
+Resumo: descubra o que já funciona (não chute) → extraia os padrões → aplique a voz da cliente → teste com os dados dela.
+
 ## Como usar no diagnóstico
 Junte os perfis numa tabela comparativa no `diagnostico-AAAA-MM.md`: formatos, frequência, pilares,
 o que funciona e **espaços livres**, isto é, temas, formatos ou tons que ninguém ocupa e combinam

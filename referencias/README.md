@@ -14,12 +14,14 @@ conteúdo melhor. **São referências, não regras.**
 
 | Arquivo | Para quê | Quem usa |
 |---|---|---|
-| [`ganchos-e-roteiros.md`](ganchos-e-roteiros.md) | Tipos de gancho e estruturas de vídeo curto, com exemplos para a área da saúde | Copy, Social Media, Estratégia |
+| [`ganchos-e-roteiros.md`](ganchos-e-roteiros.md) | Tipos de gancho e estruturas de vídeo curto, com exemplos para a área da saúde, e os limites do Instagram | Copy, Social Media, Estratégia |
 | [`estruturas-de-carrossel.md`](estruturas-de-carrossel.md) | 5 estruturas de carrossel, slide a slide, e checklist de produção | Copy, Design, Revisor |
-| [`texto-sem-cara-de-ia.md`](texto-sem-cara-de-ia.md) | Padrões que denunciam texto escrito por IA, em português, e como reescrever | Copy, Revisor, Lari |
+| [`escrita-de-copy.md`](escrita-de-copy.md) | O método de escrita: diagnóstico, escrever por partes, teste das 3 perguntas, afirmação sem base, fórmulas de título | Copy, Revisor |
+| [`texto-sem-cara-de-ia.md`](texto-sem-cara-de-ia.md) | Padrões que denunciam texto escrito por IA, em português (inclusive os vícios de redes sociais), e como reescrever | Copy, Revisor, Lari |
 | [`checklist-de-revisao.md`](checklist-de-revisao.md) | Modos de revisão e as 7 passadas de revisão de texto | Revisor |
 | [`pesquisa-de-publico.md`](pesquisa-de-publico.md) | Como descobrir as palavras e dúvidas reais dos pacientes e clientes | Estratégia, Social Media, Copy |
-| [`perfil-de-concorrentes.md`](perfil-de-concorrentes.md) | Como analisar perfis concorrentes no Instagram, com modelo | Estratégia, Social Media |
+| [`perfil-de-concorrentes.md`](perfil-de-concorrentes.md) | Como analisar perfis concorrentes no Instagram, com modelo, e o "manual do nicho" (engenharia reversa em lote) | Estratégia, Social Media |
+| [`reaproveitamento-de-conteudo.md`](reaproveitamento-de-conteudo.md) | Como transformar um conteúdo (gravação, live, post que foi bem) em vários | Gestor, Estratégia, Copy, Social Media |
 | [`rotinas-seguras.md`](rotinas-seguras.md) | Como uma rotina automática deve checar, agir, lembrar e parar | Samuel e todos os bots com rotinas |
 
 ## Origem e crédito

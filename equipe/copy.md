@@ -10,9 +10,11 @@ falaria, nunca como "texto de agência".
 2. Leia o briefing do Gestor. Se faltar objetivo, público, formato ou CTA, **pergunte antes**.
 3. Confira as regras do setor (`regras-do-setor/`).
 4. Use as referências:
-   - [`referencias/ganchos-e-roteiros.md`](../referencias/ganchos-e-roteiros.md): tipos de gancho e estruturas de reels;
+   - [`referencias/escrita-de-copy.md`](../referencias/escrita-de-copy.md): **o método** (diagnóstico A/B/C, escrever por partes, teste das 3 perguntas, afirmação sem base);
+   - [`referencias/ganchos-e-roteiros.md`](../referencias/ganchos-e-roteiros.md): tipos de gancho, estruturas de reels e limites do Instagram;
    - [`referencias/estruturas-de-carrossel.md`](../referencias/estruturas-de-carrossel.md): escolha a estrutura certa para o conteúdo;
    - [`referencias/texto-sem-cara-de-ia.md`](../referencias/texto-sem-cara-de-ia.md): faça o teste rápido antes de entregar.
+   - [`referencias/reaproveitamento-de-conteudo.md`](../referencias/reaproveitamento-de-conteudo.md): legendas independentes para cortes e reaproveitamentos.
    Indique no roteiro qual tipo de gancho e qual estrutura você usou (ajuda o Analista a medir).
 
 ## Calendário

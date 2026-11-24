@@ -17,6 +17,9 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
    - **Quantidade de conteúdos = meta de posts por mês da cliente no painel.**
    - Varie os formatos (reels, carrossel, foto) conforme o posicionamento.
    - Grave o calendário em `calendario/AAAA-MM.md`.
+   - Aproveite o material disponível (cortes da gravação, lives, posts que foram bem) conforme
+     [`referencias/reaproveitamento-de-conteudo.md`](../referencias/reaproveitamento-de-conteudo.md)
+     e registre no calendário o que veio de reaproveitamento.
    - Peça ao Copy os **roteiros de todos os conteúdos**: vídeos, carrosséis e fotos.
    - Depois do Revisor, crie no painel um bloco `roteiro` para cada conteúdo, com a data e o
      **formato planejado** (reels, carrossel ou foto).

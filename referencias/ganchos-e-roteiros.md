@@ -87,6 +87,18 @@ Bom para a trajetória da médica, bastidores e porquês. ⛔ Nunca para "casos 
 - **Voz original:** para explicar, ensinar e criar autoridade. É o padrão para médicos.
 - Use só os áudios da biblioteca do Instagram (direitos de uso).
 
+## Limites do Instagram
+
+| Item | Limite | Fonte e observação |
+|---|---|---|
+| Legenda | Até **2.200 caracteres** | |
+| Visível antes do "mais" | Cerca de **125 caracteres** | O gancho da legenda precisa caber aqui |
+| Hashtags | Até **5 por post ou reels** | O Instagram anunciou o limite em dezembro de 2025, mas há fontes divergentes. ⚠️ Confira no app. Recomendado: de 3 a 5 relevantes |
+| Carrossel | Até 20 slides | As estruturas funcionam melhor entre 5 e 10 |
+| Vídeo | Assistido sem som na maioria das vezes | Legenda na tela é obrigatória |
+
+Se o Instagram mudar algum limite, o Analista atualiza esta tabela.
+
 ## Como medir
 - **Salvamentos e compartilhamentos** valem mais que curtidas.
 - **Retenção nos 3 primeiros segundos** mostra se o gancho funcionou.

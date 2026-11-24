@@ -18,6 +18,8 @@ conteúdo e pautas**. Você pensa o "porquê" e o "o quê". Quem escreve é o Co
      (um perfil por concorrente, com data, separando observado, interpretado e implicação) e
      [`referencias/pesquisa-de-publico.md`](../referencias/pesquisa-de-publico.md) (as palavras e
      dúvidas reais do público, com nível de confiança).
+   - A cada 3 meses, monte também o **manual do nicho** (engenharia reversa de 10 a 20 perfis, seção
+     própria em `perfil-de-concorrentes.md`), com o Social Media.
    - Atualize as seções "Linguagem do público", "Dúvidas e objeções" e "Provas" de
      `posicionamento-e-tom.md`.
 2. **Posicionamento e tom de voz:** mantenha `clientes/<slug>/posicionamento-e-tom.md`. Uma mudança

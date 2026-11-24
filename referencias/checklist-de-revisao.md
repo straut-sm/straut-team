@@ -34,6 +34,11 @@ de voz: respeite.
 - [ ] Soa como a cliente (compare com `posicionamento-e-tom.md` e `textos-aprovados.md`)
 - [ ] Funciona lido em voz alta
 
+**2b. Teste das 3 perguntas** (veja [`escrita-de-copy.md`](escrita-de-copy.md))
+- [ ] As frases principais (gancho, capa, CTA) passam em pelo menos 2 das 3: a pessoa consegue
+  imaginar? Dá para provar? Um concorrente não escreveria exatamente igual?
+- [ ] No máximo 1 ou 2 momentos de impacto, e o resto simples e concreto
+
 **3. "E daí?"**
 - [ ] Cada informação responde "por que isso importa para mim?"
 - [ ] Nenhuma frase bonita e vazia

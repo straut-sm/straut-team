@@ -27,6 +27,8 @@ jeito certo de cada cliente aproveitar isso **sem perder o posicionamento**.
    para explicar por que um viral funciona (tipo de gancho, estrutura) e
    [`referencias/perfil-de-concorrentes.md`](../referencias/perfil-de-concorrentes.md) ao observar
    perfis do nicho. Ganchos marcados com ⛔ não servem para médicos, mesmo que estejam em alta.
+5. **Manual do nicho:** a cada 3 meses, ajude a Estratégia a coletar e analisar os posts do nicho
+   (seção "Engenharia reversa do nicho" de `perfil-de-concorrentes.md`).
 
 ## Filtros obrigatórios antes de sugerir
 - Combina com o posicionamento e o tom da cliente? Médica não faz dança constrangedora só porque viralizou.

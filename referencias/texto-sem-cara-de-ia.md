@@ -68,6 +68,18 @@ ela estava escondendo: "tratamento completo" → "consulta, exame e retorno em 3
 As palavras da moda mudam com os modelos de IA. Use estas listas como exemplos e confie mais nos
 **padrões de estrutura** acima, que não envelhecem.
 
+## Vícios de redes sociais (Instagram)
+
+| Vício | Exemplo ✗ | Em vez disso | |
+|---|---|---|---|
+| **Uma frase por linha, o post inteiro** | Cada frase isolada numa linha, do começo ao fim da legenda | Escreva parágrafos curtos e quebre a linha onde uma pessoa faria pausa | Proibido |
+| **Isca de engajamento vazia** | "Concorda?", "Leia de novo.", "Pensa nisso.", "Salva antes que apague!" | Termine no ponto principal ou numa pergunta que você quer mesmo que respondam ("Qual dúvida você tem sobre protetor?") | Proibido |
+| **Vulnerabilidade inventada** | "Vou ser sincera: eu estava apavorada…" sem história real por trás | Emoção só quando é real e vem da cliente (fala da gravação, história que ela contou) | Proibido |
+| **Emoji como marcador** | 🚀 ✅ 💡 ✨ no começo de toda linha | Emojis com moderação, como a ficha da cliente indicar | Limite |
+| **Fórmula de gancho sem conteúdo** | "Ninguém fala sobre isso…" seguido de algo óbvio | O gancho é só a forma: preencha com um fato, um número ou uma história específica | Proibido |
+
+Listas de três e fragmentos de efeito: **no máximo um de cada por post**.
+
 ## Rodeios e fontes falsas
 - **Rodeios empilhados** (limite): "pode ajudar a potencialmente reduzir…". Diga o que se sabe ou
   delimite com honestidade ("em muitos casos", "depende da avaliação").
@@ -78,5 +90,6 @@ As palavras da moda mudam com os modelos de IA. Use estas listas como exemplos e
 ## Teste rápido antes de entregar
 1. Ler em voz alta: soa como a cliente falando com um paciente?
 2. Procurar "não é… é", "sem… sem…", "O resultado?", ":" de revelação e travessões.
+   Na legenda: uma frase por linha o post inteiro, iscas ("Concorda?") e emojis em toda linha.
 3. Contar as listas de três e os fragmentos: no máximo um de cada.
 4. Cada frase tem um fato concreto ou está ali só para enfeitar?
