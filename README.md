@@ -30,6 +30,8 @@ clientes/            Uma pasta por cliente (perfil, posicionamento, identidade v
 straut/              Sobre a Straut: serviços, processos, painel
 regras-do-setor/     Regras de publicidade (CFM para médicos, regras gerais para os demais)
 modelos/             Formatos padrão: briefing, roteiro, carrossel, relatório, escalonamento...
+referencias/         Métodos de marketing adaptados: ganchos, carrosséis, texto sem cara de IA,
+                     revisão, pesquisa de público, concorrentes, rotinas seguras
 gestao/              Decisões, resumos semanais e registros do Samuel
 integracoes/         API dos bots no painel, GitHub, WhatsApp
 openbot/             Como configurar o time no OpenBot: prompt, modelos de IA, rotinas

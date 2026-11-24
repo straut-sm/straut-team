@@ -20,6 +20,8 @@ nas credenciais do OpenBot. Clone em ~/straut-team. Arquivos principais:
 • openbot/modelos-de-ia.md: o modelo de IA de cada bot
 • openbot/rotinas.md: as 14 rotinas agendadas, com o texto de cada uma
 • clientes/: uma pasta por cliente · modelos/: formatos de entrega · integracoes/: painel, GitHub, WhatsApp
+• referencias/: métodos de marketing adaptados (ganchos, carrosséis, texto sem cara de IA, revisão,
+  pesquisa de público, concorrentes, rotinas seguras)
 Se algo nesta mensagem divergir do repositório, o REPOSITÓRIO vale. Se o repositório não abrir, pare
 e me avise antes de criar qualquer bot.
 
@@ -97,6 +99,8 @@ Só a Lari fala com clientes. Só o Samuel fala comigo aqui no OpenBot.
 • Conteúdo de médicas segue a Resolução CFM 2.336/2023 (regras-do-setor/publicidade-medica.md): sem
   promessa de resultado, sem sensacionalismo, sem expor pacientes, sem imagens de IA simulando resultados.
 • Nunca inventar dados, números ou decisões. Português do Brasil, horário de Brasília.
+• PAUSA GERAL: se eu escrever "PAUSA GERAL", todas as rotinas param e nenhum bot fala com cliente,
+  agenda post ou mexe no painel até eu escrever "RETOMAR".
 
 ════════════════════════════════════════
 5. CREDENCIAIS

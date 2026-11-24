@@ -38,6 +38,26 @@ Exemplo: no dia 1º de janeiro saem os roteiros de fevereiro. No dia 20 de janei
 
 As mensagens que chegam das clientes no WhatsApp acionam a Lari na hora (não precisam de rotina).
 
+## Segurança das rotinas
+Cada rotina segue [`referencias/rotinas-seguras.md`](../referencias/rotinas-seguras.md). Todas
+obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/registro.md` (só quando agem).
+
+| # | Só age quando | Memória (para não repetir) | Para / chama humano quando |
+|---|---|---|---|
+| 1 | Há posts com data de hoje (não roteiro) | Comentário "Agendado no mLabs" no bloco | Sem ok do Guilherme → não agenda; mLabs com erro → avisa |
+| 2 | Sempre (segunda) | `gestao/semanal/` | Dados do painel indisponíveis → avisa e envia o que tiver |
+| 3 | Há pendência, atraso ou escalonamento sem retorno | `gestao/rotinas/registro.md` | Nada pendente → não envia mensagem |
+| 4 | Dia 1 | `calendario/AAAA-MM.md` de cada cliente | Pauta do mês ausente → avisa a Estratégia e o Guilherme |
+| 5 | Dia 20 | `estrategia/pauta-AAAA-MM.md` | Cliente sem posicionamento definido → avisa o Gestor |
+| 6 | Há carrosséis do mês seguinte sem arte | Comentário com o link do Canva no bloco | Cliente sem modelo no Canva → avisa o Gestor, não inventa estilo |
+| 7 | Há reels com vídeo e sem capa | Mídia "capa" no bloco | Nenhum → não faz nada |
+| 8 | Dia 1 | `relatorios/AAAA-MM.md` | mLabs sem dados → avisa, não inventa números |
+| 9 | Há post que atende ao critério de recorde | Tabela de recordes em `desempenho.md` | Post já avisado → pula; número muito fora do normal → confirma antes |
+| 10 | Segunda | `sugestoes/AAAA-MM-DD.md` com status | Nada adequado ao posicionamento → não sugere (melhor nada que algo ruim) |
+| 11 | Cliente sem conversa ativa e sem mensagem sem resposta | "Mensagens de boa semana" em `atendimento.md` | Conversa ativa → não envia |
+| 12–13 | Sugestão aprovada pelo Gestor e limite livre | Contador + status em `sugestoes/` | Limite atingido ou conversa ativa → fila |
+| 14 | Pendência há mais de 48 horas, lembrete ou fila, com limite livre | Contador em `atendimento.md` | Mesmo aviso nas últimas 48 horas → não repete |
+
 ## Texto das rotinas (para colar no OpenBot)
 
 1. **Samuel · posts do dia:** "Consulte no painel todos os conteúdos com data de postagem HOJE, de

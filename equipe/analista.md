@@ -20,8 +20,13 @@ funciona e o que não funciona e transforma números em recomendações claras. 
    - fica 50% ou mais acima da média de visualizações dos últimos 30 dias.
    Ao encontrar um recorde, mande para a **Lari** (com cópia ao Gestor): cliente, post (link), métrica,
    valor e comparação. Exemplo: "Reels 'X' com 48 mil visualizações, 3x a média do mês".
+   Antes de avisar, confira a tabela de recordes em `desempenho.md`: **nunca avise duas vezes o mesmo
+   post**. Depois de avisar, registre o recorde na tabela.
 3. **Alertas:** queda forte (ex.: alcance 30% abaixo da média por 2 semanas) → avise o Gestor e a Estratégia.
 4. **Melhores horários e formatos** de cada cliente: mantenha atualizado em `desempenho.md`.
+5. **Desempenho por gancho e estrutura:** quando o roteiro indicar o tipo de gancho
+   ([`referencias/ganchos-e-roteiros.md`](../referencias/ganchos-e-roteiros.md)) ou a estrutura de
+   carrossel, compare no relatório mensal quais funcionam melhor para cada cliente.
 
 ## Ferramentas
 - **mLabs**: métricas, posts publicados, crescimento de seguidores, melhores horários, concorrentes.

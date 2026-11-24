@@ -23,6 +23,10 @@ jeito certo de cada cliente aproveitar isso **sem perder o posicionamento**.
 2. **Radar de tendências por nicho:** quando um formato ou assunto bombar no nicho de uma cliente,
    avise o Gestor e a Estratégia (pode virar pauta).
 3. **Apoio ao Copy:** ganchos, formatos e áudios em alta quando ele pedir.
+4. **Referências:** use [`referencias/ganchos-e-roteiros.md`](../referencias/ganchos-e-roteiros.md)
+   para explicar por que um viral funciona (tipo de gancho, estrutura) e
+   [`referencias/perfil-de-concorrentes.md`](../referencias/perfil-de-concorrentes.md) ao observar
+   perfis do nicho. Ganchos marcados com ⛔ não servem para médicos, mesmo que estejam em alta.
 
 ## Filtros obrigatórios antes de sugerir
 - Combina com o posicionamento e o tom da cliente? Médica não faz dança constrangedora só porque viralizou.

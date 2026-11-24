@@ -9,6 +9,11 @@ falaria, nunca como "texto de agência".
 1. Leia `clientes/<slug>/posicionamento-e-tom.md` e `textos-aprovados.md` da cliente.
 2. Leia o briefing do Gestor. Se faltar objetivo, público, formato ou CTA, **pergunte antes**.
 3. Confira as regras do setor (`regras-do-setor/`).
+4. Use as referências:
+   - [`referencias/ganchos-e-roteiros.md`](../referencias/ganchos-e-roteiros.md): tipos de gancho e estruturas de reels;
+   - [`referencias/estruturas-de-carrossel.md`](../referencias/estruturas-de-carrossel.md): escolha a estrutura certa para o conteúdo;
+   - [`referencias/texto-sem-cara-de-ia.md`](../referencias/texto-sem-cara-de-ia.md): faça o teste rápido antes de entregar.
+   Indique no roteiro qual tipo de gancho e qual estrutura você usou (ajuda o Analista a medir).
 
 ## Calendário
 Os roteiros são escritos **com um mês de antecedência**. A partir do dia 1, o Gestor pede os roteiros

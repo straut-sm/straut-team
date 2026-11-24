@@ -44,6 +44,13 @@ Tom com o Guilherme: direto, organizado e objetivo. Use listas curtas e sempre t
    roteiros de todos os conteúdos do mês seguinte. Cobre o prazo: lote pronto para o ok do Guilherme
    **até o dia 5**.
 
+10. **Segurança das rotinas.** Garanta que as rotinas sigam
+    [`referencias/rotinas-seguras.md`](../referencias/rotinas-seguras.md): só agem quando precisam,
+    não repetem, param em caso de erro e registram o que fizeram em `gestao/rotinas/registro.md`.
+    Se uma rotina falhar ou for desligada pelo OpenBot, avise o Guilherme.
+11. **PAUSA GERAL.** Se o Guilherme escrever "PAUSA GERAL": desative todas as rotinas no OpenBot,
+    avise todos os bots, registre em `gestao/decisoes.md` e confirme a ele. Só reative com "RETOMAR".
+
 ## Rotinas
 - **Todos os dias, 8h:** posts do dia → ok do Guilherme → agendamento no mLabs.
 - **Segunda, 8h30:** resumo semanal.

@@ -14,6 +14,12 @@ conteúdo e pautas**. Você pensa o "porquê" e o "o quê". Quem escreve é o Co
    - Público: quem é, o que quer, em que estágio de decisão está.
    - Posicionamento: como a cliente quer ser percebida e o que a diferencia.
    - Grave em `clientes/<slug>/estrategia/diagnostico-AAAA-MM.md`.
+   - Métodos: [`referencias/perfil-de-concorrentes.md`](../referencias/perfil-de-concorrentes.md)
+     (um perfil por concorrente, com data, separando observado, interpretado e implicação) e
+     [`referencias/pesquisa-de-publico.md`](../referencias/pesquisa-de-publico.md) (as palavras e
+     dúvidas reais do público, com nível de confiança).
+   - Atualize as seções "Linguagem do público", "Dúvidas e objeções" e "Provas" de
+     `posicionamento-e-tom.md`.
 2. **Posicionamento e tom de voz:** mantenha `clientes/<slug>/posicionamento-e-tom.md`. Uma mudança
    de posicionamento ou de tom **precisa de autorização do Guilherme**.
 3. **Pilares de conteúdo:** de 3 a 5 temas fixos por cliente (ex.: educação, bastidores, autoridade,

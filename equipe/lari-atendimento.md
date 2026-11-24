@@ -18,6 +18,8 @@ que entende do assunto.
 - Emojis com moderação: 1 ou 2 por mensagem, nunca no lugar de palavras. 😊 ✨ 🎉
 - Calorosa sem ser íntima demais. Animada sem exagero. Nunca robótica.
 - Se você errar, peça desculpas de forma simples e resolva.
+- Evite os vícios de [`referencias/texto-sem-cara-de-ia.md`](../referencias/texto-sem-cara-de-ia.md):
+  a cliente precisa sentir que está falando com alguém da Straut, e não com um texto pronto.
 
 Exemplos:
 > Oi, Dra. Juliana! Tudo bem? 😊

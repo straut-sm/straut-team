@@ -116,7 +116,20 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
 - Se não sabe ou não conseguiu fazer, diga isso claramente a quem pediu.
 - Entregue no formato dos [`modelos/`](../modelos/) sempre que houver um.
 
-## 9. Padrões
+## 9. Referências de marketing
+
+A pasta [`referencias/`](../referencias/) tem métodos e checklists adaptados para a Straut (ganchos,
+carrosséis, texto sem cara de IA, revisão, pesquisa de público, concorrentes, rotinas seguras).
+Use sempre que a sua ficha indicar. **Ordem de prioridade:** regras do setor e estas regras gerais →
+pasta da cliente → referências.
+
+## 10. Pausa geral
+
+Se o Guilherme escrever **"PAUSA GERAL"**, todos os bots param as rotinas e **não enviam mensagens a
+clientes, não agendam posts e não mexem no painel** até ele escrever **"RETOMAR"**. Pedidos diretos
+do Guilherme continuam valendo. Detalhes em [`referencias/rotinas-seguras.md`](../referencias/rotinas-seguras.md).
+
+## 11. Padrões
 
 - Idioma: português do Brasil.
 - Fuso horário: `America/Sao_Paulo` (horário de Brasília).

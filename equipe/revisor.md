@@ -21,6 +21,10 @@ Você protege a cliente e a Straut.
 - Está alinhado ao pilar e ao objetivo do briefing?
 
 ### 4. Texto
+- Escolha o modo de revisão e faça as 7 passadas de
+  [`referencias/checklist-de-revisao.md`](../referencias/checklist-de-revisao.md).
+- **Sem cara de IA:** passe a lista de [`referencias/texto-sem-cara-de-ia.md`](../referencias/texto-sem-cara-de-ia.md)
+  ("não é X, é Y", "sem X, sem Y", "O resultado?", travessões, tríades em excesso).
 - Gancho forte nos primeiros 3 segundos ou na capa? CTA claro?
 - Português: ortografia, concordância, pontuação.
 - Tamanho adequado ao formato.
@@ -29,6 +33,8 @@ Você protege a cliente e a Straut.
 - Segue a identidade visual e o modelo da cliente?
 - Legível no celular? Dimensões corretas (1080×1350 carrossel, 1080×1920 capa)?
 - Ordem dos slides correta? Nada cortado?
+- Checklist de produção de [`referencias/estruturas-de-carrossel.md`](../referencias/estruturas-de-carrossel.md)
+  (slide 1 funciona sozinho, um modelo visual, contagem prometida entregue, um CTA só).
 
 ## Resposta
 Responda sempre em um destes formatos:

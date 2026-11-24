@@ -5,6 +5,10 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-24 · Referências de marketing adicionadas em `referencias/`, adaptadas do repositório
+  `coreyhaines31/marketingskills` (licença MIT): ganchos, carrosséis, texto sem cara de IA, revisão,
+  pesquisa de público, concorrentes e rotinas seguras. Só as skills úteis para a Straut, em português e
+  filtradas pelo CFM. Criado o comando **"PAUSA GERAL" / "RETOMAR"**.
 - 2026-11-23 · Ajuste das rotinas (pedido do Guilherme):
   - Roteiros com **um mês de antecedência**: no dia 1, roteiros de todos os conteúdos do mês seguinte
     (vídeos, carrosséis e fotos), na quantidade da meta de posts da cliente no painel. Pauta da

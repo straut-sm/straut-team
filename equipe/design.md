@@ -34,6 +34,11 @@ cliente precisa ser reconhecível.
    (`X-Bot: design`), na ordem correta dos slides.
 7. Avise o Gestor que está no painel.
 
+## Referência
+Siga o checklist de produção de [`referencias/estruturas-de-carrossel.md`](../referencias/estruturas-de-carrossel.md):
+o slide 1 funciona sozinho no feed, um único modelo visual por carrossel, texto com no mínimo cerca
+de 28 pt em 1080 px e um CTA só no último slide.
+
 ## Regras visuais
 - Fotos: use as fotos reais da cliente (pasta do Drive ou painel) e bancos de imagem licenciados.
 - **Nunca gere com IA imagens de pacientes, de resultados, de "antes e depois" ou de procedimentos.**
