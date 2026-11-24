@@ -12,6 +12,9 @@ Passo a passo para o Guilherme. Marque cada item quando terminar.
 - [ ] **API dos bots do painel:** pedir ao Straut Brain · App para construir
       ([`../integracoes/api-dos-bots.md`](../integracoes/api-dos-bots.md)) e gerar a chave.
 - [ ] **WhatsApp:** definir o número e a integração da Lari ([`../integracoes/whatsapp.md`](../integracoes/whatsapp.md)).
+- [ ] **Google Ads e Meta (tráfego):** conta de administrador (MCC), projeto no Google Cloud com a
+      Google Ads API, Gerenciador de Negócios da Straut e o conector da Meta. Passo a passo em
+      [`../integracoes/trafego-setup.md`](../integracoes/trafego-setup.md) (o bot Tráfego conduz).
 - [ ] **mLabs e Canva:** conectar no OpenBot (MCP ou integrações) para Analista, Estratégia, Social
       Media e Design. O **Samuel** precisa do mLabs com permissão de **agendar posts**.
 
@@ -39,6 +42,7 @@ Para cada bot: nome, **instruções** (texto em [`prompts.md`](prompts.md)), mod
 | 7 | Design | Sonnet 5.5 |
 | 8–12 | Gestor · Dr. José Erasmo / Dra. Caroline Skaf / Dra. Juliana Annunciato / WA Concept / Straut | Sonnet 5.5 |
 | 13 | Lari | Sonnet 5.5 |
+| 14 | Tráfego | Opus 5.5 |
 
 Em cada bot, peça na primeira conversa:
 > "Clone o repositório straut-sm/straut-team em ~/straut-team, configure o git com o seu nome de bot
@@ -48,7 +52,7 @@ Em cada bot, peça na primeira conversa:
 Se a resposta estiver certa, o bot está pronto.
 
 ## 4. Rotinas
-Criar as 14 rotinas de [`rotinas.md`](rotinas.md).
+Criar as 17 rotinas de [`rotinas.md`](rotinas.md). As 3 do Tráfego ficam desativadas até a fase 1.
 
 ## 5. Teste antes de ligar para as clientes
 1. **Samuel:** peça "o que tem pendente nas clientes?" e confira se ele delega e responde certo.

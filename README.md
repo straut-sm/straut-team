@@ -22,7 +22,7 @@ equipe/              Quem é quem: regras gerais e as instruções de cada bot
   regras-gerais.md   ← todo bot lê antes de qualquer tarefa
   README.md          Organograma, fluxos e quem fala com quem
   samuel-gerente.md, gestor-de-cliente.md, estrategia.md, analista.md,
-  social-media.md, copy.md, design.md, revisor.md, lari-atendimento.md
+  social-media.md, copy.md, design.md, revisor.md, lari-atendimento.md, trafego.md
 
 clientes/            Uma pasta por cliente (perfil, posicionamento, identidade visual...)
   _modelo/           Modelo para cadastrar uma cliente nova

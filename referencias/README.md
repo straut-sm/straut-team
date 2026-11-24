@@ -22,6 +22,7 @@ conteúdo melhor. **São referências, não regras.**
 | [`pesquisa-de-publico.md`](pesquisa-de-publico.md) | Como descobrir as palavras e dúvidas reais dos pacientes e clientes | Estratégia, Social Media, Copy |
 | [`perfil-de-concorrentes.md`](perfil-de-concorrentes.md) | Como analisar perfis concorrentes no Instagram, com modelo, e o "manual do nicho" (engenharia reversa em lote) | Estratégia, Social Media |
 | [`reaproveitamento-de-conteudo.md`](reaproveitamento-de-conteudo.md) | Como transformar um conteúdo (gravação, live, post que foi bem) em vários | Gestor, Estratégia, Copy, Social Media |
+| [`trafego-pago.md`](trafego-pago.md) | Como operar Google e Meta: medida que importa, evidência, checagem semanal com decisão, regras de Meta e Google | Tráfego |
 | [`rotinas-seguras.md`](rotinas-seguras.md) | Como uma rotina automática deve checar, agir, lembrar e parar | Samuel e todos os bots com rotinas |
 
 ## Origem e crédito

@@ -5,6 +5,11 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-24 · Criado o bot **Tráfego** (gestor de tráfego pago no Google Ads e na Meta, Opus 5.5),
+  começando na **fase 0 (setup das contas)**. Implantação em fases (0 setup → 1 só leitura → 2
+  rascunhos pausados → 3 otimização com limites), cada avanço com ok do Guilherme. Ativar campanha,
+  aumentar verba e mexer em pagamento sempre com ok. Os detalhes de cada cliente (verba, quem paga,
+  objetivo, autonomia) o Guilherme define direto com o bot.
 - 2026-11-24 · Complemento das referências com o que faltava das skills `copywriting` e `social`:
   `escrita-de-copy.md` (método de escrita e fórmulas de título), `reaproveitamento-de-conteudo.md`,
   vícios de redes sociais em `texto-sem-cara-de-ia.md`, limites do Instagram em `ganchos-e-roteiros.md`

@@ -28,6 +28,7 @@ Uma pasta por cliente, com o **slug do painel** como nome (ex.: `juliana-annunci
 | `calendario/` | Calendário editorial de cada mês | Gestor |
 | `relatorios/` | Relatórios mensais | Analista |
 | `sugestoes/` | Sugestões de reels viral e stories | Social Media |
+| `trafego.md` e `trafego/` | Contas de anúncio, verba, metas, autonomia, planos e relatórios de tráfego pago | Tráfego |
 
 As subpastas são criadas quando o primeiro arquivo for gravado.
 

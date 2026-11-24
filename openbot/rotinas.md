@@ -1,6 +1,7 @@
 # Rotinas (agendamentos no OpenBot)
 
-O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minutos. O time usa 14.
+O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minutos. O time usa 17
+(as 3 do Tráfego só são ativadas a partir da fase 1).
 Horário de Brasília.
 
 ## Calendário de produção (um mês de antecedência)
@@ -35,6 +36,9 @@ Exemplo: no dia 1º de janeiro saem os roteiros de fevereiro. No dia 20 de janei
 | 12 | Lari | **Segunda, 14h** | Enviar as ideias de stories aprovadas |
 | 13 | Lari | **Terça, 10h** | Enviar os reels virais aprovados (o que não sair fica na fila da rotina 14) |
 | 14 | Lari | Segunda a sexta, 10h30 e 15h30 | Avisos de aprovação pendente, lembretes de gravação e fila (inclusive sugestões pendentes) |
+| 15 | Tráfego | Segunda a sexta, 9h30 | Checagem de fatos: gasto × ritmo, anúncios reprovados, conta e pagamento, rastreamento |
+| 16 | Tráfego | Sexta, 10h | Checagem semanal com decisão por conta → relatório → Samuel |
+| 17 | Tráfego | Dia 25, 9h | Plano de mídia do mês seguinte de cada cliente que anuncia |
 
 As mensagens que chegam das clientes no WhatsApp acionam a Lari na hora (não precisam de rotina).
 
@@ -57,6 +61,9 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
 | 11 | Cliente sem conversa ativa e sem mensagem sem resposta | "Mensagens de boa semana" em `atendimento.md` | Conversa ativa → não envia |
 | 12–13 | Sugestão aprovada pelo Gestor e limite livre | Contador + status em `sugestoes/` | Limite atingido ou conversa ativa → fila |
 | 14 | Pendência há mais de 48 horas, lembrete ou fila, com limite livre | Contador em `atendimento.md` | Mesmo aviso nas últimas 48 horas → não repete |
+| 15 | Gasto 30% ou mais fora do ritmo, anúncio reprovado, problema de conta, pagamento ou rastreamento | `gestao/trafego/alteracoes.md` + relatórios | Nada fora do normal → não envia mensagem; acesso falhou → avisa uma vez |
+| 16 | Sexta | `clientes/<slug>/trafego/relatorios/` | Dados incompletos → decisão INVESTIGAR, sem propor mudança de verba |
+| 17 | Dia 25, só para clientes que anunciam | `clientes/<slug>/trafego/AAAA-MM-plano.md` | Verba ou objetivo FALTA → pergunta ao Guilherme, não inventa |
 
 ## Texto das rotinas (para colar no OpenBot)
 
@@ -101,3 +108,12 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
 14. **Lari · avisos:** "Verifique no painel os conteúdos aguardando aprovação há mais de 48 horas, os
     lembretes de gravação de amanhã e a fila (avisos e sugestões pendentes). Envie o que for permitido
     pelas regras de envio e deixe o resto na fila."
+15. **Tráfego · checagem de fatos:** "Para cada conta ativa, confira só fatos: gasto em relação ao ritmo
+    previsto, anúncios reprovados, problemas de conta ou pagamento e rastreamento parado. Se algo
+    estiver fora do normal, avise o Samuel (urgente: o Guilherme). Se não houver nada, não envie
+    mensagem. Não faça alterações."
+16. **Tráfego · checagem semanal:** "Faça a checagem semanal de `referencias/trafego-pago.md` em cada
+    conta, termine com uma decisão por conta, grave o relatório (`modelos/relatorio-de-trafego.md`) e
+    envie o resumo e as propostas que precisam de ok ao Samuel."
+17. **Tráfego · plano de mídia:** "Para cada cliente que anuncia, prepare o plano de mídia do mês
+    seguinte (`modelos/plano-de-midia.md`) e envie ao Gestor e ao Samuel para o ok do Guilherme."

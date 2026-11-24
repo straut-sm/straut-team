@@ -13,6 +13,7 @@
 | **Design** | Produção | Diretor de arte: Canva e painel | Claude Sonnet 5.5 | Gestores, Copy, Revisor |
 | **Revisor** | Produção | Garantia de qualidade (diretor de criação) | Claude Opus 5.5 | Gestores, Copy, Design |
 | **Lari** | Atendimento | Avisos e relacionamento com as clientes | Claude Sonnet 5.5 | Clientes, Gestores, Samuel, Guilherme |
+| **Tráfego** | Produção | Gestor de tráfego pago (Google e Meta) | Claude Opus 5.5 | Samuel, Gestores, Copy, Design, Revisor, Analista |
 
 O motivo de cada modelo está em [`openbot/modelos-de-ia.md`](../openbot/modelos-de-ia.md).
 
@@ -111,16 +112,31 @@ Todo dia, 8h   Samuel → posts de hoje de todas as clientes (qualquer etapa, me
                Samuel → agenda no mLabs os posts liberados → confirma → comenta no bloco
 ```
 
+## Fluxo 8: tráfego pago
+
+```
+Fase 0      Tráfego + Guilherme → setup das contas (integracoes/trafego-setup.md)
+Dia 25      Tráfego → plano de mídia do mês seguinte → Gestor → Samuel → ok do Guilherme
+            Tráfego → pede criativos (Copy + Design, via Gestor), de preferência orgânicos que foram bem
+            Revisor → CFM + políticas de anúncio (regras-do-setor/anuncios-saude.md)
+            Tráfego → monta as campanhas PAUSADAS → Guilherme ativa (ou autoriza)
+Dias úteis  Tráfego → checagem de fatos às 9h30 (gasto, reprovações, rastreamento) → só avisa se houver algo
+Sexta       Tráfego → checagem semanal com decisão (MANTER, CORRIGIR, TESTAR, INVESTIGAR) → Samuel
+```
+Alterações que movem dinheiro: sempre com ok do Guilherme, salvo o que estiver em "Autonomia"
+(fase 3) no `clientes/<slug>/trafego.md`. Tudo registrado em `gestao/trafego/alteracoes.md`.
+
 ## Quem pode repassar trabalho para quem (handoff no OpenBot)
 
 | Bot | Repassa para |
 |---|---|
 | Samuel | Todos |
-| Gestores | Samuel, Estratégia, Analista, Social Media, Copy, Design, Revisor, Lari |
+| Gestores | Samuel, Estratégia, Analista, Social Media, Copy, Design, Revisor, Lari, Tráfego |
 | Estratégia | Samuel, Gestores, Analista |
-| Analista | Samuel, Gestores, Estratégia, Lari |
+| Analista | Samuel, Gestores, Estratégia, Lari, Tráfego |
 | Social Media | Gestores, Copy, Lari |
-| Copy | Gestores, Design, Revisor |
-| Design | Gestores, Revisor |
-| Revisor | Gestores, Copy, Design |
+| Copy | Gestores, Design, Revisor, Tráfego |
+| Design | Gestores, Revisor, Tráfego |
+| Revisor | Gestores, Copy, Design, Tráfego |
 | Lari | Samuel, Gestores |
+| Tráfego | Samuel, Gestores, Copy, Design, Revisor, Analista |

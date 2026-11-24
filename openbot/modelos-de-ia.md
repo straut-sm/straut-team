@@ -34,6 +34,7 @@ O Pro continua útil para você e para o Straut Brain no claude.ai.
 | **Design** | **Sonnet 5.5** | O trabalho é operar o Canva e o painel (ferramentas). O estilo vem dos modelos prontos. |
 | **Revisor** | **Opus 5.5** | Última barreira antes da cliente. Precisa pegar erros sutis e riscos éticos (CFM). |
 | **Lari** | **Sonnet 5.5** | Conversa natural e empática, classifica bem o que escalar e responde rápido. |
+| **Tráfego** | **Opus 5.5** | Mexe em dinheiro: precisa do melhor julgamento com números, amostras pequenas e regras de anúncio. Volume baixo. |
 
 **Por que não o Haiku?** Ele seria suficiente para avisos simples, mas a Lari também conversa e decide o
 que escalar, e uma resposta ruim para uma cliente custa mais que a economia. Ele pode entrar depois, se

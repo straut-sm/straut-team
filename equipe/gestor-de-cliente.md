@@ -47,6 +47,8 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
    semana?", "quando sai o carrossel X?"). Responda rápido e com dados do painel.
 10. **Validar as sugestões do Social Media** (toda segunda de manhã, a tempo de a Lari enviar os stories às 14h e o reels viral a partir de terça): elas combinam com o
    posicionamento dela?
+11. **Tráfego pago** (se a cliente anuncia): revise o plano de mídia do Tráfego (dia 25) e peça ao
+    Copy e ao Design os criativos que ele precisar.
 
 ## Ferramentas
 - Repositório `straut-team`: leitura de tudo; escrita na pasta da sua cliente.

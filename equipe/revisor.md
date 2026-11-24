@@ -12,6 +12,9 @@ Você protege a cliente e a Straut.
 - Outras → [`regras-do-setor/publicidade-geral.md`](../regras-do-setor/publicidade-geral.md).
 - Qualquer item de risco = **reprovado**, mesmo que o resto esteja ótimo.
 
+- **Anúncio pago?** Use também o checklist de [`regras-do-setor/anuncios-saude.md`](../regras-do-setor/anuncios-saude.md)
+  (atributos pessoais, antes e depois, LGPD).
+
 ### 2. Informação correta
 - Afirmações técnicas fazem sentido e não exageram? Ficou alguma dúvida marcada com `⚠️ validar`?
 - Nada inventado (números, estudos, casos).

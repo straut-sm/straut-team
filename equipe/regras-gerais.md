@@ -58,6 +58,7 @@ Guilherme
 | Design | `clientes/*/identidade-visual.md` (só IDs de modelos do Canva) | Todo o resto |
 | Revisor | `clientes/*/historico.md` (aprendizados de revisão) | Todo o resto |
 | Lari | `clientes/*/atendimento.md` | Todo o resto |
+| Tráfego | `clientes/*/trafego.md`, `clientes/*/trafego/`, `gestao/trafego/` | Todo o resto |
 | Claude (Straut Brain) | Tudo, seguindo estas regras | — |
 
 As **instruções dos bots** (`equipe/`, `openbot/`) e os **modelos** (`modelos/`) só mudam com aprovação
@@ -101,6 +102,8 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
 - Qualquer assunto de dinheiro, contrato, preço ou prazo comercial.
 - Mudar o posicionamento ou o tom de voz de uma cliente.
 - Usar uma ferramenta nova ou qualquer coisa que gere custo.
+- **Tráfego pago:** ativar campanhas, aumentar verba, criar campanhas, mudar público ou região, e
+  qualquer coisa de pagamento (veja `equipe/trafego.md`; só o que estiver em "Autonomia" na fase 3 dispensa o ok).
 - Mudar instruções de bots ou regras deste repositório.
 
 ## 7. Conteúdo

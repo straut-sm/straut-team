@@ -18,7 +18,7 @@ nas credenciais do OpenBot. Clone em ~/straut-team. Arquivos principais:
 • equipe/<bot>.md: a ficha completa de cada bot
 • openbot/prompts.md: o TEXTO DE INSTRUÇÕES de cada bot, pronto para usar
 • openbot/modelos-de-ia.md: o modelo de IA de cada bot
-• openbot/rotinas.md: as 14 rotinas agendadas, com o texto de cada uma
+• openbot/rotinas.md: as 17 rotinas agendadas, com o texto de cada uma
 • clientes/: uma pasta por cliente · modelos/: formatos de entrega · integracoes/: painel, GitHub, WhatsApp
 • referencias/: métodos de marketing adaptados (ganchos, carrosséis, texto sem cara de IA, revisão,
   pesquisa de público, concorrentes, rotinas seguras)
@@ -26,7 +26,7 @@ Se algo nesta mensagem divergir do repositório, o REPOSITÓRIO vale. Se o repos
 e me avise antes de criar qualquer bot.
 
 ════════════════════════════════════════
-2. O TIME (13 bots)
+2. O TIME (14 bots)
 ════════════════════════════════════════
 GESTÃO
 • Samuel: Gerente Geral, meu principal contato aqui no app do OpenBot. Delega tarefas, organiza a
@@ -57,6 +57,9 @@ PRODUÇÃO (especialistas)
   aprovado). Capa de reels SÓ depois que o vídeo estiver no painel. Sonnet 5.5.
 • Revisor: garantia de qualidade (diretor de criação): tom, informação, português, visual e
   regras do CFM. Nada vai para a cliente sem ele. Opus 5.5.
+• Tráfego: gestor de tráfego pago no Google Ads e na Meta. Começa na FASE 0 (setup das contas
+  comigo, seguindo integracoes/trafego-setup.md) e só avança de fase com o meu ok. Nunca ativa
+  campanha, aumenta verba ou mexe em pagamento sem o meu ok. Ficha: equipe/trafego.md. Opus 5.5.
 
 ATENDIMENTO
 • Lari: atende as clientes pelo WhatsApp da Straut (um número, um nome), com tom próximo e amigável,
@@ -80,6 +83,8 @@ ATENDIMENTO
 • Design → Gestores, Revisor
 • Revisor → Gestores, Copy, Design
 • Lari → Samuel, Gestores (e, fora do OpenBot, o meu WhatsApp para escalonamentos)
+• Tráfego → Samuel, Gestores, Copy, Design, Revisor, Analista (e os Gestores, Copy, Design, Revisor e
+  Analista também repassam para o Tráfego)
 Só a Lari fala com clientes. Só o Samuel fala comigo aqui no OpenBot.
 
 ════════════════════════════════════════
@@ -115,16 +120,16 @@ repositório ou no chat. Se faltar alguma credencial, me diga qual e eu cadastro
 1. Clone o repositório e leia os arquivos da seção 1. Me diga em poucas linhas se entendeu a
    estrutura e se há algo que o OpenBot não suporta (ex.: modelo diferente por bot, WhatsApp,
    handoff, quantidade de rotinas, MCP do mLabs ou do Canva).
-2. Crie os 13 bots com nome, modelo, instruções e handoff:
+2. Crie os 14 bots com nome, modelo, instruções e handoff:
    • NOME e MODELO: conforme a seção 2 (e openbot/modelos-de-ia.md).
    • INSTRUÇÕES: copie o texto do bot em openbot/prompts.md, substituindo "<cole aqui o BLOCO COMUM>"
      pelo bloco comum do mesmo arquivo. Para os Gestores, troque <NOME> e <slug> de cada cliente.
    • HANDOFF: conforme a seção 3.
-   Ordem: Samuel, Revisor, Copy, Estratégia, Analista, Social Media, Design, os 5 Gestores e a Lari.
+   Ordem: Samuel, Revisor, Copy, Estratégia, Analista, Social Media, Design, os 5 Gestores, a Lari e o Tráfego.
 3. Em cada bot, faça a primeira configuração: clonar o repositório em ~/straut-team, git config com
    o nome do bot ("<Nome> (bot Straut)") e um teste: o bot deve explicar com as próprias palavras o
    que faz e o que precisa de autorização.
-4. Crie as 14 rotinas de openbot/rotinas.md (horário de Brasília), mas DEIXE TODAS DESATIVADAS até
+4. Crie as 17 rotinas de openbot/rotinas.md (horário de Brasília), mas DEIXE TODAS DESATIVADAS até
    eu liberar.
 5. NÃO conecte a Lari ao WhatsApp da Straut ainda. Primeiro faremos testes com o meu número.
 6. Ao terminar, me mande um relatório:
