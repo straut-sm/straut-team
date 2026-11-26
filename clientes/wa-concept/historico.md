@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-26 · Gestor WA Concept: 3 roteiros de novembro refeitos no formato da Bia e atualizados no painel (em_producao), sem envio. Dezembro será refeito no mesmo formato depois da resposta sobre 05/12 (ou a partir de 27/11 17h para o que não depende).
 - 2026-11-26 · Revisor: revisão dos 3 roteiros de 27 a 30/11 no formato novo da Bia (1 aprovado, 2 com trocas exatas). Aprendizados: "formada pela Dani" não deve aparecer na tela de posts com poucos dias de diferença; serviço "é feito" no estúdio, não "fica"; frase reflexiva ("é por dentro que se vê") vira frase concreta.
 - 2026-11-26 · Gestor WA Concept: haverá produção de conteúdo de Natal em 05/12 na WA Concept (informado no chat). Falta saber da Dani se haverá algo após o expediente com os colaboradores ou só gravação de roteiros; os roteiros de dezembro podem mudar conforme a resposta e não estão fechados.
 - 2026-11-26 · Gestor WA Concept: carrossel Lash lifting ou extensão saiu de dom 13/12 e ficou em sex 11/12 (data movida pela Straut no painel); Feliz 2027 criado em 31/12 como 13º post (calendario/2026-12.md).

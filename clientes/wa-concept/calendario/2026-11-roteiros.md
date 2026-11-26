@@ -1,52 +1,47 @@
-# WA Concept (wa-concept): roteiros de novembro/2026 (27 a 30/11)
+# WA Concept (wa-concept): roteiros de novembro/2026 (27 a 30/11), formato novo
 
 ## 1 · O estúdio por dentro
 
-**🎬 ROTEIRO · WA Concept · O estúdio por dentro**
-Data: sexta, 27/11 · Duração alvo: 10 a 15 s · Pilar: Prova técnica · Objetivo: Conexão
-Para que serve: quem ainda não conhece a WA Concept vê o espaço real onde vai ser atendida antes da primeira visita.
+🎬 O estúdio por dentro · vídeo curto sem fala
+Intenção: mostrar por dentro o que faz diferença em ser atendida na WA Concept: a avaliação antes da aplicação, a equipe formada pela Dani e o material esterilizado para cada cliente.
+Gancho (texto na tela): "15 anos de estúdio, por dentro."
 
-**GANCHO (0 a 3 s), texto na tela:** "Onde você é atendida."
-Tipo de gancho: curiosidade (bastidor do espaço) · Estrutura: um ambiente por batida, só o nome na tela
-Onde grava: dentro do estúdio, com a luz do dia a dia
+**CENAS ESSENCIAIS (na ordem da edição):**
+- Entrada do estúdio
+- Recepção e detalhes da recepção
+- Sala de atendimento com a maca pronta
+- Bancada, com o material esterilizado sendo aberto (rótulos fora do quadro)
+- Uma avaliação real: a profissional conversando com a cliente antes da aplicação
+- Equipe trabalhando
+- Detalhe de mão: o isolamento de um fio durante um atendimento
 
-**O QUE GRAVAR:** os ambientes reais do estúdio arrumados para atender, sem pessoas ou só com a equipe de costas ou nas mãos. Nada levado de fora, nenhum objeto de outra marca no quadro. Vertical 9:16, vídeo nítido, câmera parada ou movimento lento. Grave só os ambientes que existem, com o nome que a equipe usa. Se dois ambientes forem o mesmo espaço, junte as cenas e use um nome só. Rótulos de fornecedores virados ou fora do quadro.
+**FRASES DE APOIO (texto na tela):**
+1. "Toda a equipe foi formada pela Dani, na técnica japonesa."
+2. "Tudo esterilizado para cada cliente."
 
-**DESENVOLVIMENTO:**
-
-| Tempo | Cena (ação visual) | Texto na tela |
-|---|---|---|
-| 0 a 3 s | Plano aberto do estúdio visto da entrada, por dentro | "Onde você é atendida." |
-| 3 a 5 s | Recepção, plano médio | "Recepção" |
-| 5 a 8 s | Sala de atendimento, plano aberto | "Sala de atendimento" |
-| 8 a 11 s | Maca arrumada, plano fechado | "Maca" |
-| 11 a 13 s | Bancada pronta, plano médio (sem close de material) | "Bancada" |
-| 13 a 15 s | Último plano da recepção, com a imagem tratada (escurecida) e o logo branco aplicado na edição. | sem texto |
-
-**SOM:** faixa instrumental da biblioteca do Instagram, com batida marcada. Um corte por batida.
-
-**CTA:** "Envie para quem vem ao estúdio pela primeira vez."
+**MÚSICA:** (buscar o nome na biblioteca do Instagram)
+- The Blue Danube Waltz, Royal Symphony Orchestra (usar só a música)
+- 360, Peter Gregson
+- Se não aparecerem: instrumental calmo de piano ou acústico, com batida marcada
 
 **LEGENDA:**
-O estúdio da WA Concept por dentro, com os ambientes do jeito que ficam no dia a dia de atendimento.
+Em 2026, o estúdio completa 15 anos, e este vídeo mostra por dentro o que muda no seu atendimento. Antes de qualquer aplicação, a profissional define a extensão com você, conforme o seu estilo, o formato do rosto e dos olhos e a sua rotina. Toda a equipe foi formada pela Dani, na técnica japonesa que ela aprendeu no Japão, então o padrão é o mesmo com qualquer profissional.
 
-Se você ainda não veio, já conhece cada ambiente antes da primeira visita. Envie para quem vem ao estúdio pela primeira vez.
-
-Pontos para validar com a cliente: nenhum.
+Seguimos um processo rígido de protocolos de segurança, mantendo tudo esterilizado para cada cliente. Clique no link da bio para falar com a WA Concept.
 
 ---
 
-## 2 · Os produtos da casa
+## 2 · Os produtos próprios da WA Concept
 
-**📷 ROTEIRO DE FOTO · WA Concept · Fortalecedor e gloss labial**
-Data: sábado, 28/11 · Pilar: Prova técnica · Objetivo: Autoridade
-Para que serve: mostrar que a WA Concept tem produtos próprios, além dos atendimentos.
+📷 Os produtos próprios da WA Concept · foto
+Intenção: mostrar que, além dos atendimentos, a WA Concept tem produtos próprios para o olhar e para os lábios.
 
-**O QUE FOTOGRAFAR:**
-- **Cenário:** o fortalecedor de cílios e sobrancelhas e o gloss labial autoral no lugar onde eles ficam de fato no estúdio (recepção ou bancada).
-- **Enquadramento:** vertical 4:5, os dois produtos lado a lado, um pouco abaixo do centro, com espaço livre acima para o texto. Sem outros produtos nem objetos de outras marcas no quadro.
-- **Pessoas:** nenhuma.
-- **Clima:** luz natural ou a luz quente do estúdio, sem excesso de edição.
+**OPÇÕES DE FOTO:**
+- Os dois produtos juntos, na recepção ou na bancada
+- O fortalecedor de cílios e sobrancelhas sozinho, em detalhe
+- O gloss labial autoral sozinho, em detalhe
+- Um dos produtos na mão de uma profissional da equipe
+- Os produtos perto do material arrumado da bancada, com os rótulos de fornecedores fora do quadro
 
 **TEXTO NA IMAGEM:** "Os produtos da casa."
 
@@ -55,41 +50,35 @@ Estes são os dois produtos próprios da WA Concept, o fortalecedor de cílios e
 
 Siga o perfil para ver mais do estúdio por aqui.
 
-Pontos para validar com a cliente: nenhum.
-
 ---
 
-## 3 · Cílios, sobrancelhas e lábios no mesmo estúdio
+## 3 · Um estúdio para o olhar e para os lábios
 
-**🎬 ROTEIRO · WA Concept · Os serviços do estúdio**
-Data: segunda, 30/11 · Duração alvo: 12 a 15 s · Pilar: Rotina e praticidade · Objetivo: Alcance
-Para que serve: mostrar a quem cuida do olhar e dos lábios que não precisa procurar um lugar para cada serviço.
+🎬 Um estúdio para o olhar e para os lábios · vídeo curto sem fala
+Intenção: mostrar a quem cuida do olhar e dos lábios em lugares diferentes que na WA Concept os serviços ficam no mesmo estúdio, com profissionais formadas pela Dani.
+Gancho (texto na tela): "Quantos lugares você visita para cuidar do olhar e dos lábios?"
 
-**GANCHO (0 a 3 s), texto na tela:** "Cílios, sobrancelhas e lábios no mesmo estúdio."
-Tipo de gancho: valor (praticidade) · Estrutura: um serviço por batida, só o nome na tela, fecho no slogan
-Onde grava: dentro do estúdio, durante a rotina de atendimentos
+**CENAS ESSENCIAIS (na ordem da edição):**
+- Sala de atendimento com a maca pronta
+- Mãos da profissional durante uma extensão de cílios
+- Mãos da profissional durante um lash lifting
+- Mãos da profissional durante um design de sobrancelhas
+- Material do Hidragloss arrumado na bancada, sem pessoas e com os rótulos fora do quadro
+- Material do Luminous Lip arrumado na bancada, sem pessoas e com os rótulos fora do quadro
+- Recepção
 
-**O QUE GRAVAR:** um plano fechado por serviço. Nos cílios e na sobrancelha, as mãos da profissional e o material real na maca. Nos lábios, só o material arrumado na bancada, sem pessoas. Rosto de cliente fora do quadro em todos os planos. Sem close de fios ou pinças e sem mostrar etapas: cada plano dura só o tempo de uma batida. O último plano é na recepção. Vertical 9:16, vídeo nítido. Se a pessoa na maca for cliente, só com autorização de imagem por escrito; sem ela, use uma profissional da equipe como modelo. Rótulos de fornecedores (fios, cola, ampolas) virados ou fora do quadro.
+**FRASES DE APOIO (texto na tela):**
+1. "Aqui, cílios, sobrancelhas e lábios são cuidados no mesmo estúdio."
+2. "E dá para fazer sobrancelha e extensão na mesma visita."
 
-**DESENVOLVIMENTO:**
-
-| Tempo | Cena (ação visual) | Texto na tela |
-|---|---|---|
-| 0 a 3 s | Sala de atendimento com a maca pronta, plano aberto | "Cílios, sobrancelhas e lábios no mesmo estúdio." |
-| 3 a 5 s | Mãos da profissional na maca, durante uma extensão | "Extensão de cílios" |
-| 5 a 7 s | Mãos da profissional na maca, durante um lash lifting | "Lash lifting" |
-| 7 a 9 s | Mãos da profissional durante um design de sobrancelhas | "Design de sobrancelhas" |
-| 9 a 11 s | Material do Hidragloss arrumado na bancada, sem pessoas | "Hidragloss" |
-| 11 a 13 s | Material do Luminous Lip arrumado na bancada, sem pessoas | "Luminous Lip" |
-| 13 a 15 s | Recepção, com a imagem tratada (escurecida) e o logo branco aplicado na edição. | "Onde o cuidado encontra a arte." |
-
-**SOM:** faixa instrumental da biblioteca do Instagram, com batida marcada. Um corte por batida.
-
-**CTA:** "Envie para quem ainda faz cílios, sobrancelhas e lábios em lugares diferentes."
+**MÚSICA:** (buscar o nome na biblioteca do Instagram)
+- Autumn colors, LuLuMusic
+- Luminary (Piano Edit), Joel Sunny
+- Se não aparecerem: instrumental acústico ou de piano, com batida marcada
 
 **LEGENDA:**
-Extensão de cílios, lash lifting, design de sobrancelhas, Hidragloss e Luminous Lip são feitos no mesmo estúdio, por profissionais treinadas pela Dani. Para cuidar do olhar e dos lábios, você não precisa procurar um lugar para cada serviço.
+Na WA Concept, extensão de cílios, lash lifting, design de sobrancelhas, Hidragloss e Luminous Lip são feitos no mesmo estúdio, por profissionais formadas pela Dani. Para cuidar do olhar e dos lábios, você não precisa procurar um lugar para cada serviço, e dá para fazer sobrancelha e extensão na mesma visita.
 
 Envie para quem ainda faz cílios, sobrancelhas e lábios em lugares diferentes.
 
-Pontos para validar com a cliente: nenhum.
+---
