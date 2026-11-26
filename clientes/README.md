@@ -4,11 +4,11 @@ Uma pasta por cliente, com o **slug do painel** como nome (ex.: `juliana-annunci
 
 | Cliente | Especialidade | Pasta | Status da ficha |
 |---|---|---|---|
-| Dr. José Erasmo | Neurocirurgião | [`jose-erasmo/`](jose-erasmo/) | ⏳ aguardando informações |
-| Dra. Caroline Skaf | Dermatologia | [`caroline-skaf/`](caroline-skaf/) | ⏳ aguardando informações |
-| Dra. Juliana Annunciato | Dermatologia | [`juliana-annunciato/`](juliana-annunciato/) | ⏳ aguardando informações |
-| WA Concept | Extensão de cílios | [`wa-concept/`](wa-concept/) | ⏳ aguardando informações |
-| Straut | Perfil da própria Straut | [`straut/`](straut/) | ⏳ aguardando informações |
+| Dr. José Erasmo | Neurocirurgião | [`jose-erasmo/`](jose-erasmo/) | ✅ migrada (2026-11-26) |
+| Dra. Caroline Skaf | Dermatologia | [`caroline-skaf/`](caroline-skaf/) | ✅ migrada (2026-11-26) |
+| Dra. Juliana Annunciato | Dermatologia | [`juliana-annunciato/`](juliana-annunciato/) | ✅ migrada (2026-11-26) |
+| WA Concept | Extensão de cílios | [`wa-concept/`](wa-concept/) | ✅ migrada (2026-11-26) |
+| Straut | Perfil da própria Straut | [`straut/`](straut/) | ✅ migrada (2026-11-26) |
 
 > As fichas foram criadas com os dados básicos do painel. O Guilherme vai completá-las com as
 > informações que estão no computador dele (pasta `clientes/` do Straut Brain).

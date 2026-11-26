@@ -1,18 +1,18 @@
 # Dra. Juliana Annunciato: identidade visual
 
-> Status: ⏳ aguardando informações
+> Status: 🟡 cores e estilo definidos no posicionamento; modelos do Canva a preencher
 
 ## Cores
 | Uso | Cor (HEX) |
 |---|---|
-| Principal | _a preencher_ |
-| Secundária | _a preencher_ |
-| Fundo | _a preencher_ |
-| Destaque | _a preencher_ |
+| Principal (texto) | #2A1E14 (marrom escuro) |
+| Secundária / detalhes | #9B7A56 (caramelo) |
+| Fundo | #F5F0EA (creme / off-white) |
+| Destaque | #9B7A56 |
 
 ## Tipografia
-- Títulos: _a preencher_
-- Textos: _a preencher_
+- **Títulos:** serifada elegante em itálico (referência: Cormorant Garamond).
+- **Textos:** sans-serif leve.
 
 ## Canva
 | Item | Link / ID |
@@ -20,10 +20,9 @@
 | Kit de marca | _a preencher_ |
 | Modelo de carrossel | _a preencher_ |
 | Modelo de capa de reels | _a preencher_ |
-| Outros modelos | _a preencher_ |
 
 ## Estilo
-- Sensação geral (ex.: clean, sofisticado, acolhedor): _a preencher_
-- Fotos: onde estão (Drive / painel) e estilo: _a preencher_
-- Identificação obrigatória nas artes (ex.: nome + CRM + RQE): _a preencher_
-- O que evitar: _a preencher_
+- **Sensação geral:** limpa e sofisticada.
+- **Fotos:** pele em close extremo ou macro como elemento principal, ocupando a parte de cima dos slides com fade suave para o fundo claro.
+- **Identificação obrigatória nas artes:** _a preencher_
+- **O que evitar:** excesso de elementos gráficos, fundo escuro dominante, overlay pesado.

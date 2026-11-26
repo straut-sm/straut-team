@@ -1,11 +1,12 @@
 # Dra. Juliana Annunciato: desempenho
 
 > Mantido pelo Analista. Fonte: mLabs. Sempre informe o período.
+> ⚠️ No mLabs só o TikTok está conectado. Para ter métricas do Instagram, o Instagram precisa ser conectado no mLabs.
 
 ## Resumo atual
 | Métrica | Valor | Período |
 |---|---|---|
-| Seguidores | _—_ | |
+| Seguidores | ~64,8 mil | nov/2026 (Instagram) |
 | Média de visualizações (reels) | _—_ | últimos 30 dias |
 | Média de alcance | _—_ | últimos 30 dias |
 | Taxa de engajamento | _—_ | últimos 30 dias |

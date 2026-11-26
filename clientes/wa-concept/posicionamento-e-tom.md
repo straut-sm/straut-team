@@ -1,45 +1,55 @@
 # WA Concept: posicionamento e tom de voz
 
 > Mantido pela Estratégia. Mudanças só com aprovação do Guilherme.
-> Status: ⏳ aguardando informações
+> Status: ✅ baseado no posicionamento aprovado no painel (migrado em 2026-11-26)
 
 ## Posicionamento
-- Como quer ser percebida (em uma frase): _a preencher_
-- Diferencial em relação aos concorrentes: _a preencher_
-- Promessa de valor (sem prometer resultado clínico): _a preencher_
+- **Como quer ser percebida:** referência em extensão de cílios pela técnica japonesa e pelo padrão único de formação da equipe.
+- **Diferenciais:**
+  - a técnica japonesa;
+  - toda a equipe treinada pela Dani;
+  - avaliação personalizada antes de cada aplicação.
+- **Promessa de valor:** praticidade e segurança, com resultado leve e natural.
 
 ## Pilares de conteúdo
 | Pilar | Objetivo | Proporção no mês |
 |---|---|---|
-| _ex.: Educação_ | _autoridade_ | _40%_ |
-| | | |
+| Prova técnica (curvatura, material, avaliação inicial, segurança, saúde do fio natural) | Autoridade | ~50% |
+| Rotina e praticidade (durabilidade, manutenção, tempo ganho) | Desejo e conversão | ~50% |
 
 ## Tom de voz
-- Personalidade (3 adjetivos): _a preencher_
-- Formal ou informal? Usa "você"? Usa gírias? _a preencher_
-- Uso de emojis na legenda: _a preencher_
-- Uso de hashtags: _a preencher_
+- **Personalidade:** direto, técnico, prático, seguro e confiante.
+- **Legendas:** soam naturais e suaves, como uma conversa, sem pausas bruscas nem frases curtas demais.
+- **Show, don't tell:** a confiança vem do processo, do material e das etapas, nunca de pedir para a cliente confiar.
+- **Manifesto da marca:** é poético, mas fica como linguagem institucional. O feed segue direto.
+- **Fecho das legendas:** um CTA só, com no máximo dois parágrafos.
+- **Emojis:** não usar. **Travessão:** não usar. **Hashtags:** _a preencher_
 
 ## Palavras e expressões
 | Usar | Evitar |
 |---|---|
-| | |
+| técnica japonesa, avaliação, fio natural, manutenção, praticidade | poesia, frases reflexivas, tom professoral |
+| "Onde o cuidado encontra a arte." (institucional) | "jornada", "mergulhar", promessas vagas |
+| "Brazilian Soul. Japanese Precision." | |
 
 ## Linguagem do público
-Como os pacientes e clientes falam do problema e da solução (frases literais, sem identificar quem
-disse). Método em `referencias/pesquisa-de-publico.md`.
-- _a preencher_
+- "A extensão estraga o cílio natural?"
+- "Quanto tempo dura?"
+- "Qual a diferença entre lash lifting e extensão?"
 
 ## Dúvidas e objeções frequentes
-| Dúvida ou objeção | Confiança (alta / média / baixa) | Como respondemos |
+| Dúvida ou objeção | Confiança | Como respondemos |
 |---|---|---|
-| | | |
+| Estraga o cílio natural? | alta | Mostrar a avaliação inicial, o material e o cuidado com o fio natural. |
+| Fica artificial? | alta | Mostrar a avaliação personalizada e o resultado leve. |
+| Como escolher um estúdio seguro? | alta | Mostrar a formação da equipe pela Dani e as etapas do processo. |
 
 ## Provas que podemos usar
-Formação, títulos, tempo de experiência, participação em congressos, publicações, prêmios.
-**Médicos: nada de promessa de resultado. Depoimentos e antes e depois só com aprovação.**
-- _a preencher_
+- Técnica aprendida no Japão.
+- 15 anos de estúdio.
+- Equipe formada pela Dani.
+- Produtos próprios.
 
 ## Referências
-- Perfis que a cliente admira: _a preencher_
-- Conteúdos dela que deram muito certo: _a preencher_
+- A Dani pediu vídeos nítidos e cortes sincronizados com a batida.
+- Conteúdos que deram muito certo: _a preencher_
