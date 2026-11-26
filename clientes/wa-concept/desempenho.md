@@ -21,3 +21,6 @@
 
 ## Relatórios
 Veja a pasta `relatorios/`.
+
+## Pendências de dados
+- 2026-11-26 · Analista: sem dados para dezembro. O mLabs abre na tela de login no navegador do Analista e não há login salvo para ele. Conexão de @waconcept__ no mLabs não confirmada.
