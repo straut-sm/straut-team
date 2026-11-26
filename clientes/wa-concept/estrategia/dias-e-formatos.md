@@ -2,7 +2,7 @@
 
 > **HIPÓTESE.** Não há dados de desempenho: o Analista está sem acesso ao mLabs (`desempenho.md`, 2026-11-26). Nada aqui foi medido, nem os dias nem os horários. Trocar por dados assim que o mLabs voltar.
 
-2026-11-26 · Estratégia. Pedido do Gestor · WA Concept (urgente, do Guilherme via Samuel). Revisão 1, no mesmo dia, depois da correção do Samuel: os dias passam a girar por toda a semana.
+2026-11-26 · Estratégia. Pedido do Gestor · WA Concept (urgente, do Guilherme via Samuel). Revisão 1, no mesmo dia, depois da correção do Samuel: os dias passam a girar por toda a semana. Revisão 2, no mesmo dia, pela decisão do Guilherme: sábado pode, domingo só em data comemorativa.
 
 ## Em que se baseia
 - **Público da ficha** (`perfil.md`): mulheres de 35 a 65 anos, bem-sucedidas, com a semana cheia, que compram para tirar tarefas da rotina. A hipótese é que o conteúdo de decisão (agendar) rende mais no começo da semana e o de alcance, mais leve, no fim. É interpretação, não dado.
@@ -22,24 +22,25 @@
 | Quarta | Reels curto sem fala | Prova técnica · autoridade | 12h | Processo e técnica em cena, o formato mais forte da marca |
 | Quinta | Foto | Rotina e praticidade · conversão | 19h | Resultado ou estúdio antes do fim de semana |
 | Sexta | Reels curto sem fala | Alcance | 12h | Tom mais leve e tendências, para quem ainda não conhece |
-| Sábado | Foto | Conexão | 10h | Estúdio, produtos e equipe, com produção leve |
-| Domingo | Carrossel | Autoridade | 10h | Tempo para ler e salvar |
+| Sábado | Foto ou carrossel | Conexão ou autoridade | 10h | Produção leve, ou um conteúdo para ler e salvar no fim de semana |
+| Domingo | Sem post | | | Regra do Guilherme (2026-11-26, `gestao/decisoes.md`): domingo só para uma data comemorativa que cai no domingo (ex.: Dia das Mães) |
 
 O formato do dia é o padrão. O Gestor pode trocar quando precisar equilibrar os pilares do mês, desde que avise.
 
 ## Rotação dos dias (regra)
-- Os conteúdos usam **todos os dias da semana**, e a combinação de dias **muda de uma semana para a outra**. Nenhum dia fica fixo.
+- Os conteúdos usam **de segunda a sábado**, e a combinação de dias **muda de uma semana para a outra**. Nenhum dia fica fixo.
+- **Domingo não é dia comum de post.** Só entra quando uma data comemorativa cai no domingo, e esse post substitui um dos dias daquela semana.
 - Ciclo de 4 semanas, com 3 posts por semana:
 
 | Semana | Dias |
 |---|---|
 | 1 | seg, qua, sex |
 | 2 | ter, qui, sáb |
-| 3 | seg, qui, dom |
-| 4 | ter, sex, sáb |
+| 3 | seg, qui, sex |
+| 4 | ter, qua, sáb |
 
-- No ciclo, cada dia entra 1 ou 2 vezes, e o mês fica com cerca de 5 reels, 4 fotos e 3 carrosséis.
-- No mês seguinte, o ciclo começa por outra semana (por exemplo, pela semana 2), para quarta e domingo também ganharem a segunda vez.
+- No ciclo, cada dia de segunda a sábado entra 2 vezes, e o mês fica com cerca de 6 reels, 4 fotos e 2 carrosséis.
+- No mês seguinte, o ciclo começa por outra semana (por exemplo, pela semana 2).
 - Fim de semana precisa do ok de agendamento no mLabs no próprio dia (rotina do Samuel).
 - Data comercial (Natal, Ano Novo, Black Friday etc.) pode mudar o dia de um post. Mesmo assim, o resto da semana segue a rotação.
 
