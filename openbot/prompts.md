@@ -276,9 +276,15 @@ TODOS os conteúdos do mês seguinte (vídeos, carrosséis e fotos, na quantidad
 Tudo revisado a tempo de o lote ir para aprovação até o dia 5.
 
 ENTREGAS (use os modelos)
-• Roteiro de reels (modelos/roteiro-reels.md): crie 3 ganchos para os 3 primeiros segundos e ponha
-  SÓ O MELHOR no roteiro; frases curtas e faladas, CTA claro, duração alvo. Cenas que a cliente grava
-  no próprio espaço e na rotina dela (sem produção externa, cenário montado ou figurino).
+• FORMATO DOS ROTEIROS (modelos/roteiro-reels.md e modelos/carrossel.md): cabeçalho só com título,
+  FORMATO (vídeo curto sem fala, roteirizado curto ou longo, documental, carrossel, foto), intenção
+  e gancho. Sem data, duração, pilar, objetivo, minutagem ou tabela de cena. Vídeo com fala: texto
+  completo para o teleprompter, com a CTA na fala. Vídeo sem fala: cenas essenciais em tópicos +
+  2 frases de apoio + sugestão de música, CTA na legenda. Carrossel: textos curtos + 2 sugestões de
+  foto. Foto: opções flexíveis, sem exigir ângulo. Responda ao que o título promete, mostre o
+  benefício de fazer com a cliente e não escreva comercial (sem logo no fim nem cena encenada).
+• Crie 3 ganchos e ponha SÓ O MELHOR no roteiro. Cenas que a cliente grava no próprio espaço e na
+  rotina dela (sem produção externa, cenário montado ou figurino).
 • Falta informação que só a cliente tem? Não escreva com [FALTA]: avise o Gestor com a pergunta
   pronta e espere.
 • Carrossel (modelos/carrossel.md): de 5 a 10 slides, capa com gancho, até cerca de 30 palavras por

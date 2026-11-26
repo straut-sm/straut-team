@@ -1,20 +1,24 @@
-# Modelo: carrossel (Copy → Design)
+# Modelo: carrossel (Copy → Design, depois da aprovação da cliente)
+
+Formato definido pelo feedback da Bia, encaminhado pelo Guilherme em 2026-11-26. Sem cabeçalho de
+pilar, objetivo ou número de slides: só a intenção principal.
 
 ```
-🖼️ CARROSSEL · <cliente> · <título curto>
-Slides: <5–10>   Pilar: <...>   Objetivo: <...>
-Modelo do Canva: <link/ID em identidade-visual.md>
+🖼️ <título> · carrossel
+Intenção: <demonstrativo, explicativo, comparativo...: o que a pessoa leva>
 
-SLIDE 1 (capa): <gancho, até ~10 palavras>
-SLIDE 2: <título> / <texto até ~30 palavras>
+SLIDE 1 (capa): <gancho curto, o melhor de 3 opções>
+SLIDE 2: <texto curto e objetivo>
 SLIDE 3: ...
-...
-ÚLTIMO SLIDE (CTA): <ex.: "Salve para não esquecer" + identificação da cliente>
+ÚLTIMO SLIDE: <CTA>
 
-Sugestões visuais para o Design: <ícones, foto da cliente, destaque em palavras>
+FOTOS PARA A PRODUÇÃO (2 sugestões, ou mais):
+- <ex.: foto de um resultado de lash lifting>
+- <ex.: foto de um resultado de extensão>
 
 LEGENDA:
 <...>
-
-⚠️ Pontos para validar com a cliente: <ou "nenhum">
 ```
+
+- Textos menores e mais objetivos do que antes: uma ideia por slide.
+- As fotos sugeridas são o que a produção precisa ter para montar o carrossel.

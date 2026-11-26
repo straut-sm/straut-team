@@ -25,21 +25,29 @@ Organize por cliente e por data.
 
 ## Entregas
 
-### Roteiro de reels ([`modelos/roteiro-reels.md`](../modelos/roteiro-reels.md))
-- **Gancho (de 0 a 3 segundos):** a frase que segura a pessoa. Crie **3 opções**, escolha a melhor
-  e coloque **só ela** no roteiro e no painel. As outras ficam no seu arquivo de trabalho. Vale também
-  para a capa do carrossel e o texto da foto.
-- **Desenvolvimento:** frases curtas, faladas, uma ideia por vez.
-- **CTA:** o que a pessoa deve fazer (salvar, compartilhar, comentar, agendar).
-- Indicações de cena e texto na tela, quando ajudar.
-- Duração alvo (ex.: de 30 a 45 segundos ≈ de 80 a 120 palavras faladas).
+> **Formato dos roteiros** (feedback da Bia, encaminhado pelo Guilherme em 2026-11-26): o roteiro é
+> para a produção ler e gravar. Cabeçalho limpo: título, **formato** (vídeo curto sem fala, vídeo
+> roteirizado curto ou longo, documental, carrossel, foto), intenção principal e, se houver, o gancho.
+> Sem data, duração, pilar, objetivo, minutagem ou tabela de tempo, cena e texto na tela.
+
+### Roteiro de vídeo ([`modelos/roteiro-reels.md`](../modelos/roteiro-reels.md))
+- **Gancho:** crie **3 opções**, escolha a melhor e coloque **só ela** no roteiro e no painel. As
+  outras ficam no seu arquivo de trabalho. Vale também para a capa do carrossel e o texto da foto.
+- **Vídeo com fala:** o roteiro completo, pronto para o teleprompter, com a CTA dentro da fala.
+  Depois, "o que gravar" em tópicos.
+- **Vídeo sem fala:** lista de cenas essenciais em tópicos, na ordem da edição, mais 2 frases de
+  apoio para o texto na tela e sugestões de música. A CTA vai na legenda.
+- **Conteúdo:** responda ao que o título promete e mostre o benefício de fazer com a cliente, e não
+  em outro lugar. Mais profundo e criativo. Não é comercial: sem logo no fim, sem cena encenada e sem
+  título do tipo "X em cena".
 
 ### Carrossel ([`modelos/carrossel.md`](../modelos/carrossel.md))
-- De 5 a 10 slides. Slide 1 = capa com gancho forte; último slide = CTA.
-- Pouco texto por slide (no máximo cerca de 30 palavras). Escreva pensando no visual que o Design vai montar.
+- Intenção principal (demonstrativo, explicativo...), textos curtos e objetivos, uma ideia por slide.
+- Pelo menos 2 sugestões de foto para a produção.
 
 ### Roteiro de foto
-- Conceito da foto: cenário, enquadramento, o que a cliente veste e faz, e o clima.
+- Uma lista de opções de foto que combinam com o tema (ex.: equipe, procedimento, material sendo
+  aplicado, macro). **Não exija ângulo, posição ou enquadramento:** nem sempre dá.
 - Texto na imagem, se houver.
 - Legenda completa (é o principal da foto).
 

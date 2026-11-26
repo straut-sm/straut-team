@@ -5,6 +5,13 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-26 · **Novo formato dos roteiros** (feedback da Bia, da equipe da Straut, encaminhado pelo
+  Guilherme pela Lari): cabeçalho limpo (título, formato, intenção e gancho); sem minutagem nem
+  tabela; vídeo com fala com texto completo para o teleprompter; vídeo sem fala com cenas essenciais
+  e 2 frases de apoio; carrossel com textos curtos e 2 sugestões de foto; foto com opções flexíveis;
+  conteúdo que responde ao que promete, mostra o benefício e não parece comercial. Modelos
+  `roteiro-reels.md` e `carrossel.md` reescritos; feedback completo em
+  `OpenBot/Shared/feedback-bia-wa-concept-2026-11-26/feedback.md`.
 - 2026-11-26 · **Fim de semana:** sábado pode ter post. Domingo, só quando for comemoração de uma data
   específica que cai no domingo (ex.: Dia das Mães). Vale para o calendário de todas as clientes.
 - 2026-11-26 · WA Concept, dezembro: incluir o post extra "Feliz 2027" em 31/12 (13º do mês, acima
