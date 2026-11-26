@@ -5,6 +5,9 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-26 · Passagem para o Straut Brain (App e Clientes) em
+  `integracoes/passagem-straut-brain.md`: resumo das decisões, a migração das fichas das clientes para
+  `straut-team/clientes/` e as melhorias sugeridas para o painel (a decidir com o Guilherme).
 - 2026-11-24 · Criado o bot **Tráfego** (gestor de tráfego pago no Google Ads e na Meta, Opus 5.5),
   começando na **fase 0 (setup das contas)**. Implantação em fases (0 setup → 1 só leitura → 2
   rascunhos pausados → 3 otimização com limites), cada avanço com ok do Guilherme. Ativar campanha,

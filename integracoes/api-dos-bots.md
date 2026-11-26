@@ -38,7 +38,13 @@ de tudo o que fazem.
 
 Todo bloco retornado deve trazer um **`link`** para abrir aquele conteúdo direto no painel
 (ex.: `https://painel.strautmarketing.com/c/<slug>?bloco=<id>`). O Samuel envia esse link ao Guilherme.
-Se o painel ainda não abre um bloco pelo link, o Straut Brain · App precisa criar isso.
+O painel já abre o bloco por esse link (verificado em 2026-11-26).
+
+**A API nunca devolve** dados de acesso ou financeiros da cliente (senha da página, dia de pagamento),
+os arquivos da cliente (contratos) nem chaves do sistema.
+
+Melhorias sugeridas para depois da primeira versão (rota de novidades, marca "agendado no mLabs",
+registro das ações dos bots): veja [`passagem-straut-brain.md`](passagem-straut-brain.md), seção 4.
 
 ### Escrita (sem nada destrutivo)
 | Método | Rota | Faz | Regras |

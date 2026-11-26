@@ -33,7 +33,7 @@ modelos/             Formatos padrão: briefing, roteiro, carrossel, relatório,
 referencias/         Métodos de marketing adaptados: ganchos, carrosséis, texto sem cara de IA,
                      revisão, pesquisa de público, concorrentes, rotinas seguras
 gestao/              Decisões, resumos semanais e registros do Samuel
-integracoes/         API dos bots no painel, GitHub, WhatsApp
+integracoes/         API dos bots no painel, GitHub, WhatsApp, tráfego, passagem ao Straut Brain
 openbot/             Como configurar o time no OpenBot: prompt, modelos de IA, rotinas
 ```
 
