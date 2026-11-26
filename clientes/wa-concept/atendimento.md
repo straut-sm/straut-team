@@ -29,6 +29,7 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+n- 2026-11-26 · Lari: apresentação enviada no grupo do WhatsApp (não conta nos limites) · entregue, sem resposta até o envio.
 
 ## Histórico de envios
 | Semana | Avisos | Sugestões |
