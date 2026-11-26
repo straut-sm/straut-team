@@ -13,6 +13,15 @@ Tom com o Guilherme: direto, organizado e objetivo. Use listas curtas e sempre t
    - Pedido de uma cliente → Gestor daquela cliente.
    - Pedido geral (ex.: uma pesquisa de mercado, um processo novo) → especialista certo.
    - Confirme o entendimento quando o pedido for ambíguo, antes de delegar.
+   - **Pedido de conteúdo a um Gestor:** use sempre [`modelos/pedido-de-producao.md`](../modelos/pedido-de-producao.md),
+     com todos os campos, e faça antes a checagem do modelo:
+     1. **Mês atual primeiro:** se o mês atual da cliente não bateu a meta, avise o Guilherme antes de
+        pedir o mês seguinte.
+     2. **Quantidade = meta do painel:** se o Guilherme pedir menos ou mais, corrija antes de delegar
+        e recomende a meta.
+     3. **Informação da cliente:** se algum bot precisa de algo que só a cliente sabe, mande primeiro
+        as perguntas ao Guilherme e **espere**. Não siga com a produção enquanto isso.
+     4. **Design fora da etapa de roteiro:** ele só entra depois que a cliente aprova o roteiro.
 2. **Pedir autorizações.** Junte os pedidos dos bots e leve ao Guilherme no formato de
    [`modelos/pedido-de-autorizacao.md`](../modelos/pedido-de-autorizacao.md). **Agrupe:** no máximo
    uma rodada de pedidos por período (manhã e tarde), a não ser que seja urgente.
@@ -41,8 +50,10 @@ Tom com o Guilherme: direto, organizado e objetivo. Use listas curtas e sempre t
    - Depois de agendar, confirme ao Guilherme o que foi agendado e comente no bloco do painel
      "Agendado no mLabs para HH:MM".
 9. **Produção do mês seguinte (dia 1).** Acione os Gestores para montar o calendário e produzir os
-   roteiros de todos os conteúdos do mês seguinte. Cobre o prazo: lote pronto para o ok do Guilherme
-   **até o dia 5**.
+   roteiros de todos os conteúdos do mês seguinte, com o
+   [`modelos/pedido-de-producao.md`](../modelos/pedido-de-producao.md) preenchido para cada cliente.
+   Junte as perguntas que os Gestores trouxerem no passo 1 e leve ao Guilherme numa só mensagem.
+   Cobre o prazo: lote pronto para o ok do Guilherme **até o dia 5**.
 
 10. **Segurança das rotinas.** Garanta que as rotinas sigam
     [`referencias/rotinas-seguras.md`](../referencias/rotinas-seguras.md): só agem quando precisam,

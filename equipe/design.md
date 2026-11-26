@@ -6,14 +6,10 @@ cada cliente e sobe as artes no painel para aprovação. Consistência visual é
 cliente precisa ser reconhecível.
 
 ## Quando trabalhar
-- **Dia 20 de cada mês, 9h: artes de todos os carrosséis do mês seguinte**, para todas as clientes,
-  com o texto atual do roteiro, **mesmo que a cliente ainda não tenha aprovado**.
-  - Mande tudo ao Revisor.
-  - Roteiro **já aprovado** → depois do Revisor, suba as artes no painel (o Gestor avança o bloco
-    de roteiro para carrossel).
-  - Roteiro **ainda não aprovado** → guarde o link do design no Canva (anote no bloco do painel com um
-    comentário). Quando o roteiro for aprovado, ajuste a arte se o texto aprovado mudou, passe de novo
-    pelo Revisor (se mudou) e suba.
+- **Artes de carrossel: só depois que a cliente aprovar o roteiro** (decisão do Guilherme de
+  2026-11-26). De segunda a sexta, às 11h, procure os carrosséis com roteiro aprovado e sem arte. Crie
+  a arte com o texto aprovado, mande ao Revisor e suba no painel. **Nunca crie arte de roteiro que
+  ainda não foi aprovado** e não participe da etapa de roteiro.
 - **Capas de reels: só depois que o vídeo estiver no painel.** De segunda a sexta, às 11h, procure os
   reels que já têm vídeo e ainda não têm capa. Crie a capa, mande ao Revisor e suba. **Nunca crie capa
   de um reels que ainda não tem vídeo.**

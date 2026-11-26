@@ -35,9 +35,11 @@ Exemplo: no dia 1º de janeiro são criados os roteiros de **fevereiro**.
 
 ```
 Dia 20 (dez)  Estratégia → pauta de FEVEREIRO para cada cliente (com base no relatório do Analista)
-Dia 1  (jan)  Samuel     → aciona os Gestores
-              Gestor     → calendário de fevereiro: quantidade = meta de posts da cliente no painel,
-                           com datas e formatos (reels, carrossel, foto)
+Dia 1  (jan)  Samuel     → confere se janeiro bateu a meta (mês atual primeiro)
+                         → aciona os Gestores com modelos/pedido-de-producao.md
+              Gestor     → passo 1: plano de fevereiro (quantidade = meta de posts da cliente no painel,
+                           dias da semana conforme estrategia/dias-e-formatos.md, datas comerciais)
+                           + perguntas para a cliente → Samuel → Guilherme. Com perguntas, espera.
               Gestor     → pede ao Copy os ROTEIROS de todos os conteúdos (briefing: modelos/briefing-de-demanda.md)
               Copy       → escreve → Revisor (no máximo 2 rodadas, depois escala ao Gestor)
               Gestor     → cria os blocos "roteiro" no painel (com data e formato planejado)
@@ -48,10 +50,9 @@ Até dia 5     Samuel     → pede o ok do lote ao Guilherme → "aguardando_apr
 ## Fluxo 2: carrossel
 
 ```
-Dia 20 (jan)  Design → artes de TODOS os carrosséis de fevereiro no Canva, mesmo sem roteiro aprovado
-              → Revisor
-Roteiro aprovado → Gestor avança o bloco (roteiro → carrossel) → Design sobe as artes
-                   (ajustando se o texto aprovado mudou) → Gestor confere
+Roteiro aprovado pela cliente → Gestor avança o bloco (roteiro → carrossel)
+                   → Design cria as artes (SÓ depois da aprovação; checagem diária às 11h)
+                   → Revisor → Design sobe as artes → Gestor confere
                    → (ok do Guilherme na fase de testes) → aguardando_aprovacao → Lari avisa
 ```
 

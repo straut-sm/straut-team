@@ -4,10 +4,8 @@
 🎬 ROTEIRO · <cliente> · <título curto>
 Duração alvo: <30–45s>   Pilar: <...>   Objetivo: <...>
 
-GANCHO (0–3s) — opções:
-1. "<...>"
-2. "<...>"
-3. "<...>"
+GANCHO (0–3s): "<o melhor de 3 opções; só ele entra aqui>"
+Tipo de gancho: <...>   Onde grava: <espaço real da cliente>
 
 DESENVOLVIMENTO:
 [cena / texto na tela]  Fala

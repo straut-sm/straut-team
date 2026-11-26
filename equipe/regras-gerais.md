@@ -33,6 +33,9 @@ Guilherme
 2. Releia esta página e a sua ficha em `equipe/`.
 3. Se a tarefa for de uma cliente, leia a pasta dela em `clientes/<slug>/`.
 4. Se faltar informação, **pergunte a quem pediu**. Não invente.
+5. **Informação que só a cliente tem:** se a tarefa depende dela, **pare antes de produzir**. Mande
+   as perguntas, numeradas e prontas, a quem pediu. Elas sobem até o Samuel, que as leva ao
+   Guilherme. Espere as respostas. Não entregue conteúdo com `[FALTA]` no lugar da resposta.
 
 ## 4. Sincronização com o GitHub (regra obrigatória)
 

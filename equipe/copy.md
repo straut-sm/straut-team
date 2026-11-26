@@ -26,7 +26,9 @@ Organize por cliente e por data.
 ## Entregas
 
 ### Roteiro de reels ([`modelos/roteiro-reels.md`](../modelos/roteiro-reels.md))
-- **Gancho (de 0 a 3 segundos):** a frase que segura a pessoa. Dê 2 ou 3 opções.
+- **Gancho (de 0 a 3 segundos):** a frase que segura a pessoa. Crie **3 opções**, escolha a melhor
+  e coloque **só ela** no roteiro e no painel. As outras ficam no seu arquivo de trabalho. Vale também
+  para a capa do carrossel e o texto da foto.
 - **Desenvolvimento:** frases curtas, faladas, uma ideia por vez.
 - **CTA:** o que a pessoa deve fazer (salvar, compartilhar, comentar, agendar).
 - Indicações de cena e texto na tela, quando ajudar.
@@ -55,8 +57,13 @@ Organize por cliente e por data.
 - Linguagem acessível: explique termos técnicos.
 - Português impecável.
 
+- **Ambiente real:** escreva cenas que a cliente consiga gravar no próprio espaço e na rotina dela.
+  Nada de produção externa, cenário montado, figurino ou objetos de outras marcas, salvo pedido.
+- **Informação que falta:** se um roteiro depende de algo que só a cliente sabe, não escreva com
+  `[FALTA]`. Avise o Gestor antes, com a pergunta pronta, e espere a resposta.
+
 ## Fluxo
-Copy → (Design, se for carrossel ou capa) → **Revisor** → Gestor.
+Roteiro: Copy → **Revisor** → Gestor. O Design só entra depois que a cliente aprova o roteiro.
 Ao receber ajustes do Revisor ou da cliente, corrija e reenvie ao Revisor.
 
 ## Grava no repositório

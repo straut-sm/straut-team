@@ -1,22 +1,25 @@
 # Rotinas (agendamentos no OpenBot)
 
-O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minutos. O time usa 17
-(as 3 do Tráfego só são ativadas a partir da fase 1).
+O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minutos. O time usa 16
+(as 3 do Tráfego só são ativadas a partir da fase 1). A rotina 6 foi removida em 2026-11-26: as artes
+de carrossel só saem depois da aprovação do roteiro e entraram na rotina 7.
 Horário de Brasília.
 
 ## Calendário de produção (um mês de antecedência)
 
 ```
 Dia 20 do mês M-1   Estratégia  → pauta do mês M+1          (ex.: 20/dez → pauta de fevereiro)
-Dia 1  do mês M     Gestores    → calendário + ROTEIROS de todos os conteúdos do mês M+1
+Dia 1  do mês M     Samuel      → confere se o mês M bateu a meta → pedido de produção a cada Gestor
+                    Gestores    → passo 1: plano + perguntas para a cliente (com perguntas, espera)
+                                → calendário + ROTEIROS de todos os conteúdos do mês M+1
                                    (vídeos, carrosséis e fotos; quantidade = meta de posts no painel)
                                    → Revisor → painel → ok do Guilherme → aprovação da cliente (até o dia 5)
-Dia 20 do mês M     Design      → artes dos CARROSSÉIS do mês M+1 (mesmo sem roteiro aprovado)
-Todo dia útil       Design      → CAPAS só dos reels que já têm vídeo no painel
+Todo dia útil       Design      → ARTES dos carrosséis com roteiro aprovado e CAPAS dos reels que já
+                                   têm vídeo no painel
 Todo dia            Samuel      → posts do dia → ok do Guilherme → agenda no mLabs
 ```
 
-Exemplo: no dia 1º de janeiro saem os roteiros de fevereiro. No dia 20 de janeiro saem as artes dos carrosséis de fevereiro.
+Exemplo: no dia 1º de janeiro saem os roteiros de fevereiro. As artes dos carrosséis saem quando a cliente aprova cada roteiro.
 
 ## Lista de rotinas
 
@@ -27,8 +30,8 @@ Exemplo: no dia 1º de janeiro saem os roteiros de fevereiro. No dia 20 de janei
 | 3 | Samuel | Segunda a sexta, 17h30 | Checagem do dia: autorizações pendentes, atrasos, escalonamentos sem retorno |
 | 4 | Samuel | **Dia 1, 9h** | Acionar os Gestores: calendário + roteiros de todos os conteúdos do mês seguinte |
 | 5 | Estratégia | **Dia 20, 9h** | Pauta do mês M+1 (dois meses à frente) para cada cliente |
-| 6 | Design | **Dia 20, 9h** | Artes de todos os carrosséis do mês seguinte |
-| 7 | Design | **Segunda a sexta, 11h** | Capas dos reels que já têm vídeo no painel e ainda não têm capa |
+| 6 | — | — | Removida em 2026-11-26 (artes de carrossel entraram na rotina 7) |
+| 7 | Design | **Segunda a sexta, 11h** | Artes dos carrosséis com roteiro aprovado e capas dos reels que já têm vídeo no painel |
 | 8 | Analista | Dia 1, 9h | Relatório mensal de cada cliente |
 | 9 | Analista | **Quarta, 10h** | Recordes de desempenho (posts dos últimos 7 dias) → Lari |
 | 10 | Social Media | **Segunda, 7h** | Ideia de stories da semana + reels viral de cada cliente → Gestor valida |
@@ -51,10 +54,10 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
 | 1 | Há posts com data de hoje (não roteiro) | Comentário "Agendado no mLabs" no bloco | Sem ok do Guilherme → não agenda; mLabs com erro → avisa |
 | 2 | Sempre (segunda) | `gestao/semanal/` | Dados do painel indisponíveis → avisa e envia o que tiver |
 | 3 | Há pendência, atraso ou escalonamento sem retorno | `gestao/rotinas/registro.md` | Nada pendente → não envia mensagem |
-| 4 | Dia 1 | `calendario/AAAA-MM.md` de cada cliente | Pauta do mês ausente → avisa a Estratégia e o Guilherme |
+| 4 | Dia 1 | `calendario/AAAA-MM.md` de cada cliente | Pauta do mês ausente → avisa a Estratégia e o Guilherme; mês atual abaixo da meta → avisa o Guilherme primeiro; perguntas para a cliente → leva ao Guilherme e espera |
 | 5 | Dia 20 | `estrategia/pauta-AAAA-MM.md` | Cliente sem posicionamento definido → avisa o Gestor |
-| 6 | Há carrosséis do mês seguinte sem arte | Comentário com o link do Canva no bloco | Cliente sem modelo no Canva → avisa o Gestor, não inventa estilo |
-| 7 | Há reels com vídeo e sem capa | Mídia "capa" no bloco | Nenhum → não faz nada |
+| 6 | — | — | Removida |
+| 7 | Há carrossel com roteiro aprovado e sem arte, ou reels com vídeo e sem capa | Comentário com o link do Canva e mídias no bloco | Cliente sem modelo no Canva → avisa o Gestor, não inventa estilo; nada pendente → não faz nada |
 | 8 | Dia 1 | `relatorios/AAAA-MM.md` | mLabs sem dados → avisa, não inventa números |
 | 9 | Há post que atende ao critério de recorde | Tabela de recordes em `desempenho.md` | Post já avisado → pula; número muito fora do normal → confirma antes |
 | 10 | Segunda | `sugestoes/AAAA-MM-DD.md` com status | Nada adequado ao posicionamento → não sugere (melhor nada que algo ruim) |
@@ -77,19 +80,21 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
 3. **Samuel · checagem do dia:** "Verifique autorizações pendentes, conteúdos atrasados em relação à
    meta, ajustes sugeridos sem resposta e escalonamentos da Lari sem retorno. Se houver algo, me envie
    um resumo agrupado. Se não houver nada, não envie mensagem."
-4. **Samuel · roteiros do mês seguinte:** "Acione cada Gestor de cliente para montar o calendário e
-   produzir os roteiros de TODOS os conteúdos do mês seguinte (vídeos, carrosséis e fotos), na
-   quantidade da meta de posts de cada cliente no painel, com a pauta da Estratégia. Meta: roteiros
-   revisados no painel e lote pronto para o meu ok até o dia 5."
+4. **Samuel · roteiros do mês seguinte:** "Para cada cliente, confira no painel se o mês atual bateu a
+   meta; se não, avise o Guilherme primeiro. Depois acione cada Gestor com
+   `modelos/pedido-de-producao.md` preenchido: roteiros de TODOS os conteúdos do mês seguinte
+   (vídeos, carrosséis e fotos), na quantidade da meta de posts de cada cliente no painel, com a
+   pauta da Estratégia, dias da semana conforme `estrategia/dias-e-formatos.md` e datas comerciais do
+   mês. Junte as perguntas para as clientes que os Gestores trouxerem no passo 1, envie ao Guilherme
+   numa só mensagem e espere as respostas antes de liberar a produção. O Design não entra nessa etapa.
+   Meta: roteiros revisados no painel e lote pronto para o ok do Guilherme até o dia 5."
 5. **Estratégia · pautas:** "Gere a pauta do mês M+1 (dois meses à frente: hoje é dia 20 do mês M-1)
    para cada cliente ativa, conforme `equipe/estrategia.md`, grave no repositório e avise cada Gestor."
-6. **Design · artes de carrossel:** "Para cada cliente, crie no Canva as artes de todos os carrosséis
-   do mês seguinte, com o texto atual do roteiro, mesmo que a cliente ainda não tenha aprovado.
-   Mande ao Revisor. Suba no painel só os carrosséis com roteiro já aprovado. Os demais sobem quando o
-   roteiro for aprovado, ajustando a arte se o texto mudar."
-7. **Design · capas:** "Procure no painel os reels que já têm vídeo e ainda não têm capa. Para cada
-   um, crie a capa no modelo da cliente, mande ao Revisor e suba no painel depois de aprovada. Se não
-   houver nenhum, não faça nada."
+6. *(Removida em 2026-11-26.)*
+7. **Design · artes e capas:** "Procure no painel (1) os carrosséis cujo roteiro a cliente já aprovou
+   e que ainda não têm arte e (2) os reels que já têm vídeo e ainda não têm capa. Para cada um, crie
+   a arte ou a capa no modelo da cliente, com o texto aprovado, mande ao Revisor e suba no painel
+   depois de aprovada. Nunca crie arte de roteiro não aprovado. Se não houver nada, não faça nada."
 8. **Analista · relatórios:** "Gere o relatório do mês anterior de cada cliente ativa conforme
    `modelos/relatorio-mensal.md`, grave no repositório e avise o Gestor e a Estratégia."
 9. **Analista · recordes:** "Verifique os posts dos últimos 7 dias de cada cliente. Se algum for

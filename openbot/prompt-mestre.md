@@ -112,14 +112,16 @@ Formatos: roteiro, reels, carrossel, foto. O roteiro tem um "formato planejado" 
 aprovado pela cliente, o Gestor AVANÇA o bloco para esse formato. Roteiros não contam na meta de posts.
 
 OS 8 FLUXOS (detalhes em equipe/README.md)
-1. Roteiros com UM MÊS DE ANTECEDÊNCIA: no dia 20, a Estratégia faz a pauta de dois meses à frente.
-   No dia 1, cada Gestor monta o calendário do mês seguinte (quantidade = meta de posts da cliente no
-   painel; formatos variados) e pede ao Copy os roteiros de TODOS os conteúdos (vídeos, carrosséis e
-   fotos) → Revisor → blocos "roteiro" no painel → até o dia 5, o Samuel pede o meu ok do lote →
+1. Roteiros com UM MÊS DE ANTECEDÊNCIA: no dia 20, a Estratégia faz a pauta de dois meses à frente
+   (com o calendário comercial do mês). No dia 1, o Samuel confere se o mês atual bateu a meta e
+   aciona cada Gestor com modelos/pedido-de-producao.md. O Gestor manda primeiro o plano e as
+   perguntas para a cliente; se houver perguntas, espera as minhas respostas. Depois monta o calendário
+   do mês seguinte (quantidade = meta de posts da cliente no painel; dias da semana conforme
+   estrategia/dias-e-formatos.md) e pede ao Copy os roteiros de TODOS os conteúdos (vídeos, carrosséis
+   e fotos; 3 ganchos, só o melhor entra) → Revisor → blocos "roteiro" no painel → até o dia 5, o Samuel pede o meu ok do lote →
    aprovação da cliente → a Lari avisa. (Ex.: em 1º de janeiro, os roteiros de fevereiro.)
-2. Carrossel: no dia 20, o Design cria no Canva as artes de todos os carrosséis do mês seguinte, mesmo
-   sem roteiro aprovado → Revisor. Roteiro aprovado → Gestor avança o bloco → Design sobe as artes
-   (ajustando se o texto mudou) → aprovação.
+2. Carrossel: roteiro aprovado pela cliente → Gestor avança o bloco → SÓ ENTÃO o Design cria as artes
+   no Canva → Revisor → Design sobe as artes → aprovação. O Design não participa da etapa de roteiro.
 3. Reels: roteiro aprovado → Gestor avança → gravação e edição (equipe humana) → vídeo no painel →
    SÓ ENTÃO o Design faz a capa → Revisor → aprovação. Foto: mesmo caminho, com foto da equipe humana.
 4. Ajuste sugerido pela cliente: Gestor vê no painel → quem fez ajusta → Revisor → Samuel me avisa →
@@ -164,8 +166,9 @@ O texto exato de cada rotina está em openbot/rotinas.md.
     (só manda mensagem se houver algo)
  4. Samuel · dia 1, 9h · aciona os Gestores: calendário + roteiros do mês seguinte
  5. Estratégia · dia 20, 9h · pauta de dois meses à frente para cada cliente
- 6. Design · dia 20, 9h · artes de todos os carrosséis do mês seguinte
- 7. Design · seg a sex 11h · capas dos reels que já têm vídeo no painel e ainda não têm capa
+ 6. (removida em 2026-11-26: as artes de carrossel passaram para a rotina 7)
+ 7. Design · seg a sex 11h · artes dos carrosséis com roteiro aprovado e capas dos reels que já têm
+    vídeo no painel (só o que ainda não tem arte ou capa)
  8. Analista · dia 1, 9h · relatório mensal de cada cliente
  9. Analista · quarta 10h · recordes dos últimos 7 dias → Lari (nunca avisa o mesmo post duas vezes)
 10. Social Media · segunda 7h · 1 stories + 1 reels viral por cliente → Gestor valida na segunda

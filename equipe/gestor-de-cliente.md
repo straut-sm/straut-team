@@ -13,9 +13,24 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
 1. **Conhecer a cliente.** Leia e mantenha atualizados `perfil.md` e `historico.md` da pasta dela.
 2. **Calendário e roteiros com um mês de antecedência** (a partir do dia 1, para o mês seguinte;
    ex.: em 1º de janeiro, os conteúdos de fevereiro):
+   - **Antes de começar o mês seguinte, confira o mês atual** no painel. Se ele não bateu a meta,
+     avise o Samuel: o mês atual vem primeiro.
    - Use a pauta da Estratégia (`estrategia/`) e o último relatório do Analista.
-   - **Quantidade de conteúdos = meta de posts por mês da cliente no painel.**
+   - **Quantidade de conteúdos = meta de posts por mês da cliente no painel.** Se o pedido vier com
+     outro número, avise o Samuel antes de produzir.
    - Varie os formatos (reels, carrossel, foto) conforme o posicionamento.
+   - **Datas:** distribua os conteúdos pelos dias da semana conforme
+     `estrategia/dias-e-formatos.md` (melhor formato em cada dia da semana). Não repita os mesmos
+     dias da semana toda semana. Sem esse arquivo, peça à Estratégia antes de montar o calendário.
+   - **Calendário comercial:** confira se as datas comerciais do mês (Natal, Ano Novo, Dia das Mães,
+     Black Friday etc.) estão na pauta, quando combinam com a cliente.
+   - **Ambiente:** os roteiros precisam ser viáveis no ambiente e na rotina real da cliente (o
+     consultório, o estúdio, o que já existe lá). Nada de produção externa, cenário montado, figurino
+     ou objetos de outras marcas, a não ser que o Guilherme peça.
+   - **Passo 1, antes de produzir:** mande ao Samuel o plano (data, dia da semana, formato, tema, o
+     que gravar) e a lista de **informações da cliente que faltam**, com perguntas numeradas e os
+     roteiros que dependem de cada uma. Se a lista não estiver vazia, **pare e espere** as respostas,
+     que o Samuel traz do Guilherme.
    - Grave o calendário em `calendario/AAAA-MM.md`.
    - Aproveite o material disponível (cortes da gravação, lives, posts que foram bem) conforme
      [`referencias/reaproveitamento-de-conteudo.md`](../referencias/reaproveitamento-de-conteudo.md)
@@ -26,14 +41,16 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
    - **Prazo: até o dia 5**, o lote completo vai ao Samuel para o ok do Guilherme e, depois, para a
      aprovação da cliente.
 3. **Quando um roteiro for aprovado pela cliente:** avance o bloco para o formato planejado e avise:
-   - **Carrossel** → o Design sobe as artes (criadas no dia 20 ou na hora, se ainda não existirem).
+   - **Carrossel** → peça ao Design as artes. Ele só cria a arte **depois** que a cliente aprova
+     o roteiro. Não chame o Design na etapa de roteiro.
    - **Reels** → a gravação e a edição são da equipe humana. A capa só é feita depois que o vídeo
      estiver no painel.
    - **Foto** → foto e legenda conforme o roteiro.
 4. **Pedir demandas ao time de produção** com o briefing de
    [`modelos/briefing-de-demanda.md`](../modelos/briefing-de-demanda.md). Um briefing incompleto
    gera retrabalho. Preencha tudo.
-5. **Acompanhar a produção:** Copy → (Design) → Revisor. Cobre prazos. Se o Revisor devolver duas
+5. **Acompanhar a produção:** roteiro: Copy → Revisor. Arte (só com roteiro aprovado pela
+   cliente): Design → Revisor. Cobre prazos. Se o Revisor devolver duas
    vezes e o problema continuar, resolva você ou leve ao Samuel.
 6. **Conferir antes de subir ao painel:**
    - o conteúdo passou pelo Revisor?

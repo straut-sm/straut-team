@@ -5,6 +5,21 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-26 · Correções do processo de produção, depois do teste da WA Concept (pedido do Guilherme):
+  1. **Mês atual primeiro:** antes de produzir o mês seguinte, o mês atual precisa bater a meta.
+  2. **Datas variadas:** os conteúdos são distribuídos pelos dias da semana conforme o melhor formato
+     de cada dia (`clientes/<slug>/estrategia/dias-e-formatos.md`, mantido pela Estratégia com dados
+     do Analista). Nada de usar sempre os mesmos dias da semana.
+  3. **Quantidade = meta:** se o Guilherme pedir outro número, o Samuel corrige e recomenda a meta
+     antes de delegar.
+  4. **Informação da cliente:** se algum bot precisa de algo que só a cliente sabe, o Samuel manda
+     primeiro as perguntas ao Guilherme e espera as respostas. Ninguém produz com `[FALTA]`.
+  5. **Calendário comercial obrigatório** na pauta da Estratégia (Natal, Ano Novo etc.).
+  6. **Design só depois da aprovação do roteiro pela cliente.** A rotina 6 (artes no dia 20) foi
+     removida; as artes de carrossel entraram na rotina 7 (seg a sex, 11h).
+  7. **Ganchos:** o Copy cria 3 opções, escolhe a melhor e só ela vai para o roteiro.
+  8. **Ambiente real:** roteiros viáveis no espaço e na rotina da cliente, sem produção externa.
+  9. Novo modelo `modelos/pedido-de-producao.md` para todo pedido do Samuel aos Gestores.
 - 2026-11-26 · Prompt mestre do OpenBot reescrito (`openbot/prompt-mestre.md`) com a infraestrutura
   completa: peças do sistema, modelos de IA, forma de trabalhar, os 8 fluxos, as 17 rotinas, os
   acessos de cada bot, autorizações e o que ainda está em construção.
