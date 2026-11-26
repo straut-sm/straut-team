@@ -5,6 +5,9 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-26 · Prompt mestre do OpenBot reescrito (`openbot/prompt-mestre.md`) com a infraestrutura
+  completa: peças do sistema, modelos de IA, forma de trabalhar, os 8 fluxos, as 17 rotinas, os
+  acessos de cada bot, autorizações e o que ainda está em construção.
 - 2026-11-26 · Passagem para o Straut Brain (App e Clientes) em
   `integracoes/passagem-straut-brain.md`: resumo das decisões, a migração das fichas das clientes para
   `straut-team/clientes/` e as melhorias sugeridas para o painel (a decidir com o Guilherme).
