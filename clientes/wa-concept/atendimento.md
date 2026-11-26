@@ -23,6 +23,7 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 ## Casos em aberto
 | Data | Assunto | Com quem está | Situação |
 |---|---|---|---|
+| 2026-11-26 | Produção de Natal 05/12 (detalhes para adaptar roteiros) | Cliente (Dani) | Aguardando resposta |
 | 2026-11-26 | Recesso de dezembro (calendário de conteúdos) | Cliente (Dani) | Aguardando resposta |
 
 ## Preferências percebidas
@@ -30,6 +31,7 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+- 2026-11-26 · Lari: perguntado (pedido do Guilherme, via Samuel) sobre a produção de Natal de 05/12 (formato do dia, horário, participantes, decoração), retomando o recesso · entregue, aguardando resposta.
 - 2026-11-26 · Lari: perguntado (pedido do Guilherme, via Samuel) como o estúdio funciona em dezembro e datas de recesso · entregue, aguardando resposta.
 - 2026-11-26 · Lari: apresentação enviada no grupo do WhatsApp (não conta nos limites) · entregue, sem resposta até o envio.
 
