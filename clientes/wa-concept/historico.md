@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-26 · Gestor WA Concept: carrossel Lash lifting ou extensão saiu de dom 13/12 e ficou em sex 11/12 (data movida pela Straut no painel); Feliz 2027 criado em 31/12 como 13º post (calendario/2026-12.md).
 - 2026-11-26 · Revisor: o roteiro "Feliz 2027" (31/12) precisou de uma troca de CTA. Aprendizado: evitar CTA de comentário aberto enquanto ninguém do time estiver encarregado de responder comentários no Instagram (a Lari atende só pelo WhatsApp), principalmente perto do recesso. Prefira os CTAs de envio, salvar ou link da bio.
 - 2026-11-26 · Gestor WA Concept: dezembro refeito, 12 roteiros no painel como `roteiro`/`em_producao` (9 blocos editados, 3 novos), sem envio para aprovação (calendario/2026-12.md). Recesso ainda sem resposta; nenhum roteiro depende dele.
 - 2026-11-26 · Revisor: revisão dos 12 roteiros de dezembro (v2), com 6 aprovados e 6 com trocas exatas, nenhum bloqueado. Aprendizados: (1) a resposta "depende de como é aplicada" precisa mostrar o porquê (fios soltos entre si, sem peso demais no fio natural); (2) o mapeamento no adesivo não está confirmado pela cliente, então não usar como etapa; (3) cuidado vindo da pesquisa entra como "prefira", e só o que o Guilherme disse entra como regra; (4) em dezembro, nenhuma frase pode pressupor que o estúdio abre perto do Natal enquanto o recesso não for definido; (5) cartelas e pinças costumam trazer a marca do fornecedor, então enquadrar só os fios.

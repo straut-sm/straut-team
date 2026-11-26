@@ -128,7 +128,7 @@ O resultado leve e natural que buscamos em toda aplicação começa nessas escol
 ## 5 · Lash lifting ou extensão: qual combina com a sua rotina
 
 **🖼️ CARROSSEL · WA Concept · Lash lifting ou extensão**
-Data: domingo, 13/12 · Slides: 8 · Pilar: Rotina e praticidade · Objetivo: Conversão
+Data: sexta, 11/12 · Slides: 8 · Pilar: Rotina e praticidade · Objetivo: Conversão
 Para que serve: ajudar quem está em dúvida entre os dois a entender a diferença e chegar à avaliação sabendo o que perguntar.
 Tipo de gancho: contraste · Estrutura: comparação por critério, um critério por slide
 
@@ -370,5 +370,27 @@ Onde grava: na maca, no estúdio
 Se a aplicação foi feita há menos de 24 horas, o ideal é ainda não molhar os fios. Depois disso, dá para aproveitar a praia e a piscina. Para tirar areia, sal ou cloro, limpe os fios de leve com água em temperatura natural, evite água quente direto nos olhos e seque sem esfregar, nem com a toalha nem com as mãos.
 
 Envie para quem vai passar a virada na praia com extensão.
+
+---
+
+## 13 · Feliz 2027
+
+**📷 ROTEIRO DE FOTO · WA Concept · Feliz 2027**
+Data: quinta, 31/12 · Pilar: Prova técnica · Objetivo: Conexão
+Para que serve: desejar Feliz Ano Novo às clientes e fechar o ano lembrando que 2026 foi o ano dos 15 anos do estúdio.
+
+**O QUE FOTOGRAFAR:**
+- **Cenário:** a bancada do estúdio arrumada, do jeito que fica no dia a dia. Cartelas, pinças, frascos e qualquer rótulo fora do quadro. Se aparecer material, só os fios.
+- **Enquadramento:** vertical 4:5, plano médio da bancada, um pouco abaixo do centro, com espaço livre acima para o texto.
+- **Pessoas:** nenhuma.
+- **Clima:** luz quente do estúdio, foto real, sem excesso de edição. Nada levado de fora, nenhuma decoração que o estúdio não tenha.
+- **Texto e logo:** texto em Taiga sobre a área clara da foto. Se entrar o logo branco, só sobre a imagem escurecida.
+
+**TEXTO NA IMAGEM:** "15 anos em 2026. Feliz 2027."
+
+**LEGENDA:**
+2026 foi o ano em que o estúdio completou 15 anos de atendimento, e agradecemos a cada cliente que esteve com a gente ao longo dele. Feliz 2027, de toda a equipe da WA Concept.
+
+Envie para quem esteve com a gente em 2026.
 
 ---
