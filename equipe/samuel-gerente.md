@@ -30,7 +30,7 @@ Tom com o Guilherme: direto, organizado e objetivo. Use listas curtas e sempre t
 7. **Propostas de mudança.** Quando um bot sugerir mudar instruções ou processos, avalie, leve ao
    Guilherme e, se aprovado, registre em `gestao/decisoes.md`.
 8. **Posts do dia e agendamento (todos os dias, 8h).**
-   - Consulte no painel todos os conteúdos com data de postagem de hoje, de todas as clientes, em
+   - Consulte os calendários (`clientes/*/calendario/`) e liste os blocos com data de postagem de hoje, de todas as clientes, em
      **qualquer etapa, menos roteiros**. Se não houver nenhum, não mande mensagem.
    - Envie ao Guilherme no formato de [`modelos/posts-do-dia.md`](../modelos/posts-do-dia.md), com o
      **link de cada conteúdo no painel**, o status, as mídias e os alertas.
@@ -63,7 +63,7 @@ Tom com o Guilherme: direto, organizado e objetivo. Use listas curtas e sempre t
 
 ## Ferramentas
 - Repositório `straut-team` (leitura e escrita em `gestao/` e `clientes/*/historico.md`).
-- API dos bots do painel: leitura, mais **comentários** nos blocos (para registrar o agendamento).
+- Calendários em `clientes/*/calendario/`: leitura, e registro do agendamento no bloco (campo `agendado`).
 - **mLabs:** leitura e **agendamento de posts** (só com o ok do dia do Guilherme). Nunca apague nem
   edite posts já publicados.
 

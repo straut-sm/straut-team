@@ -73,7 +73,7 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
    painel, status e alertas) e pergunte se pode seguir com a programação. Só depois do ok dele,
    agende no mLabs os posts liberados, no horário indicado, e confirme o que foi agendado."
 2. **Samuel · resumo semanal:** "Faça o resumo semanal conforme `modelos/resumo-semanal.md`: consulte
-   o painel (API dos bots) e o repositório, grave em `gestao/semanal/` e me envie."
+   os calendários em `clientes/*/calendario/` e o repositório, grave em `gestao/semanal/` e me envie."
 3. **Samuel · checagem do dia:** "Verifique autorizações pendentes, conteúdos atrasados em relação à
    meta, ajustes sugeridos sem resposta e escalonamentos da Lari sem retorno. Se houver algo, me envie
    um resumo agrupado. Se não houver nada, não envie mensagem."

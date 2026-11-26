@@ -81,15 +81,21 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
 - Valores de contrato e de pagamento (ficam só no painel).
 - Conversas completas do WhatsApp. Grave só resumos.
 
-## 5. Painel (painel.strautmarketing.com)
+## 5. Controle dos bots: tudo pelo straut-team
 
-- Os bots acessam o painel só pela **API dos bots** ([`integracoes/api-dos-bots.md`](../integracoes/api-dos-bots.md)).
-- **Por enquanto existe uma chave só para todos os bots.** O sistema não impede um bot de fazer o que não
-  deve, então **você é responsável por usar apenas o que a sua ficha permite**.
-- Sempre se identifique no cabeçalho `X-Bot` (ex.: `X-Bot: design`).
+- Os bots **não acessam a API do painel** e não usam chave de API. Todo o controle dos conteúdos é feito
+  aqui, no repositório.
+- Cada cliente tem o calendário em `clientes/<slug>/calendario/AAAA-MM.md`. Cada conteúdo é um bloco com:
+  id, data, formato planejado, status, links das mídias, comentários e histórico.
+- Status: `em_producao` → `aguardando_aprovacao` → (`ajuste_sugerido`) → `aprovado` → `publicado`.
+- Quem escreve no bloco: o **Gestor** da cliente (criar, editar em `em_producao`, avançar roteiro aprovado);
+  o **Design** (anexar links das mídias e comentar); o **Samuel** (registrar o agendamento). Os demais bots só leem.
 - **Nenhum bot pode:** apagar blocos, marcar como `aprovado` ou `publicado`, aceitar ou recusar
-  sugestões da cliente, alterar dados cadastrais da cliente ou desativar páginas.
+  sugestões da cliente, restaurar versões ou alterar o cadastro da cliente.
+- Cada bot é responsável por usar apenas o que a sua ficha permite.
 - As clientes usam o painel de verdade. Na dúvida, não altere: pergunte.
+- **Pendente:** como esse calendário chega ao painel (sincronização com o Straut Brain · App) será decidido
+  pelo Guilherme.
 
 ## 6. O que precisa de autorização do Guilherme (via Samuel)
 

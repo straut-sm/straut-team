@@ -16,7 +16,6 @@ O repositório **`straut-sm/straut-team`** (privado) é a memória compartilhada
 | [`equipe/README.md`](../equipe/README.md) | Organograma e os 8 fluxos de trabalho |
 | [`gestao/decisoes.md`](../gestao/decisoes.md) | Todas as decisões do Guilherme, com data |
 | [`openbot/rotinas.md`](../openbot/rotinas.md) | As 17 rotinas automáticas |
-| [`integracoes/api-dos-bots.md`](api-dos-bots.md) | **O pedido da API para o painel** |
 
 ## 2. Resumo do que foi decidido
 
@@ -32,8 +31,8 @@ O repositório **`straut-sm/straut-team`** (privado) é a memória compartilhada
 - **Samuel, todo dia às 8h:** manda ao Guilherme os posts do dia (qualquer etapa menos roteiro, com
   link do bloco no painel), pergunta se pode seguir e, com o ok, agenda no **mLabs**.
 - **Fase de testes:** nada vai para `aguardando_aprovacao` sem o ok do Guilherme.
-- **API com chave única** para todos os bots. Os limites de cada bot vêm das instruções, por isso a API
-  não tem nenhuma operação destrutiva.
+- **Controle dos bots pelo straut-team:** os bots não usam a API do painel. Eles leem e gravam os
+  calendários em `clientes/<slug>/calendario/`. Os limites vêm das instruções de cada bot.
 - **Lari:** até 3 avisos e 2 sugestões por cliente por semana, nunca interrompe conversa em curso e
   escala mensagens longas ao WhatsApp do Guilherme com uma sugestão de resposta.
 - **Segurança:** as regras do `straut-brain` continuam valendo e os bots seguem as mesmas. Nunca há
@@ -42,8 +41,8 @@ O repositório **`straut-sm/straut-team`** (privado) é a memória compartilhada
 ## 3. O que cada conversa faz agora
 
 ### Straut Brain · App
-1. **Construir a API dos bots** conforme [`api-dos-bots.md`](api-dos-bots.md) (já aprovada pelo
-   Guilherme). Ao terminar, atualizar esse arquivo com as rotas reais e o status ✅.
+1. **Não construir a API dos bots** (decisão de 2026-11-26). Em vez disso, definir com o Guilherme como o
+   calendário de `straut-team/clientes/<slug>/calendario/` chega ao painel.
 2. **Atualizar o `CLAUDE.md` do `straut-brain`:** a memória da conversa Clientes passa a ser
    `straut-team/clientes/` (a pasta local `clientes/` deixa de ser a fonte).
 3. Manter [`straut/painel.md`](../straut/painel.md) atualizado quando o painel mudar.
@@ -77,7 +76,7 @@ Samuel envia ao Guilherme.
 ### Melhorias sugeridas (a decidir com o Guilherme)
 
 **Prioridade 1: necessário para ligar os bots**
-- **API dos bots** ([`api-dos-bots.md`](api-dos-bots.md)).
+- **Sincronização do calendário do straut-team com o painel** (a decidir com o Guilherme).
 - **Registro das ações dos bots:** uma tabela com o bot, a rota, o bloco e o horário. Hoje o
   `block_history.author` só aceita `Straut` ou `Cliente`, e o nome do bot ficaria só no texto. Com o
   registro, dá para saber qual bot fez o quê e desfazer erros.
@@ -104,5 +103,5 @@ Samuel envia ao Guilherme.
   publicação), para a Analista e para as clientes verem o resultado no mesmo lugar.
 
 ## 5. Como responder
-Grave as respostas e o andamento neste repositório: a API em `api-dos-bots.md`, as decisões em
+Grave as respostas e o andamento neste repositório: as decisões em
 `gestao/decisoes.md` e as fichas em `clientes/`. Os bots e a conversa "Chatbots Straut" leem daqui.

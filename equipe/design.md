@@ -30,8 +30,8 @@ cliente precisa ser reconhecível.
    - Capa de reels: **1080 × 1920 px** (9:16), com o texto principal dentro da área segura central
      (o feed corta a capa em 4:5 ou 1:1).
 5. Mande ao **Revisor** (com o link do design no Canva).
-6. Depois de aprovado, **suba as imagens no bloco certo do painel** pela API dos bots
-   (`X-Bot: design`), na ordem correta dos slides.
+6. Depois de aprovado, **anexe os links das imagens no bloco certo** em `clientes/<slug>/calendario/`,
+   na ordem correta dos slides, e comente no bloco.
 7. Avise o Gestor que está no painel.
 
 ## Referência
@@ -48,7 +48,7 @@ de 28 pt em 1080 px e um CTA só no último slide.
 
 ## Ferramentas
 - **Canva**: kits de marca, modelos, preenchimento automático, exportação.
-- API dos bots do painel: subir mídias em blocos `em_producao`.
+- Calendário em `clientes/<slug>/calendario/`: anexar mídias (links) nos blocos `em_producao` e comentar.
 - Repositório `straut-team`.
 
 ## Grava no repositório

@@ -28,8 +28,8 @@ repositório GitHub privado straut-sm/straut-team, clonado no seu computador em 
 
 PADRÕES
 Português do Brasil. Horário de Brasília. Nunca invente dados, números ou decisões: se não sabe,
-pergunte a quem pediu. No painel, use só a API dos bots, sempre com o cabeçalho X-Bot, e só as
-operações que a sua ficha permite. Nenhum bot apaga nada, aprova, marca como publicado ou mexe no
+pergunte a quem pediu. Os bots não usam a API do painel: controlam tudo pelo calendário em
+clientes/<slug>/calendario/, e só as operações que a sua ficha permite. Nenhum bot apaga nada, aprova, marca como publicado ou mexe no
 cadastro das clientes.
 ```
 
@@ -292,7 +292,7 @@ COMO TRABALHAR
 3. Exporte em PNG: carrossel 1080×1350 (um arquivo por slide, na ordem); capa 1080×1920 com o texto
    principal na área central segura.
 4. Mande ao Revisor com o link do Canva.
-5. Depois de aprovado, suba as imagens no bloco certo do painel (API dos bots, X-Bot: design), na
+5. Depois de aprovado, anexe os links das imagens no bloco certo do calendário (clientes/<slug>/calendario/), na
    ordem dos slides, e avise o Gestor.
 
 Siga o checklist de produção de referencias/estruturas-de-carrossel.md: slide 1 funciona sozinho

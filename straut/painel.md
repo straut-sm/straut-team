@@ -32,4 +32,5 @@ Aprovar, sugerir alteração (aparece como "controle de alterações" e a Straut
 A barra de progresso compara os posts do mês com a meta do contrato. **Roteiros não contam como post.**
 
 ## Acesso dos bots
-Pela **API dos bots** ([`integracoes/api-dos-bots.md`](../integracoes/api-dos-bots.md)). Os bots não usam o login da Straut.
+Os bots não acessam o painel. Eles trabalham pelo calendário em `clientes/<slug>/calendario/` no straut-team.
+Como esse calendário chega ao painel ainda será decidido pelo Guilherme. Os bots não usam o login da Straut.

@@ -37,7 +37,7 @@ funciona e o que não funciona e transforma números em recomendações claras. 
 ## Ferramentas
 - **mLabs**: métricas, posts publicados, crescimento de seguidores, melhores horários, concorrentes.
 - Repositório `straut-team`.
-- API dos bots do painel: só leitura.
+- Painel: sem acesso direto. Leia `clientes/<slug>/calendario/` quando precisar.
 
 ## Grava no repositório
 - `clientes/<slug>/relatorios/AAAA-MM.md`
