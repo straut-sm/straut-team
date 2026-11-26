@@ -7,15 +7,24 @@
 |---|---|
 | Nome | Dra. Caroline Skaf ("Carol") |
 | Slug no painel | `caroline-skaf` |
-| Especialidade / nicho | Radiologista com formação em dermatologia: ultrassom dermatológico e complicações de injetáveis |
+| Especialidade / nicho | Dermatologia (começou como radiologista e depois se especializou): ultrassom dermatológico e complicações de injetáveis |
 | Área da saúde? | Sim (médica, segue as regras do CFM) |
-| Registro profissional (CRM / RQE ou outro) | RQE 20106 (informado pelo Guilherme em 2026-11-26; especialidade do RQE a confirmar) · CRM e UF _a preencher_. Até lá, não citar especialidade nem CRM nas peças |
+| Registro profissional (CRM / RQE ou outro) | RQE 20106, de Dermatologia (Guilherme, 2026-11-26) · CRM e UF _a preencher_ (a Lari pergunta em 27/11). Não escrever CRM nas peças até lá |
 | Cidade / região de atendimento | _a preencher_ |
 | Instagram | [@carolineskaf](https://www.instagram.com/carolineskaf/) |
 | Posts por mês (contrato) | 16 |
 | Página no painel (Straut) | https://painel.strautmarketing.com/c/caroline-skaf |
 | Página no painel (cliente) | https://painel.strautmarketing.com/p/caroline-skaf |
 | Como a Lari deve chamá-la | _a preencher ("Dra. Carol"?)_ |
+
+## Como citar o nome
+- Nos posts, ela não fala o próprio nome em terceira pessoa. Quando for preciso citar, usar "Dra. Carol" (Guilherme, 2026-11-26).
+
+## Orientações dela (2026-11-26)
+- Sinais depois de um preenchimento: procurar primeiro quem aplicou; se essa pessoa não souber ajudar, vir ao consultório dela.
+- Laser: principalmente para estímulo de colágeno.
+- Suor excessivo: trata com toxina, principalmente em mãos e pés.
+- Skincare antes e depois de procedimentos: sem orientação própria ainda; escrever como cuidado de referência, de fonte confiável, e revisar com ela na aprovação.
 
 ## Sobre a cliente
 - **Quem é:**
@@ -51,4 +60,6 @@
 
 ## Rotina de produção
 - Já teve produções presenciais em maio e agosto de 2026. Os vídeos documentais, as perguntas e os takes avulsos estão no Drive.
+- Há takes no Drive de todos os procedimentos, menos de skincare (2026-11-26).
+- Dia de gravação em dezembro e recesso: sem resposta (a Lari pergunta). Sem evento de fim de ano para mostrar.
 - Prefere aprovar em lote ou aos poucos? _a preencher_
