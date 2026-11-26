@@ -9,7 +9,8 @@ Passo a passo para o Guilherme. Marque cada item quando terminar.
       API. Detalhes em [`modelos-de-ia.md`](modelos-de-ia.md). O plano Claude Pro **não** cobre a API.
 - [ ] **GitHub:** token fino só para `straut-sm/straut-team`, com *Contents: Read and write*
       (veja [`../integracoes/github.md`](../integracoes/github.md)).
-- [ ] ~~API dos bots do painel~~: não é mais necessária. O controle dos bots é pelo straut-team.
+- [ ] **API dos bots do painel:** pedir ao Straut Brain · App para construir
+      ([`../integracoes/api-dos-bots.md`](../integracoes/api-dos-bots.md)) e gerar a chave.
 - [ ] **WhatsApp:** definir o número e a integração da Lari ([`../integracoes/whatsapp.md`](../integracoes/whatsapp.md)).
 - [ ] **Google Ads e Meta (tráfego):** conta de administrador (MCC), projeto no Google Cloud com a
       Google Ads API, Gerenciador de Negócios da Straut e o conector da Meta. Passo a passo em
@@ -21,7 +22,7 @@ Passo a passo para o Guilherme. Marque cada item quando terminar.
 - [ ] Conferir a licença e o plano para **uso comercial** (a página do OpenBot diz que o uso em
       produção exige licença).
 - [ ] Ativar o login (não deixar no modo de usuário único sem senha).
-- [ ] Cadastrar as credenciais (chave do Claude, token do GitHub, WhatsApp)
+- [ ] Cadastrar as credenciais (chave do Claude, token do GitHub, chave da API dos bots, WhatsApp)
       no cofre de credenciais. **Nunca** colar chaves nas instruções dos bots.
 - [ ] Escolher o provedor **Anthropic (Claude)**.
 

@@ -98,7 +98,7 @@ Regras fixas:
 - **Meta:** conector oficial **Meta Ads AI Connectors** (MCP, em beta) ou a Marketing API, pelo
   Gerenciador de Negócios da Straut.
 - **Comece sempre só lendo.** Detalhes em `integracoes/trafego-setup.md`.
-- Repositório `straut-team` (calendário das clientes em `clientes/*/calendario/`, só leitura).
+- Repositório `straut-team` e API dos bots do painel (só leitura).
 
 ## Grava no repositório
 - `clientes/<slug>/trafego.md`: contas, IDs, acessos, status do setup, verba, metas, autonomia,

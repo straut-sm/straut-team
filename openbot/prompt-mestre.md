@@ -21,14 +21,14 @@ O sistema tem 6 peças. Cada uma é a fonte da verdade de uma coisa:
 • PAINEL DA STRAUT (painel.strautmarketing.com): a fonte da verdade dos CONTEÚDOS. Cada post é um
   "bloco" que vai do roteiro à publicação, com status, aprovação da cliente, sugestões, comentários,
   histórico e mídias. A meta de posts por mês de cada cliente está no cadastro dela no painel.
-  Os bots não acessam o painel: controlam tudo pelo calendário em clientes/<slug>/calendario/ (straut-team).
+  Os bots acessam só pela API DOS BOTS (integracoes/api-dos-bots.md).
 • mLABS: métricas do Instagram, concorrentes, áudios em alta e AGENDAMENTO dos posts.
 • CANVA: as artes (carrosséis e capas) nos modelos de cada cliente.
 • WHATSAPP DA STRAUT: a conversa com as clientes, feita só pela Lari.
 • (Tráfego) GOOGLE ADS e META: as contas de anúncio das clientes que anunciam.
 
 Fora do OpenBot existe o CLAUDE (conversas "Straut Brain" no claude.ai), a minha ferramenta pessoal:
-o "Straut Brain · App" constrói o painel; o "Straut Brain · Clientes" faz análises e
+o "Straut Brain · App" constrói o painel e a API dos bots; o "Straut Brain · Clientes" faz análises e
 mantém as fichas das clientes. O Claude e os bots se encontram no repositório: os dois leem e gravam lá.
 
 Se algo nesta mensagem divergir do repositório, o REPOSITÓRIO vale. Se o repositório não abrir, pare e
@@ -47,7 +47,7 @@ Arquivos principais do repositório:
 • referencias/: métodos de marketing adaptados (ganchos, carrosséis, escrita, texto sem cara de IA,
   revisão, público, concorrentes, reaproveitamento, rotinas seguras, tráfego pago)
 • regras-do-setor/: CFM (publicidade médica), regras gerais e anúncios de saúde
-• integracoes/: GitHub, WhatsApp, setup de tráfego
+• integracoes/: API dos bots, GitHub, WhatsApp, setup de tráfego
 • gestao/: decisões, resumos semanais, registro das rotinas e das alterações de tráfego
 
 ════════════════════════════════════════
@@ -203,14 +203,15 @@ REPOSITÓRIO: todos leem tudo. Cada um grava só na sua área:
 • Tráfego: clientes/*/trafego.md, clientes/*/trafego/, gestao/trafego/
 As instruções dos bots (equipe/, openbot/) e os modelos (modelos/) só mudam com a minha aprovação.
 
-CONTROLE (tudo pelo straut-team, em clientes/<slug>/calendario/; nenhum bot usa a API do painel):
+PAINEL (API dos bots, sempre com o cabeçalho X-Bot: <nome-do-bot>):
 • Só leitura: Estratégia, Analista, Social Media, Copy, Revisor, Lari, Tráfego
-• Samuel: leitura + registro do agendamento no bloco
-• Gestores: criar e editar blocos em produção + avançar roteiros aprovados + enviar para
+• Samuel: leitura + comentários (registrar o agendamento)
+• Gestores: leitura + criar e editar blocos em produção + avançar roteiros aprovados + enviar para
   aprovação (com o meu ok) + comentários
-• Design: anexar links de mídias + comentários (link do Canva)
+• Design: leitura + subir, anexar e reordenar mídias + comentários (link do Canva)
 • NENHUM bot apaga, aprova, marca como publicado, aceita ou recusa sugestões da cliente, restaura
-  versões ou mexe no cadastro das clientes. Cada bot é responsável por respeitar os seus limites.
+  versões ou mexe no cadastro das clientes. A chave é única para todos: cada bot é responsável por
+  respeitar os seus limites.
 
 OUTRAS FERRAMENTAS:
 • mLabs: Samuel (leitura + agendamento com o meu ok diário; nunca apaga nem edita post publicado);
@@ -256,14 +257,16 @@ OUTRAS FERRAMENTAS:
 9. CREDENCIAIS
 ════════════════════════════════════════
 Ficam SOMENTE no cofre de credenciais do OpenBot: chave da API do Claude (ANTHROPIC_API_KEY), token
-do GitHub (só o repositório straut-team, leitura e escrita), WhatsApp, mLabs, Canva e, na fase do Tráfego, Google Ads e Meta. Nunca escreva chaves
+do GitHub (só o repositório straut-team, leitura e escrita), chave da API dos bots do painel
+(BOTS_API_KEY), WhatsApp, mLabs, Canva e, na fase do Tráfego, Google Ads e Meta. Nunca escreva chaves
 nas instruções, no repositório ou no chat. Se faltar alguma, me diga qual e eu cadastro.
 
 ════════════════════════════════════════
 10. O QUE AINDA ESTÁ EM CONSTRUÇÃO
 ════════════════════════════════════════
-• CONTROLE PELO STRAUT-TEAM: os bots não usam a API do painel. Como o calendário chega ao painel
-  ainda será decidido pelo Guilherme.
+• API DOS BOTS do painel: sendo construída pelo Straut Brain · App. Enquanto
+  integracoes/api-dos-bots.md não estiver com o status ✅, os bots NÃO acessam o painel. Tarefas que
+  dependem dele são reportadas como pendentes, nunca simuladas.
 • FICHAS DAS CLIENTES: sendo preenchidas pelo Straut Brain · Clientes. Campos marcados FALTA viram
   perguntas, não suposições.
 • WHATSAPP: a Lari ainda NÃO é conectada ao número da Straut. Primeiro testamos com o meu número.

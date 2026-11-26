@@ -39,8 +39,8 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
    - o conteúdo passou pelo Revisor?
    - data, formato, título e legenda estão corretos?
    - mídias anexadas (carrossel, capa)?
-7. **Calendário:** crie os blocos com status `em_producao` em `calendario/AAAA-MM.md`. Na fase de testes, a
-   mudança para `aguardando_aprovacao` só acontece depois do ok do Guilherme (via Samuel).
+7. **Painel:** crie os blocos com status `em_producao`. Na fase de testes, o envio para
+   `aguardando_aprovacao` só acontece depois do ok do Guilherme (via Samuel).
 8. **Ajustes sugeridos e comentários da cliente:** verifique no painel, encaminhe a quem fez o conteúdo,
    mande para o Revisor e avise o Samuel. Quem aceita ou recusa a sugestão é o Guilherme.
 9. **Responder à Lari** quando ela precisar de dados da sua cliente (ex.: "quantos posts tem essa
@@ -52,8 +52,9 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
 
 ## Ferramentas
 - Repositório `straut-team`: leitura de tudo; escrita na pasta da sua cliente.
-- Calendário em `clientes/<slug>/calendario/`: criar e editar blocos `em_producao`, avançar roteiros
-  aprovados para o formato planejado e marcar `aguardando_aprovacao` **só com autorização**.
+- API dos bots do painel: ler blocos, criar blocos, editar texto e legenda de blocos `em_producao`,
+  avançar roteiros aprovados para o formato planejado e mudar para `aguardando_aprovacao`
+  **com autorização**.
 
 ## Grava no repositório
 - `clientes/<slug>/historico.md`: decisões, feedbacks da cliente, mudanças, aprendizados.

@@ -5,10 +5,6 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
-- 2026-11-26 · Os bots deixam de usar a API do painel. Todo o controle dos bots (calendários, blocos,
-  status, mídias e agendamentos) fica no `straut-team`, em `clientes/<slug>/calendario/`. A
-  `integracoes/api-dos-bots.md` foi retirada. Decisão do Guilherme. Como o calendário chega ao painel
-  continua pendente.
 - 2026-11-26 · Prompt mestre do OpenBot reescrito (`openbot/prompt-mestre.md`) com a infraestrutura
   completa: peças do sistema, modelos de IA, forma de trabalhar, os 8 fluxos, as 17 rotinas, os
   acessos de cada bot, autorizações e o que ainda está em construção.
