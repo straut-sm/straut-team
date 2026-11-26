@@ -24,13 +24,14 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 | Data | Assunto | Com quem está | Situação |
 |---|---|---|---|
 | 2026-11-26 | Produção de Natal 05/12 e conteúdo extra | Guilherme (responder à Dani) | Respondido em parte; falta decoração e participantes |
-| 2026-11-26 | Recesso de dezembro (calendário de conteúdos) | Samuel e Gestor | Respondido; confirmar os meses |
+| 2026-11-26 | Recesso: confirmar datas 30/12 a 05/01 e post de aviso | Cliente (Dani) | Aguardando resposta |
 
 ## Preferências percebidas
 - _—_
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+- 2026-11-26 · Lari: proposto (pedido do Guilherme, via Samuel) post avisando o recesso e pedida confirmação das datas 30/12 a 05/01 · entregue, aguardando resposta.
 - 2026-11-26 · Lari: Dani respondeu por áudio (18:23): recesso do dia 30 ao dia 5, volta no dia 5 (meses não ditos; provável 30/12 a 05/01, confirmar); 05/12 atendimentos até cerca de 14h, depois gravação e restaurante; pede aviso se houver conteúdo fora do Natal. Falta decoração e participantes · repassado ao Samuel e ao Gestor; resposta à cliente pendente.
 - 2026-11-26 · Lari: perguntado (pedido do Guilherme, via Samuel) sobre a produção de Natal de 05/12 (formato do dia, horário, participantes, decoração), retomando o recesso · entregue, aguardando resposta.
 - 2026-11-26 · Lari: perguntado (pedido do Guilherme, via Samuel) como o estúdio funciona em dezembro e datas de recesso · entregue, aguardando resposta.
