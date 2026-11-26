@@ -5,6 +5,17 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-26 · Guilherme (via Samuel): respostas da produção.
+  - **Identificação:** o RQE 20106 é de **Dermatologia**. Ela começou como radiologista e depois se especializou em dermatologia. O CRM com UF ainda falta; a Lari pergunta em 27/11. Nos posts, ela não fala o próprio nome em terceira pessoa. Quando for preciso citar o nome, use "Dra. Carol", que é o equilíbrio entre formal e casual.
+  - **Novembro:** o post de 26/11 já foi publicado pelo Guilherme, com uma foto do banco. Os roteiros de 27, 28 e 30/11 vão para a aprovação dela em 27/11, junto com dezembro.
+  - **Material:** há takes no Drive de todos os procedimentos, menos de skincare. A Lari vai perguntar quando dá para agendar um dia de produção de conteúdo e se haverá recesso. Não há evento de fim de ano para mostrar.
+  - **Direção de dezembro:** o objetivo é converter em agendamento o público aquecido nos dois meses anteriores. É o tom mais direto do trimestre, sem perder o cuidado da marca. Dezembro concentra decisões estéticas de fim de ano e a preparação para janeiro. Como a agenda de dezembro já está quase fechada, a conversão mira também janeiro e as férias de verão.
+  - **Temas de dezembro:** tricologia (alopecia androgenética e eflúvio telógeno), revisão e autoridade, conversão direta e encerramento do ano. Entra um post sobre o Dezembro Laranja.
+  - **Sinais depois de um preenchimento:** ela orienta procurar primeiro quem aplicou. Se essa pessoa não souber ajudar, a paciente deve ir ao consultório dela.
+  - **Laser:** usa principalmente para estímulo de colágeno.
+  - **Suor excessivo:** trata com toxina, principalmente nas mãos e nos pés.
+  - **Skincare antes e depois de procedimentos:** pesquisar e sugerir um cuidado de referência, a ser revisado com ela.
+  - **Pilares:** menos complicações e mais procedimentos. A proposta da Estratégia foi invertida: procedimentos 50%, complicações 25%, prevenção 19% e Natal 6%.
 - 2026-11-26 · Gestor: 4 roteiros urgentes de novembro no painel (em_producao), calendário em calendario/2026-11.md. Plano de dezembro (estrategia/pauta-2026-12.md) enviado ao Samuel com as perguntas para a cliente; produção parada até as respostas.
 
 - 2026-11-26 · Gestor: o Guilherme definiu os 4 posts urgentes de novembro, um por dia e sem domingo (26, 27, 28 e 30/11), e informou o RQE 20106; faltam CRM/UF e a especialidade do RQE.

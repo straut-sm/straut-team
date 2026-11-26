@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-26 · Dra. Caroline Skaf: pilares aprovados pelo Guilherme, com procedimentos 50%, complicações 25%, prevenção 19% e Natal 6%. Motivo: dar menos peso a complicações, porque ultimamente o foco tem sido procedimentos. Dezembro tem foco em conversão para janeiro e para as férias (detalhes em clientes/caroline-skaf/historico.md).
 - 2026-11-26 · O formato novo dos roteiros e as lições do teste da WA Concept passam a ser o
   **padrão para todos os Gestores e clientes** ("Padrão de qualidade" em
   `modelos/pedido-de-producao.md`).
