@@ -49,3 +49,17 @@
 ## Rotina de produção
 - Eventos e produções presenciais: evento em 12/09 e evento em 16/10/2026; produções em agosto e setembro.
 - Prefere aprovar em lote ou aos poucos? _a preencher_
+
+## Respostas do Guilherme (2026-11-26)
+Registradas pelo Gestor a partir de `historico.md`.
+- **CTA de agenda e venda:** "clique no link da bio para falar com a WA Concept".
+- **Profissional:** a cliente escolhe a profissional ou recebe uma indicação da equipe.
+- **Avaliação:** a profissional define a extensão com a cliente conforme o estilo, o formato do rosto e dos olhos e a rotina dela.
+- **Higiene (frase dele):** "seguimos um processo rígido de protocolos de segurança, mantendo tudo esterilizado para cada cliente".
+- **Mesma visita:** dá para fazer sobrancelha e extensão. Sobrancelha leva até 40 min e extensão em média 1h30, variando com a técnica. Não citar tempos, a não ser que seja o tema.
+- **Manutenção e dados técnicos:** só como referência aproximada, nunca regra ou promessa (manutenção costuma ser de 2 a 3 semanas, varia por cliente).
+- **Praia e piscina:** não molhar nas primeiras 24 h; depois, evitar água quente direto nos olhos, não esfregar com toalha ou mãos, limpar de leve com água em temperatura natural.
+- **Fornecedores:** nunca citar. **Ironia:** não combina com a marca.
+- **15 anos:** completam-se em 2026.
+- **Imagem:** o termo de serviço já autoriza o uso da imagem das clientes.
+- **Datas comerciais:** sem ação de Black Friday nem de Natal.
