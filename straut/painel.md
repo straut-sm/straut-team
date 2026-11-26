@@ -33,3 +33,10 @@ A barra de progresso compara os posts do mês com a meta do contrato. **Roteiros
 
 ## Acesso dos bots
 Pela **API dos bots** ([`integracoes/api-dos-bots.md`](../integracoes/api-dos-bots.md)). Os bots não usam o login da Straut.
+
+- No histórico do bloco, a Straut vê qual bot fez cada ação ("Straut · bot design"); a cliente vê só "Straut".
+- Comentários dos bots são **internos**: aparecem para a Straut com o selo "interno, a cliente não vê".
+- Vídeos podem vir de um link do Google Drive (o arquivo precisa estar em "Qualquer pessoa com o link pode ver").
+- Fotos do carrossel podem ser reordenadas arrastando as miniaturas (no painel) ou pela API.
+- **Lixeira:** apagar (pelo painel ou pela API) manda blocos, mídias e arquivos para a Lixeira (botão no topo
+  do painel). Ficam 30 dias, podem ser restaurados e depois somem de vez.

@@ -38,6 +38,11 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
     enviados na segunda (14h, por causa da regra das 4 horas), reels viral a partir de terça.
   - **Lari, segunda às 9h:** bom dia e boa semana (só sem conversa ativa e sem mensagem sem resposta),
     com um texto diferente toda semana. Não conta no limite de avisos.
+- 2026-11-26 · API dos bots publicada no painel. Os bots podem criar, editar (em qualquer status), anexar e
+  reordenar mídias, avançar roteiros, enviar para aprovação, comentar (comentários internos), marcar como
+  publicado, aceitar sugestões e apagar. Só o Guilherme aprova, restaura versões e edita o cadastro das clientes.
+- 2026-11-26 · Lixeira no painel: tudo o que é apagado (pelo Guilherme ou pelos bots) fica 30 dias, pode ser
+  restaurado e depois é apagado de vez.
 - 2026-11-23 · O Claude (Straut Brain) é a ferramenta pessoal do Guilherme para o painel e para
   trabalhos especiais. Os bots fazem a rotina. Os dois leem e escrevem neste repositório.
 - 2026-11-23 · Regras de sincronização com o GitHub aprovadas (`equipe/regras-gerais.md`, seção 4).
