@@ -9,7 +9,7 @@
 | Slug no painel | `caroline-skaf` |
 | Especialidade / nicho | Radiologista com formação em dermatologia: ultrassom dermatológico e complicações de injetáveis |
 | Área da saúde? | Sim (médica, segue as regras do CFM) |
-| Registro profissional (CRM / RQE ou outro) | _a preencher_ |
+| Registro profissional (CRM / RQE ou outro) | RQE 20106 (informado pelo Guilherme em 2026-11-26; especialidade do RQE a confirmar) · CRM e UF _a preencher_. Até lá, não citar especialidade nem CRM nas peças |
 | Cidade / região de atendimento | _a preencher_ |
 | Instagram | [@carolineskaf](https://www.instagram.com/carolineskaf/) |
 | Posts por mês (contrato) | 16 |
