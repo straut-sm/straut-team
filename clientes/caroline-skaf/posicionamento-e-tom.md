@@ -12,9 +12,12 @@
 ## Pilares de conteúdo
 | Pilar | Objetivo | Proporção no mês |
 |---|---|---|
-| Complicações e diagnóstico por imagem | Autoridade (base do posicionamento) | _a preencher_ |
-| Procedimentos que já faz, com critério | Confiança | _a preencher_ |
-| Prevenção (25 a 34 anos) | Alcance | _a preencher_ |
+| Procedimentos que já faz, com critério | Confiança e conversão | 50% |
+| Complicações e diagnóstico por imagem | Autoridade (base do posicionamento) | 25% |
+| Prevenção (25 a 34 anos) | Alcance | 19% |
+| Data comemorativa (ex.: Natal) | Conexão | 6% |
+
+Proporções aprovadas pelo Guilherme em 2026-11-26 (`gestao/decisoes.md`): menos peso em complicações, porque o foco recente tem sido procedimentos.
 
 ## Tom de voz
 - **Personalidade:** resoluta; acolhedora, porém firme; técnica sem distância; honesta com intenção; serena.
@@ -24,6 +27,7 @@
 - **Mostrar em vez de declarar:** nunca "confie em mim", e sim evidência de critério.
 - **Emojis:** não usar. **Travessão:** não usar. **Construção "não é X, é Y":** não usar.
 - **Também evitar:** clichês de IA, tom professoral e conclusão moralista.
+- **Nome:** ela não fala o próprio nome em terceira pessoa. Quando for preciso citar o nome, usar "Dra. Carol" (Guilherme, 2026-11-26).
 - **Legendas:**
   - até 2 parágrafos e cerca de 8 linhas;
   - complementam o conteúdo sem repetir e sem dizer "veja no vídeo";
@@ -48,7 +52,7 @@
 | | | |
 
 ## Provas que podemos usar
-- Radiologista com formação em dermatologia.
+- RQE 20106 de Dermatologia. Começou como radiologista e depois se especializou em dermatologia (Guilherme, 2026-11-26). O CRM com UF ainda falta e entra nas peças quando chegar.
 - Ultrassom dermatológico.
 - Casos reais só com imagem real e autorização.
 

@@ -2,13 +2,13 @@
 
 > **HIPÓTESE.** Não há dados de desempenho: o Instagram dela ainda não está conectado no mLabs (`historico.md`, 2026-11-26). Nada aqui foi medido, nem dias nem horários. Trocar por dados quando o Analista tiver acesso.
 
-2026-11-26 · Estratégia. Pedido do Gestor · Dra. Caroline Skaf (Samuel e Guilherme, 26/11).
+2026-11-26 · Estratégia. Pedido do Gestor · Dra. Caroline Skaf (Samuel e Guilherme, 26/11). Revisão 1, no mesmo dia: sem vídeo com fala e sem gravação nova por enquanto (Guilherme), e pilares aprovados (procedimentos 50%, complicações 25%, prevenção 19%, data comemorativa 6%).
 
 ## Em que se baseia
-- **Público da ficha** (`perfil.md`): principal, mulheres de 40 a 55 anos que já fizeram procedimentos, chegam com desconfiança e respondem a evidência de competência e à certeza de ser ouvidas. Secundário, de 25 a 34 anos, para prevenção. Hipótese: conteúdo de autoridade com a voz dela no começo da semana, conteúdo para salvar e compartilhar no meio e no fim. É interpretação, não dado.
-- **Pilares** (`posicionamento-e-tom.md`): complicações e diagnóstico por imagem (base), procedimentos que já faz com critério, prevenção.
+- **Público da ficha** (`perfil.md`): principal, mulheres de 40 a 55 anos que já fizeram procedimentos, chegam com desconfiança e respondem a evidência de competência e à certeza de ser ouvidas. Secundário, de 25 a 34 anos, para prevenção. Hipótese: conteúdo de decisão (agendar) no começo da semana, conteúdo para salvar e compartilhar no meio e no fim. É interpretação, não dado.
+- **Pilares** (`posicionamento-e-tom.md`, aprovados em 2026-11-26): procedimentos que já faz com critério 50%, complicações e diagnóstico por imagem 25%, prevenção 19%, data comemorativa 6%.
 - **Formatos da ficha** (`identidade-visual.md` e `posicionamento-e-tom.md`): vídeo com câmera parada e ritmo lento, carrossel de até 5 slides curto e compartilhável, foto em retrato editorial.
-- **Produção:** vídeo com fala depende de dia de gravação (ainda não confirmado) ou de material do Drive. Por isso ele tem menos dias que o vídeo sem fala, que pode usar os takes documentais de maio e agosto.
+- **Produção:** por decisão do Guilherme (2026-11-26), não há vídeo com fala nem gravação nova até haver um dia de produção. Os vídeos usam os takes do Drive, que cobrem todos os procedimentos menos skincare. Skincare só em carrossel ou foto.
 - **Ritmo:** 16 posts por mês, cerca de 4 por semana.
 - Não usei dado de mercado nem estudo de horário.
 
@@ -16,7 +16,7 @@
 
 | Dia | Formato | Pilar e objetivo | Horário para testar | Por quê (hipótese) |
 |---|---|---|---|---|
-| Segunda | Vídeo com fala | Complicações · autoridade | 19h | A voz dela explicando, quando a semana começa |
+| Segunda | Vídeo sem fala (com fala quando houver gravação) | Procedimentos · conversão | 19h | Começo da semana, quando a agenda é organizada |
 | Terça | Carrossel (até 5 slides) | Complicações ou prevenção · autoridade | 12h | Conteúdo para salvar e mandar para alguém |
 | Quarta | Vídeo sem fala | Procedimentos com critério · confiança | 19h | Bastidor e processo, com takes que já existem |
 | Quinta | Foto | Confiança ou conexão | 12h | Retrato editorial com legenda educativa |
