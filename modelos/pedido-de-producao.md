@@ -16,6 +16,28 @@ Guilherme de 2026-11-26 (`gestao/decisoes.md`).
    dela, não delegue a produção. Mande as perguntas ao Guilherme e espere as respostas.
 4. **Etapa certa.** Na etapa de roteiro, só entram Estratégia, Copy e Revisor (e o Analista e o Social
    Media, se precisar). **O Design não entra:** ele só cria arte depois que a cliente aprova o roteiro.
+5. **Produções e eventos da cliente.** Pergunte se há dia de gravação, evento, confraternização,
+   recesso ou ação comercial no período, porque isso muda as datas e os temas.
+6. **Posts fora do painel.** Confirme se houve posts publicados que não estão no painel antes de
+   calcular quanto falta para a meta.
+
+## Padrão de qualidade (vale para todas as clientes)
+Lições do teste da WA Concept e do feedback da Bia e do Guilherme (2026-11-26):
+- **Formato do roteiro** ([`roteiro-reels.md`](roteiro-reels.md) e [`carrossel.md`](carrossel.md)):
+  cabeçalho só com título, formato, intenção e gancho. Nada de data, duração, pilar, objetivo,
+  minutagem ou tabela de cena: isso fica no calendário do Gestor. Vídeo com fala: texto completo para
+  o teleprompter. Vídeo sem fala: cenas essenciais em tópicos, 2 frases de apoio e música. Carrossel:
+  textos curtos e 2 sugestões de foto. Foto: opções flexíveis, sem ângulo obrigatório.
+- **Conteúdo:** responde ao que o título promete, mostra o benefício de fazer com a cliente e não
+  parece comercial (sem logo no fim, cena encenada ou título "X em cena"). O gancho traz a dúvida do
+  público, não o nome do método.
+- **Ambiente real:** gravado no espaço e na rotina da cliente, sem produção externa nem objetos de
+  outras marcas.
+- **Informação técnica de fonte pública:** sempre como referência aproximada, nunca como regra ou
+  promessa. Tempo de atendimento só quando for o tema.
+- **Datas:** variar os dias da semana entre as semanas; sábado pode, domingo só em data comemorativa
+  que cai no domingo. Incluir as datas comerciais do mês, sem oferta que a cliente não confirmou.
+- **Painel:** reaproveitar os blocos que já existem (editar texto e data) e não apagar nada sem ok.
 
 ## Texto do pedido
 

@@ -5,6 +5,9 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-26 · O formato novo dos roteiros e as lições do teste da WA Concept passam a ser o
+  **padrão para todos os Gestores e clientes** ("Padrão de qualidade" em
+  `modelos/pedido-de-producao.md`).
 - 2026-11-26 · **Novo formato dos roteiros** (feedback da Bia, da equipe da Straut, encaminhado pelo
   Guilherme pela Lari): cabeçalho limpo (título, formato, intenção e gancho); sem minutagem nem
   tabela; vídeo com fala com texto completo para o teleprompter; vídeo sem fala com cenas essenciais

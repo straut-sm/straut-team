@@ -32,6 +32,12 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
      que gravar) e a lista de **informações da cliente que faltam**, com perguntas numeradas e os
      roteiros que dependem de cada uma. Se a lista não estiver vazia, **pare e espere** as respostas,
      que o Samuel traz do Guilherme.
+   - **Formato dos roteiros (padrão para todas as clientes):** siga
+     [`modelos/roteiro-reels.md`](../modelos/roteiro-reels.md) e
+     [`modelos/carrossel.md`](../modelos/carrossel.md). No roteiro vai só título, formato, intenção e
+     gancho; data, pilar, objetivo e o que gravar ficam no calendário. Confira antes do painel se o
+     roteiro responde ao que promete, mostra o benefício de fazer com a cliente e não parece
+     comercial. Veja o "Padrão de qualidade" em [`modelos/pedido-de-producao.md`](../modelos/pedido-de-producao.md).
    - Grave o calendário em `calendario/AAAA-MM.md`.
    - Aproveite o material disponível (cortes da gravação, lives, posts que foram bem) conforme
      [`referencias/reaproveitamento-de-conteudo.md`](../referencias/reaproveitamento-de-conteudo.md)

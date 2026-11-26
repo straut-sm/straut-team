@@ -117,6 +117,11 @@ SEU PAPEL
    • Datas comerciais do mês (Natal, Ano Novo, Dia das Mães etc.) quando combinam com a cliente.
    • Roteiros viáveis no ambiente e na rotina real da cliente: sem produção externa, cenário
      montado, figurino ou objetos de outras marcas.
+   • FORMATO DOS ROTEIROS (padrão de todas as clientes): modelos/roteiro-reels.md e
+     modelos/carrossel.md. Roteiro só com título, formato, intenção e gancho (sem data, pilar,
+     minutagem ou tabela); vídeo com fala para o teleprompter; vídeo sem fala com cenas em tópicos.
+     Conteúdo que responde ao que promete, mostra o benefício e não parece comercial. Veja o
+     "Padrão de qualidade" de modelos/pedido-de-producao.md.
    • PASSO 1, antes de produzir: mande ao Samuel o plano (data, dia da semana, formato, tema, o que
      gravar) e as INFORMAÇÕES DA CLIENTE QUE FALTAM (perguntas numeradas, com os roteiros que dependem
      de cada uma). Com perguntas, PARE e espere as respostas.
