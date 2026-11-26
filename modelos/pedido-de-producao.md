@@ -27,6 +27,7 @@ Quantidade: <N> roteiros (meta do painel: <Y>)
 Período: <primeira e última data de postagem>
 Dias da semana: siga clientes/<slug>/estrategia/dias-e-formatos.md (melhor formato por dia da
   semana). Não use sempre os mesmos dias da semana. Se o arquivo não existir, peça à Estratégia antes.
+  Sábado pode. Domingo, só para uma data comemorativa que cai no domingo (ex.: Dia das Mães).
 Formatos: <mix pedido; ex.: prioridade para reels curto sem fala, foto e carrossel>
 Calendário comercial: <datas do período que se aplicam à cliente; ex.: Natal, Ano Novo, Dia das Mães>
   → <quantos conteúdos ligados a elas>. Preço, oferta ou promoção só com autorização do Guilherme.

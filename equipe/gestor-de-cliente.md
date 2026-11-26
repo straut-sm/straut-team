@@ -22,6 +22,7 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
    - **Datas:** distribua os conteúdos pelos dias da semana conforme
      `estrategia/dias-e-formatos.md` (melhor formato em cada dia da semana). Não repita os mesmos
      dias da semana toda semana. Sem esse arquivo, peça à Estratégia antes de montar o calendário.
+     **Sábado pode. Domingo, só para uma data comemorativa que cai no domingo** (ex.: Dia das Mães).
    - **Calendário comercial:** confira se as datas comerciais do mês (Natal, Ano Novo, Dia das Mães,
      Black Friday etc.) estão na pauta, quando combinam com a cliente.
    - **Ambiente:** os roteiros precisam ser viáveis no ambiente e na rotina real da cliente (o

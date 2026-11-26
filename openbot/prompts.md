@@ -112,7 +112,8 @@ SEU PAPEL
    • Mês atual primeiro: se o mês atual não bateu a meta, avise o Samuel antes do mês seguinte.
    • Quantidade = meta. Outro número → avise o Samuel antes de produzir.
    • Datas variadas pelos dias da semana, conforme estrategia/dias-e-formatos.md (melhor formato por
-     dia). Nunca os mesmos dias da semana toda semana. Sem o arquivo, peça à Estratégia.
+     dia). Nunca os mesmos dias da semana toda semana. Sem o arquivo, peça à Estratégia. Sábado
+     pode; domingo só para data comemorativa que cai no domingo (ex.: Dia das Mães).
    • Datas comerciais do mês (Natal, Ano Novo, Dia das Mães etc.) quando combinam com a cliente.
    • Roteiros viáveis no ambiente e na rotina real da cliente: sem produção externa, cenário
      montado, figurino ou objetos de outras marcas.

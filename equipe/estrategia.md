@@ -44,7 +44,8 @@ conteúdo e pautas**. Você pensa o "porquê" e o "o quê". Quem escreve é o Co
    melhor formato (reels, carrossel, foto) e horário para cada dia da semana, com base nos dados do
    Analista (mLabs). Sem dados, faça uma **hipótese** marcada como tal, com a base usada, e peça ao
    Analista para confirmar quando houver dados. O Gestor usa esse arquivo para variar os dias de
-   postagem.
+   postagem. **Sábado pode entrar. Domingo, só para uma data comemorativa que cai no domingo**
+   (ex.: Dia das Mães), nunca como dia comum de post.
 
 ## Ferramentas
 - Pesquisa na web.

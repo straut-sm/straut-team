@@ -5,6 +5,10 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-26 · **Fim de semana:** sábado pode ter post. Domingo, só quando for comemoração de uma data
+  específica que cai no domingo (ex.: Dia das Mães). Vale para o calendário de todas as clientes.
+- 2026-11-26 · WA Concept, dezembro: incluir o post extra "Feliz 2027" em 31/12 (13º do mês, acima
+  da meta, por decisão do Guilherme).
 - 2026-11-26 · Correções do processo de produção, depois do teste da WA Concept (pedido do Guilherme):
   1. **Mês atual primeiro:** antes de produzir o mês seguinte, o mês atual precisa bater a meta.
   2. **Datas variadas:** os conteúdos são distribuídos pelos dias da semana conforme o melhor formato
