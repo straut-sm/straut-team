@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-26 · Gestor WA Concept: haverá produção de conteúdo de Natal em 05/12 na WA Concept (informado no chat). Falta saber da Dani se haverá algo após o expediente com os colaboradores ou só gravação de roteiros; os roteiros de dezembro podem mudar conforme a resposta e não estão fechados.
 - 2026-11-26 · Gestor WA Concept: carrossel Lash lifting ou extensão saiu de dom 13/12 e ficou em sex 11/12 (data movida pela Straut no painel); Feliz 2027 criado em 31/12 como 13º post (calendario/2026-12.md).
 - 2026-11-26 · Revisor: o roteiro "Feliz 2027" (31/12) precisou de uma troca de CTA. Aprendizado: evitar CTA de comentário aberto enquanto ninguém do time estiver encarregado de responder comentários no Instagram (a Lari atende só pelo WhatsApp), principalmente perto do recesso. Prefira os CTAs de envio, salvar ou link da bio.
 - 2026-11-26 · Gestor WA Concept: dezembro refeito, 12 roteiros no painel como `roteiro`/`em_producao` (9 blocos editados, 3 novos), sem envio para aprovação (calendario/2026-12.md). Recesso ainda sem resposta; nenhum roteiro depende dele.
