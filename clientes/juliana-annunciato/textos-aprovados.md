@@ -10,6 +10,8 @@ Formato: data, formato, título e texto. A entrada mais nova fica no topo.
 > 2026-11-27 · Gestor Dra. Juliana Annunciato. Lido no painel: 16 blocos de dezembro (15 com texto).
 > **Não são textos aprovados pela cliente** (13 aguardando aprovação em 27/11).
 > Origem a confirmar: o pedido os atribui à equipe humana; o `historico.md` registra em 2026-11-12 que o Claude fez os roteiros.
+>
+> **Atualização 2026-11-27 (Guilherme, via Samuel): NÃO usar como referência do time.** Os roteiros foram feitos pelo Claude (Straut Brain), não pela equipe humana.
 
 **Composição:** 10 reels (1 sem roteiro, 04/12), 5 carrosséis, 1 "(LIVRE)", nenhuma foto.
 
