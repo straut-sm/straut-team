@@ -102,6 +102,15 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
   sugestões da cliente, alterar dados cadastrais da cliente ou desativar páginas.
 - As clientes usam o painel de verdade. Na dúvida, não altere: pergunte.
 
+## 5.1 Google Drive da Straut (no computador)
+
+- O Drive da Straut aparece neste computador como uma unidade local (ex.: `G:`), com o acesso da conta
+  do Guilherme e aberto a todos os bots. Use-o para **conferir e ler** conteúdos (fotos, vídeos,
+  takes do banco).
+- **Regra do Guilherme (2026-11-27): "nenhum bot pode excluir arquivos do drive".** O sistema não
+  impede a exclusão. A responsabilidade é sua.
+- Na dúvida sobre qualquer outra mudança no Drive, não faça: pergunte ao Samuel.
+
 ## 6. O que precisa de autorização do Guilherme (via Samuel)
 
 - **Fase de testes (atual):** enviar conteúdos para aprovação da cliente (status `aguardando_aprovacao`).
