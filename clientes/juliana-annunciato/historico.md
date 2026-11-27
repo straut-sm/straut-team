@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-27 · Gestor Dra. Juliana Annunciato: aplicada no painel a análise de dezembro (16 blocos) e corrigidos 28/11 e 30/11, com Copy e Revisor; status e datas mantidos. Frases que dependem da cliente ficaram neutras (ex.: o 03/12 não afirma mais que dá para ir à festa no mesmo dia). Pendentes: respostas dela, formato planejado do 25/12, datas 05 e 19/12 e troca de temas (decisão futura do Guilherme). O padrão de dezembro em textos-aprovados.md não vale como referência: os roteiros eram do Claude.
 - 2026-11-27 · Guilherme (via Samuel): o sorteio de Natal do post de 24/11 foi combinado com a Dra. Ju, e o post fica como está. Ele mandou corrigir antes da aprovação o post de 28/11 (CoolFase), que diz "sem agulha, sem corte, sem tempo de recuperação". Os roteiros de dezembro serão corrigidos pela análise do Gestor (Shared/juliana-annunciato/analise-dezembro.md) antes de a Lari mandar o link e as perguntas à Dra. Ju. A produção está marcada para 03/12.
 - 2026-11-26 · Claude (Straut Brain · Clientes): ficha migrada do Straut Brain (perfil, posicionamento, identidade, desempenho e este histórico).
 - 2026-11-12 · Guilherme: o formato do roteiro fica no campo `planned_format` e nos filtros do painel, não como (C)/(R) no título. Os marcadores "(CURTO)" continuam.
