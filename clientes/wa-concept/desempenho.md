@@ -81,6 +81,21 @@ Sem os posts de evento, o alcance médio é 366 nos reels (15) e 294 nos carross
 4. Gloss, lábios e institucional só com uma dúvida concreta na abertura.
 5. Manter momentos reais (equipe, história da Dani) cerca de uma vez por mês: geram conversa. Respeitar o foco da cliente em procedimentos.
 
+## Melhores horários e concorrentes (mLabs, 27/11/2026)
+2026-11-27 · Analista. Fonte: mLabs, painel inicial do perfil, lido em 27/11/2026. Isto completa a linha "Melhores horários: sem dado" acima. O mLabs não informa o período nem o método dos horários: usar como sugestão para testar, sem tratar como medição nossa.
+
+| Dia | Melhores horários | Horários a evitar |
+|---|---|---|
+| Segunda | 08:30 e 11:30 | 12:00 e 18:00 |
+| Terça | 17:30 e 19:00 | 12:00 e 18:00 |
+| Quarta | 16:30 e 17:30 | 12:00 e 18:00 |
+| Quinta | 17:30 e 19:00 | 12:00 e 18:00 |
+| Sexta | 17:30 e 19:00 | 12:00 e 18:00 |
+| Sábado | 17:00 e 18:00 | 10:00 e 12:00 |
+| Domingo | 18:00 e 20:00 | 09:00 e 12:00 |
+
+**Concorrentes:** sem comparação útil. O painel inicial mostra a WA com 3 posts, engajamento público 0,15% e 39,33 interações por post (período não informado), e os quatro concorrentes listados zerados. O "Relatório de Concorrentes" (20 a 26/11) mostrava outra marca selecionada, com números que não são os da WA, e não foi usado.
+
 ## Relatórios
 Veja a pasta `relatorios/`.
 

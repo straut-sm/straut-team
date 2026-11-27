@@ -96,5 +96,20 @@ Prevenção e utilidade (pilar de ~15%): nenhum post identificado no período.
 4. Um conteúdo pessoal por mês, ligado a data ou fato real, sem expor a vida privada.
 5. Em "como eu cuido", abrir com a pergunta concreta da família, não com frase institucional; não repetir legenda.
 
+## Melhores horários e concorrentes (mLabs, 27/11/2026)
+2026-11-27 · Analista. Fonte: mLabs, painel inicial do perfil, lido em 27/11/2026. Isto completa a linha "Melhores horários: sem dado" acima. O mLabs não informa o período nem o método dos horários: usar como sugestão para testar, sem tratar como medição nossa.
+
+| Dia | Melhores horários | Horários a evitar |
+|---|---|---|
+| Segunda | 08:00 e 11:00 | 09:00 e 10:00 |
+| Terça | 17:30 e 19:30 | 12:00 e 18:00 |
+| Quarta | 08:30 e 14:00 | 10:00 e 18:00 |
+| Quinta | 08:30 e 19:30 | 09:00 e 18:00 |
+| Sexta | 08:30 e 13:00 | 10:00 e 12:00 |
+| Sábado | 17:30 e 20:00 | 09:00 e 10:00 |
+| Domingo | 11:30 e 15:30 | 09:00 e 10:00 |
+
+**Concorrentes:** sem comparação útil. O painel inicial mostra o Dr. José com 4 posts, engajamento público 3,75% e 44,75 interações por post (período não informado), e os cinco concorrentes listados zerados (@caioneuro, @rodoskouian, @ladyspinedoc, @drjandial, @drjoaovitorino na lista do perfil).
+
 ## Relatórios
 Veja a pasta `relatorios/`. O Instagram está conectado no mLabs.
