@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-27 · Guilherme (via Samuel): o sorteio de Natal do post de 24/11 foi combinado com a Dra. Ju, e o post fica como está. Ele mandou corrigir antes da aprovação o post de 28/11 (CoolFase), que diz "sem agulha, sem corte, sem tempo de recuperação". Os roteiros de dezembro serão corrigidos pela análise do Gestor (Shared/juliana-annunciato/analise-dezembro.md) antes de a Lari mandar o link e as perguntas à Dra. Ju. A produção está marcada para 03/12.
 - 2026-11-26 · Claude (Straut Brain · Clientes): ficha migrada do Straut Brain (perfil, posicionamento, identidade, desempenho e este histórico).
 - 2026-11-12 · Guilherme: o formato do roteiro fica no campo `planned_format` e nos filtros do painel, não como (C)/(R) no título. Os marcadores "(CURTO)" continuam.
 - 2026-11-12 · Claude: 20 roteiros para dez/2026 e jan/2027 e 8 conteúdos extras curtos (26/01 a 04/02/2027). Temas: Dezembro Laranja; botox antes das festas; quantidade de protetor; cabelo no verão; glow para o Réveillon; CoolFase x Liftera x RedTouch; "Acho chique quem…"; laser no verão; pele de vidro e skin flooding; rotina de 3 passos; ranking da dermato; eflúvio em janeiro; canetas emagrecedoras; bioestimulador; botox x ácido x bioestimulador; botox com quantos anos; mitos capilares; scalp care; manchas pós-verão.
