@@ -9,6 +9,8 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
   computador neste PC, para os bots conferirem os conteúdos do Drive da Straut (uso imediato: as fotos
   dos produtos da WA Concept para o post de 28/11). Regra dele: **"nenhum bot pode excluir arquivos
   do drive"**. Registrado em `equipe/regras-gerais.md`, seção 5.1. Orientação passada pela Manu.
+  Perguntado se também devia proibir mover e renomear, o Guilherme respondeu que a regra é **só não
+  excluir**.
 - 2026-11-27 · Criada a **Manu, diretora criativa** (Opus 5.5): guia visual de cada cliente,
   banco de referências, direção de foto e de gravação, prompts visuais otimizados e olhar de feed
   (rotina 18, quinta às 10h). **Samuel, Manu e Lari ficam no mesmo nível**, logo abaixo do
