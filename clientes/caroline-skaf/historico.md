@@ -5,6 +5,8 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-26 · Gestor: 16 roteiros de dezembro no painel (em_producao), calendário em calendario/2026-12.md. Nos 3 roteiros pendentes de novembro, "Dra. Caroline" virou "Dra. Carol" nas notas de produção.
+
 - 2026-11-26 · Revisor: revisão dos 16 roteiros de dezembro (3 aprovados, 13 com trocas exatas em `OpenBot/Shared/caroline-skaf/trocas-2026-12.json`, nenhum bloqueado). Aprendizados: (1) nos sinais de oclusão depois do preenchimento, pedir avaliação **presencial** imediata (a fonte diz que não basta por mensagem) e incluir "nas horas seguintes", não só "logo depois"; o que fazer se ninguém responder precisa do ok dela; (2) nota de cena: "paciente que não aparece de frente" ainda pode identificar, então usar "de costas ou fora de foco, sem nada que a identifique"; (3) o ultrassom não identifica tipo nem marca do produto pelas fontes lidas, então não responder "dá para descobrir o que aplicaram" com sim; (4) eflúvio: "doença grave", como no MSD; (5) uso contínuo vale para medicamentos específicos, então escrever "costuma ser contínuo".
 - 2026-11-26 · Guilherme (via Samuel): respostas da produção.
   - **Identificação:** o RQE 20106 é de **Dermatologia**. Ela começou como radiologista e depois se especializou em dermatologia. O CRM com UF ainda falta; a Lari pergunta em 27/11. Nos posts, ela não fala o próprio nome em terceira pessoa. Quando for preciso citar o nome, use "Dra. Carol", que é o equilíbrio entre formal e casual.
