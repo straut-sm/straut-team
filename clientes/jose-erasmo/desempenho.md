@@ -111,5 +111,11 @@ Prevenção e utilidade (pilar de ~15%): nenhum post identificado no período.
 
 **Concorrentes:** sem comparação útil. O painel inicial mostra o Dr. José com 4 posts, engajamento público 3,75% e 44,75 interações por post (período não informado), e os cinco concorrentes listados zerados (@caioneuro, @rodoskouian, @ladyspinedoc, @drjandial, @drjoaovitorino na lista do perfil).
 
+### Conferência pelo MCP do mLabs (27/11/2026)
+- Horários: o MCP devolve a mesma tabela acima (fuso de São Paulo). Segundo o mLabs, não garantem desempenho nem são ranking de engajamento; os horários a evitar são picos do segmento e dos concorrentes.
+- Concorrentes, 28/10 a 26/11: os cinco concorrentes vieram zerados (sem posts e sem seguidores). Sem comparação possível; conferir no mLabs se a coleta deles está funcionando. Não concluir que não publicaram.
+- Perfil próprio, mesmo período: 10 posts (2,5 por semana), engajamento público 4,2%, média de 644,67 visualizações por reels; seguidores 1.174 (10/11) para 1.201 (25/11).
+- Horário real de publicação: 8 dos 10 posts saíram na faixa das 18h às 21h e 2 na das 15h. Por isso ainda não dá para comparar horários com dados próprios; testar os horários sugeridos.
+
 ## Relatórios
 Veja a pasta `relatorios/`. O Instagram está conectado no mLabs.

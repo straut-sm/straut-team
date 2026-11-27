@@ -96,6 +96,12 @@ Sem os posts de evento, o alcance médio é 366 nos reels (15) e 294 nos carross
 
 **Concorrentes:** sem comparação útil. O painel inicial mostra a WA com 3 posts, engajamento público 0,15% e 39,33 interações por post (período não informado), e os quatro concorrentes listados zerados. O "Relatório de Concorrentes" (20 a 26/11) mostrava outra marca selecionada, com números que não são os da WA, e não foi usado.
 
+### Conferência pelo MCP do mLabs (27/11/2026)
+- Horários: o MCP devolve a mesma tabela acima (fuso de São Paulo). Segundo o mLabs, não garantem desempenho nem são ranking de engajamento; os horários a evitar são picos do segmento e dos concorrentes.
+- Concorrentes, 28/10 a 26/11: os quatro concorrentes vieram zerados (sem posts e sem seguidores). Sem comparação possível; conferir no mLabs se a coleta deles está funcionando. Não concluir que não publicaram.
+- Perfil próprio, mesmo período: 13 posts (3,3 por semana), engajamento público 0,15%, média de 506,75 visualizações por reels.
+- Horário real de publicação: 11 dos 13 posts saíram na faixa das 18h às 21h, 1 na das 15h e 1 na das 21h. Por isso ainda não dá para comparar horários com dados próprios; testar os horários sugeridos.
+
 ## Relatórios
 Veja a pasta `relatorios/`.
 
