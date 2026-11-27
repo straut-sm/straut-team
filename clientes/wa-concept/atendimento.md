@@ -23,6 +23,7 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 ## Casos em aberto
 | Data | Assunto | Com quem está | Situação |
 |---|---|---|---|
+| 2026-11-27 | Foto dos dois gloss (Straut deve retorno) e aprovação do vídeo de 27/11 | Guilherme (fotos) / Cliente (vídeo) | Aguardando |
 | 2026-11-27 | Fotos para o carrossel dos produtos: Dani não tem fotos profissionais do gloss nem do sérum e pergunta (14:15) se a straut tem dos 2 gloss | Guilherme (responder à Dani) | Aguardando resposta |
 | 2026-11-27 | Ajustes no conteúdo dos produtos: chamada e fotos para a Dani ver antes de publicar (calendário: 28/11) | Gestor / Manu / Guilherme | Prometido mostrar antes de publicar |
 | 2026-11-27 | Dani pede mudar o tema/comunicação do conteúdo dos produtos (calendário: 28/11) e quer ver as imagens antes | Guilherme | URGENTE: aguardando resposta |
@@ -36,6 +37,7 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+- 2026-11-27 · Lari: respondido à Dani (16:41, ok do Guilherme): vou conferir foto dos dois gloss e retorno; perguntado se o vídeo de hoje (agenda de fim de ano) pode ser considerado aprovado · enviado, aguardando. Roteiro dos produtos (28/11) consta aprovado no painel; vídeo de hoje, aguardando aprovação.
 - 2026-11-27 · Lari (visto às 15h): Guilherme (14:03) disse à Dani que há bastante foto do gloss labial e pediu fotos dos outros produtos para um carrossel com todos; Dani (14:05) não tem fotos profissionais do gloss nem do sérum e perguntou (14:15) se a straut tem dos 2 gloss; ela reagiu com 👍 à mensagem das 13:09 · sem resposta até 15h; repassado ao Samuel, ao Gestor e à Manu.
 - 2026-11-27 · Lari: respondido à Dani (13:09, ok do Guilherme) sobre os áudios: rever a chamada dos produtos, conferir as fotos e mostrar antes de qualquer publicação · entregue. Compromisso em aberto.
 - 2026-11-27 · Lari: Guilherme avisou (12:14) que o vídeo de hoje está na plataforma; Dani (12:33) disse que gostou do tema, que aprovou e que quer fazer alterações. Três áudios (12:38 a 12:42), pelo contexto sobre o conteúdo dos produtos: acha o tema "produtos da casa" genérico, sugere outra chamada (ex.: assinatura / cuidado em cada detalhe), quer passar imagem de marca consolidada que desperte desejo, pergunta se a straut tem as fotos dos produtos do carrossel e quer ver as imagens antes · sem resposta até 13h; repassado ao Samuel, ao Gestor e à Manu.
