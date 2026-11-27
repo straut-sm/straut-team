@@ -1,36 +1,47 @@
 # WA Concept: dias e formatos
 
-> **HIPÓTESE.** Não há dados de desempenho: o Analista está sem acesso ao mLabs (`desempenho.md`, 2026-11-26). Nada aqui foi medido, nem os dias nem os horários. Trocar por dados assim que o mLabs voltar.
+> **Dias e formatos: INDÍCIO com dados** (painel, métricas sincronizadas em 26/11/2026; 35 posts de 01/09 a 24/11/2026; detalhes em `desempenho.md`). Amostras pequenas, sobretudo seg, qua e sex (2 a 3 posts cada): tratar como indício, não como regra.
+> **Horários: HIPÓTESE.** A fonte não traz horário nem visitas ao perfil.
 
-2026-11-26 · Estratégia. Pedido do Gestor · WA Concept (urgente, do Guilherme via Samuel). Revisão 1, no mesmo dia, depois da correção do Samuel: os dias passam a girar por toda a semana. Revisão 2, no mesmo dia, pela decisão do Guilherme: sábado pode, domingo só em data comemorativa.
+2026-11-26 · Estratégia. Pedido do Gestor · WA Concept (do Guilherme via Samuel). Revisão 1: os dias passam a girar por toda a semana. Revisão 2: sábado pode, domingo só em data comemorativa. **Revisão 3 (2026-11-27, pedido do Samuel via Analista):** dados do painel no lugar da hipótese de dias e formatos. Vale a partir de janeiro; dezembro segue a pauta já em produção.
 
-## Em que se baseia
-- **Público da ficha** (`perfil.md`): mulheres de 35 a 65 anos, bem-sucedidas, com a semana cheia, que compram para tirar tarefas da rotina. A hipótese é que o conteúdo de decisão (agendar) rende mais no começo da semana e o de alcance, mais leve, no fim. É interpretação, não dado.
-- **Pilares e objetivos** (`posicionamento-e-tom.md`): prova técnica para autoridade, rotina e praticidade para conversão, cerca de metade cada.
-- **Formato:** reels curtos sem fala têm prioridade, porque a Dani pediu vídeos nítidos com cortes na batida e o Social Media montou os formatos de dezembro assim (`sugestoes/2026-11-26.md`). Carrossel fica para o que é para ler e salvar. A foto é a produção mais leve.
-- **Ritmo:** 12 posts por mês, cerca de 3 por semana.
-- **Novembro:** os posts saíram ter, qui, seg, ter. Sem métricas, isso não diz qual dia foi melhor, só que o fim de semana ainda não foi testado.
-- **Horários:** ponto de partida para teste, pensando no horário de almoço e no começo da noite de quem trabalha, e na manhã do fim de semana. Não há dado que os sustente.
-- Não usei dado de mercado nem estudo de horário. Os que existem são genéricos e não se referem a este público.
-
-## Hipótese por dia
-
-| Dia | Formato | Pilar e objetivo | Horário para testar | Por quê (hipótese) |
+## O que os dados mostram (Analista, `desempenho.md`)
+| Dia | Posts | Alcance médio / mediana | Salvamentos por post | Leitura |
 |---|---|---|---|---|
-| Segunda | Reels curto sem fala | Rotina e praticidade · conversão | 12h | Começo da semana, quando a agenda é organizada |
-| Terça | Carrossel | Prova técnica · autoridade | 19h | Conteúdo para ler com calma e salvar |
-| Quarta | Reels curto sem fala | Prova técnica · autoridade | 12h | Processo e técnica em cena, o formato mais forte da marca |
-| Quinta | Foto | Rotina e praticidade · conversão | 19h | Resultado ou estúdio antes do fim de semana |
-| Sexta | Reels curto sem fala | Alcance | 12h | Tom mais leve e tendências, para quem ainda não conhece |
-| Sábado | Foto ou carrossel | Conexão ou autoridade | 10h | Produção leve, ou um conteúdo para ler e salvar no fim de semana |
-| Domingo | Sem post | | | Regra do Guilherme (2026-11-26, `gestao/decisoes.md`): domingo só para uma data comemorativa que cai no domingo (ex.: Dia das Mães) |
+| Seg | 2 | 406 / 406 | 2,5 | Amostra muito pequena (um de 649 e um recente de 162) |
+| Ter | 10 | 319 / 312 | 1,0 | Dia mais usado, desempenho mediano |
+| Qua | 3 | 253 / 251 | 0,7 | O mais fraco, mas é indício fraco (3 posts) |
+| Qui | 11 | 337 / 327 | 0,6 | Mediano, salva pouco |
+| Sex | 3 | 574 / 401 | 2,0 | Média puxada pelo carrossel dos 15 anos; mediana ainda boa |
+| Sáb | 4 | 464 / 480 | 4,0 | Melhor indício de salvamento |
+| Dom | 2 | 520 / 520 | 0,5 | Só posts de evento; continua fora da regra |
 
-O formato do dia é o padrão. O Gestor pode trocar quando precisar equilibrar os pilares do mês, desde que avise.
+| Formato | Posts | Alcance médio (sem eventos) | Salvamentos por post | Leitura |
+|---|---|---|---|---|
+| Reels | 19 | 374 (366) | 1,1 | Alcança mais |
+| Carrossel | 11 | 395 (294) | 2,1 | Salva mais |
+| Foto | 5 | 326 | 0,6 | Fraca em salvamento |
 
-## Rotação dos dias (regra)
-- Os conteúdos usam **de segunda a sábado**, e a combinação de dias **muda de uma semana para a outra**. Nenhum dia fica fixo.
-- **Domingo não é dia comum de post.** Só entra quando uma data comemorativa cai no domingo, e esse post substitui um dos dias daquela semana.
-- Ciclo de 4 semanas, com 3 posts por semana:
+O que os dados **não** apoiam: nada sobre horário; a quarta fraca é só indício (3 posts); dias sem post no fim de semana não têm comparação.
+
+## Formato por dia (a partir de janeiro)
+
+| Dia | Formato | Pilar e objetivo | Horário para testar (HIPÓTESE) | Por quê |
+|---|---|---|---|---|
+| Segunda | Reels curto sem fala | Rotina e praticidade · conversão | 12h | Reels alcança mais; segunda tem poucos posts, então vale testar |
+| Terça | Carrossel | Prova técnica · autoridade | 19h | Carrossel salva mais; terça tem a maior amostra e fica para conteúdo de ler |
+| Quarta | Reels curto sem fala | Prova técnica · autoridade | 12h | Dado fraco (3 posts): manter reels e medir de novo antes de mudar |
+| Quinta | Reels ou foto | Rotina e praticidade · conversão | 19h | Quinta salva pouco; foto também. Foto só para momento real (equipe, história), o resto em reels |
+| Sexta | Reels curto sem fala | Alcance | 12h | Mediana boa (401) |
+| Sábado | Carrossel | Prova técnica ou rotina · salvar | 10h | Melhor indício de salvamento (4,0 por post): conteúdo de escolha ou de guardar, CTA "salve" |
+| Domingo | Sem post | | | Regra do Guilherme: só data comemorativa que cai no domingo |
+
+O formato do dia é o padrão. O Gestor pode trocar para equilibrar os pilares, desde que avise.
+
+## Rotação dos dias (regra, sem mudança)
+- De segunda a sábado; a combinação de dias muda de uma semana para a outra; nenhum dia fica fixo.
+- Domingo só em data comemorativa que cai no domingo, substituindo um dia daquela semana.
+- Ciclo de 4 semanas, 3 posts por semana:
 
 | Semana | Dias |
 |---|---|
@@ -39,12 +50,16 @@ O formato do dia é o padrão. O Gestor pode trocar quando precisar equilibrar o
 | 3 | seg, qui, sex |
 | 4 | ter, qua, sáb |
 
-- No ciclo, cada dia de segunda a sábado entra 2 vezes, e o mês fica com cerca de 6 reels, 4 fotos e 2 carrosséis.
-- No mês seguinte, o ciclo começa por outra semana (por exemplo, pela semana 2).
-- Fim de semana precisa do ok de agendamento no mLabs no próprio dia (rotina do Samuel).
-- Data comercial (Natal, Ano Novo, Black Friday etc.) pode mudar o dia de um post. Mesmo assim, o resto da semana segue a rotação.
+- No ciclo, cada dia entra 2 vezes. Com os formatos acima, o mês fica com cerca de 7 a 8 reels, 4 carrosséis e 0 a 2 fotos.
+- No mês seguinte, o ciclo começa por outra semana.
+- Sábado precisa do ok de agendamento no mLabs no próprio dia (rotina do Samuel).
 
-## Como testar
-- Quando o Analista tiver o mLabs: comparar alcance, salvamentos, compartilhamentos e visitas ao perfil por dia, horário e formato.
-- Com 12 posts por mês, cada dia tem poucos posts. Avaliar depois de 2 meses e tratar o resultado como indício, não como regra.
-- Atualizar esta página com a data e a fonte dos dados, e tirar a marca de HIPÓTESE do que for confirmado.
+## Recomendações do Analista para a pauta (janeiro em diante)
+- Reels que abrem pela dúvida ou pelo erro comum e respondem (correção ou comparação: 2,3 salvamentos e 3,3 compartilhamentos por post).
+- 1 ou 2 carrosséis de escolha por mês (ex.: lifting ou extensão), capa com a pergunta e CTA "salve". Bom uso do sábado.
+- Rotina e durabilidade em reels curto com CTA "envie para uma amiga" (4,3 compartilhamentos por post, 4 posts).
+- Gloss, lábios e institucional só com uma dúvida concreta na abertura.
+- Um momento real por mês (equipe, história da Dani), sem tirar o foco dos procedimentos.
+
+## Próxima medição
+- Com o mLabs: horário e visitas ao perfil. Reavaliar seg, qua e sex quando cada um tiver pelo menos 6 posts.
