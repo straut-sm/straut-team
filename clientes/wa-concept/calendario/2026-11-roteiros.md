@@ -1,33 +1,23 @@
 # WA Concept (wa-concept): roteiros de novembro/2026 (27 a 30/11), formato novo
 
-## 1 · O estúdio por dentro
+## 1 · Agenda de fim de ano
 
-🎬 O estúdio por dentro · vídeo curto sem fala
-Intenção: mostrar por dentro o que faz diferença em ser atendida na WA Concept: a avaliação antes da aplicação, a equipe formada pela Dani e o material esterilizado para cada cliente.
-Gancho (texto na tela): "15 anos de estúdio, por dentro."
+🎬 Agenda de fim de ano · vídeo curto sem fala
+Intenção: mostrar a WA Concept cheia no fim de ano e convidar o público a agendar o horário de dezembro.
+Gancho (texto na tela): "Vamos ver como está nossa equipe hoje?"
 
-**CENAS ESSENCIAIS (na ordem da edição):**
-- Entrada do estúdio
-- Recepção e detalhes da recepção
-- Sala de atendimento com a maca pronta
-- Bancada, com o material esterilizado sendo aberto (rótulos fora do quadro)
-- Uma avaliação real: a profissional conversando com a cliente antes da aplicação
-- Equipe trabalhando
-- Detalhe de mão: o isolamento de um fio durante um atendimento
+**CENAS ESSENCIAIS (vídeo já editado, não há nada para gravar):**
+- A Dani mostrando a WA Concept
+- O estúdio cheio
+- A equipe atendendo
 
 **FRASES DE APOIO (texto na tela):**
-1. "Toda a equipe foi formada pela Dani, na técnica japonesa."
-2. "Tudo esterilizado para cada cliente."
-
-**MÚSICA:** (buscar o nome na biblioteca do Instagram)
-- The Blue Danube Waltz, Royal Symphony Orchestra (usar só a música)
-- 360, Peter Gregson
-- Se não aparecerem: instrumental calmo de piano ou acústico, com batida marcada
+1. "A WA Concept já está lotada, não deixe para a última hora, agende seu horário para dezembro!"
 
 **LEGENDA:**
-Em 2026, o estúdio completa 15 anos, e este vídeo mostra por dentro o que muda no seu atendimento. Antes de qualquer aplicação, a profissional define a extensão com você, conforme o seu estilo, o formato do rosto e dos olhos e a sua rotina. Toda a equipe foi formada pela Dani, na técnica japonesa que ela aprendeu no Japão, então o padrão é o mesmo com qualquer profissional.
+A equipe está atendendo com a agenda cheia neste fim de ano, e os últimos horários de dezembro estão sendo preenchidos. Para chegar às festas com os fios em dia, vale garantir o seu horário com antecedência.
 
-Seguimos um processo rígido de protocolos de segurança, mantendo tudo esterilizado para cada cliente. Clique no link da bio para falar com a WA Concept.
+Clique no link da bio para falar com a WA Concept.
 
 ---
 
