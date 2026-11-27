@@ -24,15 +24,15 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 | Data | Assunto | Com quem está | Situação |
 |---|---|---|---|
 | 2026-11-26 | Produção de Natal 05/12 e conteúdo extra | Guilherme (responder à Dani) | Respondido em parte; falta decoração e participantes |
-| 2026-11-26 | Recesso: confirmar datas 30/12 a 05/01 e post de aviso | Cliente (Dani) | Aguardando resposta |
 | 2026-11-27 | Aprovação de 16 roteiros (fim de novembro e dezembro); o mais urgente é o de 27/11 | Cliente (Dani) | Aviso enviado, aguardando aprovação |
-| 2026-11-27 | Recesso: resposta no grupo em 26/11 (20:51), de número não identificado: 30/12 até 04/01 (a pergunta citava 30/12 a 05/01); sem resposta sobre o post de aviso | Samuel e Gestor | Confirmar quem respondeu e as datas |
+| 2026-11-27 | Recesso confirmado: 30/12 até 04/01. Falta a aprovação do post de aviso | Cliente (Dani) | Datas confirmadas; post sem resposta |
 
 ## Preferências percebidas
 - _—_
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+- 2026-11-27 · Lari: Guilherme confirmou que quem escreveu é da equipe do estúdio e corrigia as datas: recesso de 30/12 até 04/01 · repassado ao Gestor WA Concept.
 - 2026-11-27 · Lari: aviso dos roteiros para aprovação enviado às 09:01 (pedido do Guilherme) com o link da página · entregue, aguardando.
 - 2026-11-26 · Lari (visto em 27/11): resposta no grupo às 20:51, de número não identificado: recesso de 30/12 até 04/01 · repassado ao Samuel e ao Gestor.
 - 2026-11-26 · Lari: proposto (pedido do Guilherme, via Samuel) post avisando o recesso e pedida confirmação das datas 30/12 a 05/01 · entregue, aguardando resposta.
