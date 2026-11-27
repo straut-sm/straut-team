@@ -63,3 +63,6 @@ Registradas pelo Gestor a partir de `historico.md`.
 - **15 anos:** completam-se em 2026.
 - **Imagem:** o termo de serviço já autoriza o uso da imagem das clientes.
 - **Datas comerciais:** sem ação de Black Friday nem de Natal.
+
+## Recesso de fim de ano 2026/2027
+- 30/12 a 04/01 (confirmado pelo Guilherme em 2026-11-27).

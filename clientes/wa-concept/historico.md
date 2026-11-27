@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-27 · Gestor WA Concept: CONFIRMADO pelo Guilherme (via Lari): recesso do estúdio de 30/12 a 04/01 (não 05/01). Vale para calendário e roteiros.
 - 2026-11-27 · Gestor WA Concept: recesso a considerar de 30/12 a 04/01 (orientação do Samuel; resposta de 26/11 no grupo, de número não salvo, ainda sem confirmar se é a Dani ou alguém do estúdio). Não citar as datas em nenhum texto por enquanto. Sem resposta sobre o post de aviso: R1 continua reserva.
 - 2026-11-27 · Gestor WA Concept: com a autorização do Guilherme (26/11), os 16 roteiros (27, 28 e 30/11 e os 13 de dezembro) foram conferidos e enviados para `aguardando_aprovacao`; nenhum ficou de fora. Releitura pela API: 16/16 no novo status, textos e datas sem mudança.
 - 2026-11-26 · Gestor WA Concept: dezembro refeito no formato novo, 13 roteiros atualizados no painel (em_producao) e conferidos; prontos para a rotina de 27/11 08h40. Nada enviado. Em 18/12, a ideia de desenho da sobrancelha pensado junto com o olhar ficou fora por falta de confirmação da cliente.
