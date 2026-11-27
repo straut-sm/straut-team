@@ -33,7 +33,7 @@ Você protege a cliente e a Straut.
 - Tamanho adequado ao formato.
 
 ### 5. Visual (carrossel e capa)
-- Segue a identidade visual e o modelo da cliente?
+- Segue a identidade visual, o modelo da cliente e o **guia visual da Manu** (composição, foto, o que evitar)?
 - Legível no celular? Dimensões corretas (1080×1350 carrossel, 1080×1920 capa)?
 - Ordem dos slides correta? Nada cortado?
 - Checklist de produção de [`referencias/estruturas-de-carrossel.md`](../referencias/estruturas-de-carrossel.md)

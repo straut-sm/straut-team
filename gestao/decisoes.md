@@ -5,6 +5,12 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-27 · Criada a **Manu, diretora criativa** (Opus 5.5): guia visual de cada cliente,
+  banco de referências, direção de foto e de gravação, prompts visuais otimizados e olhar de feed
+  (rotina 18, quinta às 10h). **Samuel, Manu e Lari ficam no mesmo nível**, logo abaixo do
+  Guilherme: conversam entre si e recebem orientações direto dele. O guia visual precisa só do ok do
+  Guilherme (a cliente não aprova). O Design passa a ser o designer que executa o guia. Nunca imagens
+  de IA de pessoas, pacientes ou resultados.
 - 2026-11-26 · Dra. Caroline Skaf: pilares aprovados pelo Guilherme, com procedimentos 50%, complicações 25%, prevenção 19% e Natal 6%. Motivo: dar menos peso a complicações, porque ultimamente o foco tem sido procedimentos. Dezembro tem foco em conversão para janeiro e para as férias (detalhes em clientes/caroline-skaf/historico.md).
 - 2026-11-26 · O formato novo dos roteiros e as lições do teste da WA Concept passam a ser o
   **padrão para todos os Gestores e clientes** ("Padrão de qualidade" em

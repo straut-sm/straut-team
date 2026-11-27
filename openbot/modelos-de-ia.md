@@ -34,6 +34,7 @@ O Pro continua útil para você e para o Straut Brain no claude.ai.
 | **Design** | **Sonnet 5.5** | O trabalho é operar o Canva e o painel (ferramentas). O estilo vem dos modelos prontos. |
 | **Revisor** | **Opus 5.5** | Última barreira antes da cliente. Precisa pegar erros sutis e riscos éticos (CFM). |
 | **Lari** | **Sonnet 5.5** | Conversa natural e empática, classifica bem o que escalar e responde rápido. |
+| **Manu** | **Opus 5.5** | Diretora criativa: gosto visual, análise de imagens e prompts precisos. Erros de estilo se repetem em todo o feed. Volume baixo. |
 | **Tráfego** | **Opus 5.5** | Mexe em dinheiro: precisa do melhor julgamento com números, amostras pequenas e regras de anúncio. Volume baixo. |
 
 **Por que não o Haiku?** Ele seria suficiente para avisos simples, mas a Lari também conversa e decide o
@@ -46,7 +47,7 @@ o OpenBot permitir subtarefas com outro modelo.
 
 ## Configuração recomendada
 - **Esforço (effort):** `medium` para Lari, Gestores, Analista, Social Media e Design; `high` para
-  Samuel, Estratégia, Copy e Revisor (se o OpenBot tiver essa opção).
+  Samuel, Manu, Estratégia, Copy e Revisor (se o OpenBot tiver essa opção).
 - **Cache de prompt:** se o OpenBot permitir, deixe ligado. As regras e fichas se repetem em toda
   tarefa, e o cache reduz bastante o custo.
 

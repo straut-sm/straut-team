@@ -43,6 +43,7 @@ Para cada bot: nome, **instruções** (texto em [`prompts.md`](prompts.md)), mod
 | 8–12 | Gestor · Dr. José Erasmo / Dra. Caroline Skaf / Dra. Juliana Annunciato / WA Concept / Straut | Sonnet 5.5 |
 | 13 | Lari | Sonnet 5.5 |
 | 14 | Tráfego | Opus 5.5 |
+| 15 | Manu (diretora criativa) | Opus 5.5 |
 
 Em cada bot, peça na primeira conversa:
 > "Clone o repositório straut-sm/straut-team em ~/straut-team, configure o git com o seu nome de bot
@@ -52,7 +53,8 @@ Em cada bot, peça na primeira conversa:
 Se a resposta estiver certa, o bot está pronto.
 
 ## 4. Rotinas
-Criar as 17 rotinas de [`rotinas.md`](rotinas.md). As 3 do Tráfego ficam desativadas até a fase 1.
+Criar as rotinas de [`rotinas.md`](rotinas.md) (17 em uso; a 6 foi removida). As 3 do Tráfego ficam
+desativadas até a fase 1.
 
 ## 5. Teste antes de ligar para as clientes
 1. **Samuel:** peça "o que tem pendente nas clientes?" e confira se ele delega e responde certo.

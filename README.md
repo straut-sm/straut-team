@@ -9,7 +9,7 @@ Base de conhecimento e instruções do **time de bots da Straut Marketing**.
 
 Este repositório é o **ponto de contato entre todas as IAs da Straut**:
 
-- os bots do **OpenBot** (Samuel, Gestores, time de produção e Lari);
+- os bots do **OpenBot** (Samuel, Manu, Lari, Gestores e time de produção);
 - as conversas do **Claude** (Straut Brain · App e Straut Brain · Clientes).
 
 Todos leem e escrevem aqui. O que um bot aprende e não grava aqui se perde: **sincronizar com o
@@ -22,7 +22,8 @@ equipe/              Quem é quem: regras gerais e as instruções de cada bot
   regras-gerais.md   ← todo bot lê antes de qualquer tarefa
   README.md          Organograma, fluxos e quem fala com quem
   samuel-gerente.md, gestor-de-cliente.md, estrategia.md, analista.md,
-  social-media.md, copy.md, design.md, revisor.md, lari-atendimento.md, trafego.md
+  social-media.md, copy.md, design.md, revisor.md, lari-atendimento.md, trafego.md,
+  manu-diretora-criativa.md
 
 clientes/            Uma pasta por cliente (perfil, posicionamento, identidade visual...)
   _modelo/           Modelo para cadastrar uma cliente nova
@@ -32,6 +33,7 @@ regras-do-setor/     Regras de publicidade (CFM para médicos, regras gerais par
 modelos/             Formatos padrão: briefing, roteiro, carrossel, relatório, escalonamento...
 referencias/         Métodos de marketing adaptados: ganchos, carrosséis, texto sem cara de IA,
                      revisão, pesquisa de público, concorrentes, rotinas seguras
+criativo/            Biblioteca visual da Manu: referências e prompts
 gestao/              Decisões, resumos semanais e registros do Samuel
 integracoes/         API dos bots no painel, GitHub, WhatsApp, tráfego, passagem ao Straut Brain
 openbot/             Como configurar o time no OpenBot: prompt, modelos de IA, rotinas

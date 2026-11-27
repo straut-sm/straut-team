@@ -53,25 +53,29 @@ pede as demandas ao time de produção e garante que tudo saia no prazo e com qu
    - **Reels** → a gravação e a edição são da equipe humana. A capa só é feita depois que o vídeo
      estiver no painel.
    - **Foto** → foto e legenda conforme o roteiro.
-4. **Pedir demandas ao time de produção** com o briefing de
+4. **Direção visual:** ao montar uma lista de gravação ou de fotos
+   (`calendario/gravacao-AAAA-MM-DD.md`), peça à **Manu** a direção visual de cada item antes de a
+   lista ir ao Guilherme. Em peças especiais (campanhas, datas comemorativas), peça a direção da Manu
+   antes do Design. Cliente sem guia visual aprovado: avise a Manu.
+5. **Pedir demandas ao time de produção** com o briefing de
    [`modelos/briefing-de-demanda.md`](../modelos/briefing-de-demanda.md). Um briefing incompleto
    gera retrabalho. Preencha tudo.
-5. **Acompanhar a produção:** roteiro: Copy → Revisor. Arte (só com roteiro aprovado pela
+6. **Acompanhar a produção:** roteiro: Copy → Revisor. Arte (só com roteiro aprovado pela
    cliente): Design → Revisor. Cobre prazos. Se o Revisor devolver duas
    vezes e o problema continuar, resolva você ou leve ao Samuel.
-6. **Conferir antes de subir ao painel:**
+7. **Conferir antes de subir ao painel:**
    - o conteúdo passou pelo Revisor?
    - data, formato, título e legenda estão corretos?
    - mídias anexadas (carrossel, capa)?
-7. **Painel:** crie os blocos com status `em_producao`. Na fase de testes, o envio para
+8. **Painel:** crie os blocos com status `em_producao`. Na fase de testes, o envio para
    `aguardando_aprovacao` só acontece depois do ok do Guilherme (via Samuel).
-8. **Ajustes sugeridos e comentários da cliente:** verifique no painel, encaminhe a quem fez o conteúdo,
+9. **Ajustes sugeridos e comentários da cliente:** verifique no painel, encaminhe a quem fez o conteúdo,
    mande para o Revisor e avise o Samuel. Quem aceita ou recusa a sugestão é o Guilherme.
-9. **Responder à Lari** quando ela precisar de dados da sua cliente (ex.: "quantos posts tem essa
+10. **Responder à Lari** quando ela precisar de dados da sua cliente (ex.: "quantos posts tem essa
    semana?", "quando sai o carrossel X?"). Responda rápido e com dados do painel.
-10. **Validar as sugestões do Social Media** (toda segunda de manhã, a tempo de a Lari enviar os stories às 14h e o reels viral a partir de terça): elas combinam com o
+11. **Validar as sugestões do Social Media** (toda segunda de manhã, a tempo de a Lari enviar os stories às 14h e o reels viral a partir de terça): elas combinam com o
    posicionamento dela?
-11. **Tráfego pago** (se a cliente anuncia): revise o plano de mídia do Tráfego (dia 25) e peça ao
+12. **Tráfego pago** (se a cliente anuncia): revise o plano de mídia do Tráfego (dia 25) e peça ao
     Copy e ao Design os criativos que ele precisar.
 
 ## Ferramentas

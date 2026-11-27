@@ -4,16 +4,20 @@
 
 | Bot | Time | Função | Modelo de IA | Fala com |
 |---|---|---|---|---|
-| **Samuel** | Gestão | Gerente Geral, principal contato do Guilherme | Claude Opus 5.5 | Guilherme, todos os bots |
+| **Samuel** | Liderança | Gerente Geral: operação, prazos e autorizações | Claude Opus 5.5 | Guilherme, todos os bots |
+| **Manu** | Liderança | Diretora criativa: guia visual, referências, direção e prompts visuais | Claude Opus 5.5 | Guilherme, todos os bots |
 | **Gestor · \<Cliente\>** | Gestão | Gestor de projeto de uma cliente | Claude Sonnet 5.5 | Samuel, produção, Lari |
 | **Estratégia** | Produção | Planejamento: nicho, posicionamento, pautas | Claude Opus 5.5 | Gestores, Analista, Samuel |
 | **Analista** | Produção | Dados e BI: desempenho e recordes | Claude Sonnet 5.5 | Gestores, Estratégia, Lari |
 | **Social Media** | Produção | Caçador de tendências | Claude Sonnet 5.5 | Gestores, Copy, Lari |
 | **Copy** | Produção | Roteirista e redator | Claude Opus 5.5 | Gestores, Design, Revisor |
-| **Design** | Produção | Diretor de arte: Canva e painel | Claude Sonnet 5.5 | Gestores, Copy, Revisor |
+| **Design** | Produção | Designer: executa as artes no Canva e sobe no painel | Claude Sonnet 5.5 | Gestores, Copy, Revisor |
 | **Revisor** | Produção | Garantia de qualidade (diretor de criação) | Claude Opus 5.5 | Gestores, Copy, Design |
-| **Lari** | Atendimento | Avisos e relacionamento com as clientes | Claude Sonnet 5.5 | Clientes, Gestores, Samuel, Guilherme |
+| **Lari** | Liderança · Atendimento | Avisos e relacionamento com as clientes | Claude Sonnet 5.5 | Clientes, Gestores, Samuel, Guilherme |
 | **Tráfego** | Produção | Gestor de tráfego pago (Google e Meta) | Claude Opus 5.5 | Samuel, Gestores, Copy, Design, Revisor, Analista |
+
+**Samuel, Manu e Lari** estão no mesmo nível, logo abaixo do Guilherme: conversam entre si e recebem
+orientações direto dele pelo app do OpenBot (detalhes em [`regras-gerais.md`](regras-gerais.md), seção 2).
 
 O motivo de cada modelo está em [`openbot/modelos-de-ia.md`](../openbot/modelos-de-ia.md).
 
@@ -51,7 +55,9 @@ Até dia 5     Samuel     → pede o ok do lote ao Guilherme → "aguardando_apr
 
 ```
 Roteiro aprovado pela cliente → Gestor avança o bloco (roteiro → carrossel)
-                   → Design cria as artes (SÓ depois da aprovação; checagem diária às 11h)
+                   → Design cria as artes seguindo o guia visual da Manu
+                     (SÓ depois da aprovação; checagem diária às 11h)
+                     (peça especial ou data comemorativa: a Manu dá a direção antes)
                    → Revisor → Design sobe as artes → Gestor confere
                    → (ok do Guilherme na fase de testes) → aguardando_aprovacao → Lari avisa
 ```
@@ -59,7 +65,8 @@ Roteiro aprovado pela cliente → Gestor avança o bloco (roteiro → carrossel)
 ## Fluxo 3: reels
 
 ```
-Roteiro aprovado → Gestor avança o bloco (roteiro → reels) → gravação presencial (equipe humana)
+Roteiro aprovado → Gestor avança o bloco (roteiro → reels)
+→ lista de gravação do Gestor + direção visual da Manu → gravação presencial (equipe humana)
 → edição (equipe humana) → vídeo no painel
 → Design faz a capa (SÓ depois do vídeo no painel; checagem diária às 11h) → Revisor → capa no bloco
 → aprovação da cliente → postagem
@@ -68,7 +75,8 @@ Roteiro aprovado → Gestor avança o bloco (roteiro → reels) → gravação p
 ## Fluxo 3b: foto
 
 ```
-Roteiro aprovado → Gestor avança o bloco (roteiro → foto) → foto (equipe humana) + legenda
+Roteiro aprovado → Gestor avança o bloco (roteiro → foto) → direção de foto da Manu
+→ foto (equipe humana) + legenda
 → Revisor → aprovação da cliente → postagem
 ```
 
@@ -127,17 +135,31 @@ Sexta       Tráfego → checagem semanal com decisão (MANTER, CORRIGIR, TESTAR
 Alterações que movem dinheiro: sempre com ok do Guilherme, salvo o que estiver em "Autonomia"
 (fase 3) no `clientes/<slug>/trafego.md`. Tudo registrado em `gestao/trafego/alteracoes.md`.
 
+## Fluxo 9: direção criativa (Manu)
+
+```
+Guia visual   Manu → guia visual da cliente (estilo, paleta, composição, foto, vídeo, referências)
+                   → Gestor confere com o posicionamento → ok do Guilherme (a cliente não aprova)
+                   → Design cria ou ajusta os modelos no Canva
+Gravação      Gestor → lista de gravação → Manu acrescenta a direção visual de cada item
+Peça especial Gestor → Manu (direção + prompts de imagem de apoio) → Design → Revisor
+Quinta 10h    Manu → 3 a 5 referências da semana + olhar de feed de cada cliente
+                   → observações ao Design e ao Gestor (só se houver algo)
+Dia 1         Analista → relatório → Manu ajusta o guia se um estilo não funcionou (ok do Guilherme)
+```
+
 ## Quem pode repassar trabalho para quem (handoff no OpenBot)
 
 | Bot | Repassa para |
 |---|---|
 | Samuel | Todos |
-| Gestores | Samuel, Estratégia, Analista, Social Media, Copy, Design, Revisor, Lari, Tráfego |
-| Estratégia | Samuel, Gestores, Analista |
-| Analista | Samuel, Gestores, Estratégia, Lari, Tráfego |
-| Social Media | Gestores, Copy, Lari |
-| Copy | Gestores, Design, Revisor, Tráfego |
-| Design | Gestores, Revisor, Tráfego |
-| Revisor | Gestores, Copy, Design, Tráfego |
-| Lari | Samuel, Gestores |
-| Tráfego | Samuel, Gestores, Copy, Design, Revisor, Analista |
+| Manu | Todos |
+| Gestores | Samuel, Manu, Estratégia, Analista, Social Media, Copy, Design, Revisor, Lari, Tráfego |
+| Estratégia | Samuel, Manu, Gestores, Analista |
+| Analista | Samuel, Manu, Gestores, Estratégia, Lari, Tráfego |
+| Social Media | Manu, Gestores, Copy, Lari |
+| Copy | Manu, Gestores, Design, Revisor, Tráfego |
+| Design | Manu, Gestores, Revisor, Tráfego |
+| Revisor | Manu, Gestores, Copy, Design, Tráfego |
+| Lari | Samuel, Manu, Gestores |
+| Tráfego | Samuel, Manu, Gestores, Copy, Design, Revisor, Analista |

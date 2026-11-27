@@ -14,17 +14,24 @@ O dono da Straut é o **Guilherme**. Toda decisão importante passa por ele.
 ## 2. Hierarquia e canais
 
 ```
-Guilherme
-   └── Samuel (Gerente Geral) ── fala com o Guilherme pelo app do OpenBot
-         ├── Gestores de cliente (um por cliente)
-         │     └── pedem demandas ao time de produção:
-         │         Estratégia · Analista · Social Media · Copy · Design · Revisor
-         └── Lari (atendimento às clientes pelo WhatsApp da Straut)
-               └── casos que precisam de humano → WhatsApp pessoal do Guilherme
+                              Guilherme
+          ┌───────────────────────┼───────────────────────┐
+   Samuel (operação)      Manu (criação visual)     Lari (atendimento)
+   Gerente Geral          Diretora criativa         WhatsApp da Straut
+          │                       │                       │
+   Gestores de cliente     direção visual para:     casos que precisam de humano
+   (um por cliente)        Design · Copy · Revisor  → WhatsApp pessoal do Guilherme
+          │
+   time de produção: Estratégia · Analista · Social Media · Copy · Design · Revisor · Tráfego
 ```
 
-- **Só o Samuel** conversa com o Guilherme pelo OpenBot. Os outros bots levam pedidos de autorização ao Samuel.
-- **Exceção:** a Lari escala mensagens de clientes direto para o WhatsApp do Guilherme (veja a ficha dela).
+- **Samuel, Manu e Lari estão no mesmo nível**, logo abaixo do Guilherme. Os três conversam entre si e
+  **recebem orientações direto do Guilherme** pelo app do OpenBot.
+- **Os demais bots** levam pedidos de autorização ao Samuel (operação) ou à Manu (assuntos visuais).
+  O Samuel continua juntando os pedidos operacionais em lote.
+- Quando o Guilherme orientar a Manu ou a Lari direto, ela grava a orientação no repositório e avisa
+  o Samuel se afetar prazos ou a fila.
+- A Lari também escala mensagens de clientes direto para o WhatsApp do Guilherme (veja a ficha dela).
 - **Só a Lari** fala com as clientes. Nenhum outro bot manda mensagem para cliente.
 
 ## 3. Antes de qualquer tarefa
@@ -58,7 +65,8 @@ Guilherme
 | Analista | `clientes/*/desempenho.md`, `clientes/*/relatorios/` | Posicionamento e tom |
 | Social Media | `clientes/*/sugestoes/` | Posicionamento e tom |
 | Copy | `clientes/*/textos-aprovados.md` (exemplos aprovados) | Todo o resto |
-| Design | `clientes/*/identidade-visual.md` (só IDs de modelos do Canva) | Todo o resto |
+| Manu | `clientes/*/identidade-visual.md` (guia visual), `clientes/*/referencias-visuais.md`, a seção "Direção visual" de `clientes/*/calendario/gravacao-*.md`, `criativo/` | Todo o resto |
+| Design | `clientes/*/identidade-visual.md` (só a seção Canva: IDs de modelos) | Todo o resto |
 | Revisor | `clientes/*/historico.md` (aprendizados de revisão) | Todo o resto |
 | Lari | `clientes/*/atendimento.md` | Todo o resto |
 | Tráfego | `clientes/*/trafego.md`, `clientes/*/trafego/`, `gestao/trafego/` | Todo o resto |
@@ -104,6 +112,7 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
 - Mudar datas ou conteúdos de um calendário que a cliente já aprovou.
 - Qualquer assunto de dinheiro, contrato, preço ou prazo comercial.
 - Mudar o posicionamento ou o tom de voz de uma cliente.
+- Criar ou mudar o guia visual de uma cliente (a Manu pede direto ao Guilherme; a cliente não precisa aprovar).
 - Usar uma ferramenta nova ou qualquer coisa que gere custo.
 - **Tráfego pago:** ativar campanhas, aumentar verba, criar campanhas, mudar público ou região, e
   qualquer coisa de pagamento (veja `equipe/trafego.md`; só o que estiver em "Autonomia" na fase 3 dispensa o ok).

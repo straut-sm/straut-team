@@ -1,6 +1,6 @@
 # Rotinas (agendamentos no OpenBot)
 
-O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minutos. O time usa 16
+O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minutos. O time usa 17
 (as 3 do Tráfego só são ativadas a partir da fase 1). A rotina 6 foi removida em 2026-11-26: as artes
 de carrossel só saem depois da aprovação do roteiro e entraram na rotina 7.
 Horário de Brasília.
@@ -42,6 +42,7 @@ Exemplo: no dia 1º de janeiro saem os roteiros de fevereiro. As artes dos carro
 | 15 | Tráfego | Segunda a sexta, 9h30 | Checagem de fatos: gasto × ritmo, anúncios reprovados, conta e pagamento, rastreamento |
 | 16 | Tráfego | Sexta, 10h | Checagem semanal com decisão por conta → relatório → Samuel |
 | 17 | Tráfego | Dia 25, 9h | Plano de mídia do mês seguinte de cada cliente que anuncia |
+| 18 | Manu | **Quinta, 10h** | Referências da semana + olhar de feed de cada cliente → observações ao Design e ao Gestor |
 
 As mensagens que chegam das clientes no WhatsApp acionam a Lari na hora (não precisam de rotina).
 
@@ -67,6 +68,7 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
 | 15 | Gasto 30% ou mais fora do ritmo, anúncio reprovado, problema de conta, pagamento ou rastreamento | `gestao/trafego/alteracoes.md` + relatórios | Nada fora do normal → não envia mensagem; acesso falhou → avisa uma vez |
 | 16 | Sexta | `clientes/<slug>/trafego/relatorios/` | Dados incompletos → decisão INVESTIGAR, sem propor mudança de verba |
 | 17 | Dia 25, só para clientes que anunciam | `clientes/<slug>/trafego/AAAA-MM-plano.md` | Verba ou objetivo FALTA → pergunta ao Guilherme, não inventa |
+| 18 | Quinta | `criativo/referencias.md` + referências das clientes | Nada fora do guia no feed → não manda mensagem; imagem que não abriu → avisa, não avalia |
 
 ## Texto das rotinas (para colar no OpenBot)
 
@@ -122,3 +124,8 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
     envie o resumo e as propostas que precisam de ok ao Samuel."
 17. **Tráfego · plano de mídia:** "Para cada cliente que anuncia, prepare o plano de mídia do mês
     seguinte (`modelos/plano-de-midia.md`) e envie ao Gestor e ao Samuel para o ok do Guilherme."
+18. **Manu · referências e olhar de feed:** "Salve de 3 a 5 referências visuais da semana (link, o que
+    observar, por que funciona, para qual cliente serve) em `criativo/referencias.md` ou na pasta da
+    cliente, só links, nunca imagens. Depois veja no painel os posts publicados e os próximos de cada
+    cliente e compare com o guia visual. Se houver quebra de consistência, texto ilegível ou cara de IA,
+    mande uma observação objetiva ao Design e ao Gestor. Se não houver nada, não envie mensagem."
