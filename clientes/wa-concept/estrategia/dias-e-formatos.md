@@ -1,7 +1,7 @@
 # WA Concept: dias e formatos
 
 > **Dias e formatos: INDÍCIO com dados** (painel, métricas sincronizadas em 26/11/2026; 35 posts de 01/09 a 24/11/2026; detalhes em `desempenho.md`). Amostras pequenas, sobretudo seg, qua e sex (2 a 3 posts cada): tratar como indício, não como regra.
-> **Horários: HIPÓTESE.** A fonte não traz horário nem visitas ao perfil.
+> **Horários: SUGESTÃO DO mLabs PARA TESTAR** (melhores horários lidos pelo Analista em 27/11/2026; o mLabs não informa período nem método; tabela em `desempenho.md`). Ainda não há visitas ao perfil.
 
 2026-11-26 · Estratégia. Pedido do Gestor · WA Concept (do Guilherme via Samuel). Revisão 1: os dias passam a girar por toda a semana. Revisão 2: sábado pode, domingo só em data comemorativa. **Revisão 3 (2026-11-27, pedido do Samuel via Analista):** dados do painel no lugar da hipótese de dias e formatos. Vale a partir de janeiro; dezembro segue a pauta já em produção.
 
@@ -26,14 +26,14 @@ O que os dados **não** apoiam: nada sobre horário; a quarta fraca é só indí
 
 ## Formato por dia (a partir de janeiro)
 
-| Dia | Formato | Pilar e objetivo | Horário para testar (HIPÓTESE) | Por quê |
+| Dia | Formato | Pilar e objetivo | Horário para testar (mLabs) | Por quê |
 |---|---|---|---|---|
-| Segunda | Reels curto sem fala | Rotina e praticidade · conversão | 12h | Reels alcança mais; segunda tem poucos posts, então vale testar |
-| Terça | Carrossel | Prova técnica · autoridade | 19h | Carrossel salva mais; terça tem a maior amostra e fica para conteúdo de ler |
-| Quarta | Reels curto sem fala | Prova técnica · autoridade | 12h | Dado fraco (3 posts): manter reels e medir de novo antes de mudar |
-| Quinta | Reels ou foto | Rotina e praticidade · conversão | 19h | Quinta salva pouco; foto também. Foto só para momento real (equipe, história), o resto em reels |
-| Sexta | Reels curto sem fala | Alcance | 12h | Mediana boa (401) |
-| Sábado | Carrossel | Prova técnica ou rotina · salvar | 10h | Melhor indício de salvamento (4,0 por post): conteúdo de escolha ou de guardar, CTA "salve" |
+| Segunda | Reels curto sem fala | Rotina e praticidade · conversão | 11h30 (ou 8h30; evitar 12h e 18h) | Reels alcança mais; segunda tem poucos posts, então vale testar |
+| Terça | Carrossel | Prova técnica · autoridade | 19h (ou 17h30) | Carrossel salva mais; terça tem a maior amostra e fica para conteúdo de ler |
+| Quarta | Reels curto sem fala | Prova técnica · autoridade | 17h30 (ou 16h30) | Dado fraco (3 posts): manter reels e medir de novo antes de mudar |
+| Quinta | Reels ou foto | Rotina e praticidade · conversão | 19h (ou 17h30) | Quinta salva pouco; foto também. Foto só para momento real (equipe, história), o resto em reels |
+| Sexta | Reels curto sem fala | Alcance | 17h30 (ou 19h) | Mediana boa (401) |
+| Sábado | Carrossel | Prova técnica ou rotina · salvar | 17h (ou 18h; evitar 10h e 12h) | Melhor indício de salvamento (4,0 por post): conteúdo de escolha ou de guardar, CTA "salve" |
 | Domingo | Sem post | | | Regra do Guilherme: só data comemorativa que cai no domingo |
 
 O formato do dia é o padrão. O Gestor pode trocar para equilibrar os pilares, desde que avise.
@@ -62,4 +62,5 @@ O formato do dia é o padrão. O Gestor pode trocar para equilibrar os pilares, 
 - Um momento real por mês (equipe, história da Dani), sem tirar o foco dos procedimentos.
 
 ## Próxima medição
-- Com o mLabs: horário e visitas ao perfil. Reavaliar seg, qua e sex quando cada um tiver pelo menos 6 posts.
+- De terça a sexta, o mLabs indica evitar 12h e 18h. Revisão 4 (2026-11-27): horários trocados pelos do mLabs (antes 12h e 10h, que ele marca para evitar).
+- Com o mLabs: medir os horários testados e as visitas ao perfil. Reavaliar seg, qua e sex quando cada um tiver pelo menos 6 posts.

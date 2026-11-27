@@ -1,7 +1,7 @@
 # Dr. José Erasmo: dias e formatos
 
 > **Dias e formatos: INDÍCIO com dados** (painel, métricas sincronizadas em 26/11/2026; 30 posts de 01/09 a 24/11/2026; detalhes em `desempenho.md`). Amostras pequenas (2 a 8 posts por dia): tratar como indício, não como regra.
-> **Horários: HIPÓTESE.** A fonte não traz horário nem visitas ao perfil.
+> **Horários: SUGESTÃO DO mLabs PARA TESTAR** (melhores horários lidos pelo Analista em 27/11/2026; o mLabs não informa período nem método; tabela em `desempenho.md`). Ainda não há visitas ao perfil.
 
 2026-11-27 · Estratégia. Pedido do Samuel (Guilherme), com os dados do Analista. Primeira versão deste arquivo.
 
@@ -27,14 +27,14 @@ Salvamentos estão muito baixos (20 em 30 posts), e não houve post de prevenç�
 
 ## Formato por dia
 
-| Dia | Formato | Pilar e objetivo | Horário para testar (HIPÓTESE) | Por quê |
+| Dia | Formato | Pilar e objetivo | Horário para testar (mLabs) | Por quê |
 |---|---|---|---|---|
-| Segunda | Reels curto | Desmistificar diagnósticos · autoridade | 19h | Dia mais fraco: menos vezes no ciclo, com o formato que mais alcança |
-| Terça | Reels longo (explicação aprofundada) | Desmistificar diagnósticos · autoridade | 19h | Bom alcance e compartilhamento: lugar para o vídeo que corrige uma crença |
-| Quarta | Carrossel (até 5 telas) | Prevenção e utilidade · salvar | 12h | Falta conteúdo de guardar; carrossel com sinais de alerta e prevenção, CTA "salva" |
-| Quinta | Reels curto | Como eu cuido de você · confiança | 19h | Abrir pela pergunta da família, não por frase institucional |
-| Sexta | Reels curto | Desmistificar diagnósticos · alcance | 12h | Muito compartilhado (indício fraco): CTA único de compartilhar com quem tem a dúvida |
-| Sábado | Reels ou carrossel | Prevenção, ou conexão (Quem é esse médico) uma vez por mês | 10h | Melhor indício de alcance; bom para o post pessoal do mês e para prevenção de fim de semana (férias, esporte, quedas) |
+| Segunda | Reels curto | Desmistificar diagnósticos · autoridade | 11h (ou 8h) | Dia mais fraco: menos vezes no ciclo, com o formato que mais alcança |
+| Terça | Reels longo (explicação aprofundada) | Desmistificar diagnósticos · autoridade | 19h30 (ou 17h30) | Bom alcance e compartilhamento: lugar para o vídeo que corrige uma crença |
+| Quarta | Carrossel (até 5 telas) | Prevenção e utilidade · salvar | 14h (ou 8h30) | Falta conteúdo de guardar; carrossel com sinais de alerta e prevenção, CTA "salva" |
+| Quinta | Reels curto | Como eu cuido de você · confiança | 19h30 (ou 8h30) | Abrir pela pergunta da família, não por frase institucional |
+| Sexta | Reels curto | Desmistificar diagnósticos · alcance | 13h (ou 8h30) | Muito compartilhado (indício fraco): CTA único de compartilhar com quem tem a dúvida |
+| Sábado | Reels ou carrossel | Prevenção, ou conexão (Quem é esse médico) uma vez por mês | 17h30 (ou 20h) | Melhor indício de alcance; bom para o post pessoal do mês e para prevenção de fim de semana (férias, esporte, quedas) |
 | Domingo | Sem post | | | Regra do Guilherme: só data comemorativa que cai no domingo (ex.: Dia das Mães). Os pessoais de domingo foram bem, mas a regra vale |
 
 O formato do dia é o padrão. O Gestor pode trocar para equilibrar os pilares, desde que avise.
@@ -64,4 +64,5 @@ O formato do dia é o padrão. O Gestor pode trocar para equilibrar os pilares, 
 - Em "como eu cuido", abrir pela pergunta concreta da família; não repetir legenda.
 
 ## Próxima medição
-- Com o mLabs: horário, visitas ao perfil, alcance de não seguidores e retenção, para entender a queda de novembro. Reavaliar segunda e sexta quando tiverem pelo menos 6 posts.
+- Revisão 1 (2026-11-27): horários trocados pelos melhores horários do mLabs.
+- Com o mLabs: medir os horários testados, visitas ao perfil, alcance de não seguidores e retenção, para entender a queda de novembro. Reavaliar segunda e sexta quando tiverem pelo menos 6 posts.
