@@ -3,11 +3,11 @@
 > Mantido pela Lari. Nunca grave conversas completas nem dados pessoais sensíveis.
 
 ## Contador da semana atual
-Semana de: _AAAA-MM-DD_ (segunda-feira)
+Semana de: 2026-11-23 (segunda-feira)
 
 | Tipo | Limite | Enviados | Datas |
 |---|---|---|---|
-| Avisos | 3 | 0 | |
+| Avisos | 3 | 1 | 27/11 |
 | Sugestão: reels viral | 1 | 0 | |
 | Sugestão: stories da semana | 1 | 0 | |
 
@@ -25,12 +25,16 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 |---|---|---|---|
 | 2026-11-26 | Produção de Natal 05/12 e conteúdo extra | Guilherme (responder à Dani) | Respondido em parte; falta decoração e participantes |
 | 2026-11-26 | Recesso: confirmar datas 30/12 a 05/01 e post de aviso | Cliente (Dani) | Aguardando resposta |
+| 2026-11-27 | Aprovação de 16 roteiros (fim de novembro e dezembro); o mais urgente é o de 27/11 | Cliente (Dani) | Aviso enviado, aguardando aprovação |
+| 2026-11-27 | Recesso: resposta no grupo em 26/11 (20:51), de número não identificado: 30/12 até 04/01 (a pergunta citava 30/12 a 05/01); sem resposta sobre o post de aviso | Samuel e Gestor | Confirmar quem respondeu e as datas |
 
 ## Preferências percebidas
 - _—_
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+- 2026-11-27 · Lari: aviso dos roteiros para aprovação enviado às 09:01 (pedido do Guilherme) com o link da página · entregue, aguardando.
+- 2026-11-26 · Lari (visto em 27/11): resposta no grupo às 20:51, de número não identificado: recesso de 30/12 até 04/01 · repassado ao Samuel e ao Gestor.
 - 2026-11-26 · Lari: proposto (pedido do Guilherme, via Samuel) post avisando o recesso e pedida confirmação das datas 30/12 a 05/01 · entregue, aguardando resposta.
 - 2026-11-26 · Lari: Dani respondeu por áudio (18:23): recesso do dia 30 ao dia 5, volta no dia 5 (meses não ditos; provável 30/12 a 05/01, confirmar); 05/12 atendimentos até cerca de 14h, depois gravação e restaurante; pede aviso se houver conteúdo fora do Natal. Falta decoração e participantes · repassado ao Samuel e ao Gestor; resposta à cliente pendente.
 - 2026-11-26 · Lari: perguntado (pedido do Guilherme, via Samuel) sobre a produção de Natal de 05/12 (formato do dia, horário, participantes, decoração), retomando o recesso · entregue, aguardando resposta.
