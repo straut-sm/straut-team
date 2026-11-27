@@ -112,7 +112,7 @@ Content-Type: application/json   # nas escritas
   "link": "https://painel.strautmarketing.com/c/jose-erasmo?bloco=<id>",
   "data": "2026-12-03", "titulo": "...", "formato": "roteiro | reels | carrossel | foto",
   "formato_planejado": "reels | carrossel | foto | null", "status": "em_producao | aguardando_aprovacao | ajuste_sugerido | aprovado | publicado",
-  "legenda": "...", "roteiro": "...",
+  "legenda": "...", "roteiro": "...", "link_instagram": "https://www.instagram.com/reel/... | null",
   "midias": [{ "id": "uuid", "tipo": "video | capa | imagem", "url": "link temporário (1 h)", "google_drive": true }],
   "tem_video": true, "tem_capa": false,
   "sugestao_pendente": { "campo": "legenda | roteiro", "original": "...", "proposta": "...", "em": "ISO" },
@@ -140,7 +140,7 @@ Exemplos das rotinas:
 | Rota | Corpo | Regras |
 |---|---|---|
 | `POST /clientes/:slug/blocos` | `{ "data": "AAAA-MM-DD", "formato": "roteiro", "formato_planejado": "carrossel", "titulo": "...", "roteiro": "...", "legenda": "..." }` | Só `data` é obrigatória (`formato` padrão: roteiro). Nasce `em_producao`. Devolve 201 com o bloco |
-| `PATCH /blocos/:id` | Qualquer um de `titulo`, `legenda`, `roteiro`, `data` | Em qualquer status. Guarda a versão anterior no histórico (o Guilherme pode desfazer) |
+| `PATCH /blocos/:id` | Qualquer um de `titulo`, `legenda`, `roteiro`, `data`, `link_instagram` | Em qualquer status. Guarda a versão anterior no histórico (o Guilherme pode desfazer) |
 | `POST /blocos/:id/upload-url` | `{ "arquivos": [{ "extensao": "jpg" }, ...] }` (1 a 20) | Aceita jpg, jpeg, png, webp, heic, gif, mp4, mov, m4v, webm. Devolve `caminho` e `upload_url` de cada um |
 | *(envio do arquivo)* | `PUT <upload_url>` com o arquivo no corpo e o `Content-Type` dele | Direto no armazenamento, sem chave |
 | `POST /blocos/:id/midias` | `{ "tipo": "imagem", "caminhos": ["..."] }` ou `{ "tipo": "video", "link_drive": "https://drive.google.com/file/d/.../view" }` | Imagens só em carrossel/foto; vídeo e capa só em reels. Confere que o arquivo foi enviado. **Não substitui**: se o bloco já tem vídeo, capa ou foto, devolve 409; apague a atual antes (vai para a lixeira) |
@@ -152,6 +152,49 @@ Exemplos das rotinas:
 | `POST /blocos/:id/aceitar-sugestao` | — | Só com sugestão pendente (`ajuste_sugerido`): aplica o texto da cliente e o bloco fica `aprovado`. Guarda a versão anterior |
 | `DELETE /blocos/:id` | — | Manda o bloco para a **Lixeira** (30 dias). Some do painel, da página da cliente e da API |
 | `DELETE /blocos/:id/midias/:midiaId` | — | Manda a mídia para a **Lixeira** (30 dias) |
+
+`link_instagram`: link do post publicado (instagram.com/p/... ou /reel/...). Liga o bloco às métricas;
+`""` ou `null` tira. Não vale para roteiros. Só preencha com certeza: sem link, o painel liga o post ao
+bloco pela data e pelo formato.
+
+### Métricas do Instagram (só leitura)
+Os números vêm do mLabs pela rotina do Claude (seg a sex, 9h). Mesmas regras da página da cliente.
+
+| Rota | Observações |
+|---|---|
+| `GET /clientes/:slug/metricas?dias=90` | `sincronizado_em` (sem ele, `aguardando_sincronizacao: true` e nada mais); `resumo_do_mes` (período e comparação, `posts`, `alcance_medio` e `_variacao_pct`, `seguidores`, `seguidores_ganhos`, `salvamentos`, `compartilhamentos`, `media_alcance_90_dias`, `posts_com_estrela_no_mes`); `top3` (com `motivo`); `posts` dos últimos `dias` (até 150), cada um com `alcance, visualizacoes, curtidas, comentarios, salvamentos, compartilhamentos, estrela, bloco_id`; `seguidores` por dia |
+
+Regras: mês atual (dia 1 até hoje) contra os mesmos dias do mês anterior; estrela = alcance acima da
+média dos últimos 90 dias; top 3 = maior alcance + salvamentos + compartilhamentos. Variação em %
+pode vir `null` quando não dá para comparar.
+
+### Dias de produção
+Evento no calendário com a lista dos roteiros para gravar. Não é post: não conta na meta nem tem status.
+A lista e as marcações são só visuais: não mudam a data nem o status dos blocos.
+
+| Rota | Corpo | Regras |
+|---|---|---|
+| `GET /clientes/:slug/producao?de=&ate=` | — | Dias da cliente: `id, data, titulo, observacoes, link` |
+| `GET /producao/:id` | — | O dia com `para_gravar` (na ordem), `gravados` e `escondidos`; cada item é um bloco com `estado`. Entram os roteiros ainda não gravados em outro dia |
+| `POST /clientes/:slug/producao` | `{ "data": "AAAA-MM-DD", "titulo": "...", "observacoes": "..." }` | Só `data` é obrigatória. Devolve 201 com o dia |
+| `PATCH /producao/:id` | Qualquer um de `data`, `titulo`, `observacoes` | — |
+| `PUT /producao/:id/roteiros/:blocoId` | `{ "estado": "pendente \| gravado \| oculto" }` | Marca o roteiro no dia (`oculto` = não vamos gravar) |
+| `PUT /producao/:id/ordem` | `{ "ids": ["id-do-bloco", ...] }` | Nova ordem da lista para gravar |
+| `DELETE /producao/:id` | — | Manda o dia para a **Lixeira** (30 dias) |
+
+### Aba Tendências
+Uma semana (segunda-feira) por vez, com `tendencia_do_mes`, `referencias` e `stories`. A seção
+"Para gravar" saiu: cada referência tem "Virar roteiro". Os bots leem tudo e criam ou editam
+**rascunhos**; liberar a semana para a cliente é só com o Guilherme, pelo painel.
+
+| Rota | Corpo | Regras |
+|---|---|---|
+| `GET /clientes/:slug/tendencias?semanas=4` ou `?semana=AAAA-MM-DD` | — | Semanas mais recentes primeiro (até 12), com `liberada`. Cada item: `id, semana, tipo, titulo, texto, perfil, link, destaque, como_adaptar, passos, posicao, criado_por, liberado` |
+| `GET /tendencias/:id` | — | Um item |
+| `POST /clientes/:slug/tendencias` | `{ "semana": "AAAA-MM-DD", "tipo": "mercado \| referencia \| stories", "titulo": "...", "texto": "...", "perfil": "@perfil", "link": "https://...", "destaque": "Reels · 85 mil visualizações", "como_adaptar": "...", "passos": ["..."] }` | `semana` padrão: a atual (qualquer dia vira a segunda). Referência **precisa** de `link` de um post real. Entra como rascunho, com `criado_por` = "bot <nome>". 409 se a semana já foi liberada |
+| `PATCH /tendencias/:id` | Qualquer campo acima | Só rascunho (409 se já liberado) |
+| `DELETE /tendencias/:id` | — | Só rascunho. Vai para a **Lixeira** (30 dias) |
+| `POST /tendencias/:id/virar-roteiro` | `{ "data": "AAAA-MM-DD" }` (opcional; padrão hoje) | Cria um roteiro em produção no calendário com o texto, o "como adaptar" e o link. Formato planejado: Reels, ou carrossel/foto se a referência for post do feed. Devolve 201 com o bloco |
 
 **Lixeira:** o Guilherme vê tudo o que foi apagado no botão **Lixeira** do painel, com quem apagou
 (ex.: "bot gestor-jose-erasmo") e quantos dias faltam, e pode restaurar. Depois de 30 dias o item e
