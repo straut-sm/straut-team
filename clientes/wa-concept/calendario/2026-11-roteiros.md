@@ -12,7 +12,7 @@ Gancho (texto na tela): "Vamos ver como está nossa equipe hoje?"
 - A equipe atendendo
 
 **FRASES DE APOIO (texto na tela):**
-1. "A WA Concept já está lotada, não deixe para a última hora, agende seu horário para dezembro!"
+1. "A agenda de dezembro está quase cheia. Agende o seu horário com antecedência."
 
 **LEGENDA:**
 A equipe está atendendo com a agenda cheia neste fim de ano, e os últimos horários de dezembro estão sendo preenchidos. Para chegar às festas com os fios em dia, vale garantir o seu horário com antecedência.
