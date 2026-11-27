@@ -5,6 +5,11 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-27 · **mLabs conectado ao OpenBot** pelo MCP oficial (`https://mcp.mlabs.io/mcp`, beta,
+  incluído na assinatura), com o login da Straut autorizado pelo Guilherme. Os perfis com Instagram
+  conectado são WA Concept e Dr. José. A Dra. Juliana tem só o TikTok, a Dra. Caroline não tem
+  nenhuma rede, e a Straut não tem perfil. Regras de uso em `equipe/regras-gerais.md`, seção 5.2:
+  só leitura; o agendamento é só do Samuel, com o ok do dia; nenhum bot apaga nada.
 - 2026-11-27 · **Google Drive no computador:** o Guilherme vai instalar o Google Drive para
   computador neste PC, para os bots conferirem os conteúdos do Drive da Straut (uso imediato: as fotos
   dos produtos da WA Concept para o post de 28/11). Regra dele: **"nenhum bot pode excluir arquivos

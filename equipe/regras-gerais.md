@@ -111,6 +111,21 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
   impede a exclusão. A responsabilidade é sua.
 - Na dúvida sobre qualquer outra mudança no Drive, não faça: pergunte ao Samuel.
 
+## 5.2 mLabs (conector MCP oficial)
+
+- Desde 2026-11-27, o mLabs está conectado ao OpenBot pelo MCP oficial (`https://mcp.mlabs.io/mcp`),
+  com o login da conta da Straut. As ferramentas aparecem como `mlabs` (ex.: `list_profiles`,
+  `get_performance_summary`, `get_best_posting_times`, `get_ranking_posts`).
+- **Use só ferramentas de leitura** (list_*, get_*, compare_*): métricas, melhores horários,
+  concorrentes, posts publicados e agendados.
+- **Nenhum bot pode**, pelo mLabs: apagar ou restaurar posts (`delete_post`, `delete_published_post`,
+  `bulk_delete_posts`, `restore_posts`), apagar concorrentes, fluxos ou agendas de relatório, aprovar
+  ou mexer em Workflow, mandar mensagens, responder comentários ou menções (só a Lari fala com
+  clientes, e pelo WhatsApp), renomear perfis ou mudar configurações.
+- **Agendar** (`create_post`, `update_post`, `toggle_post_status`) é só do **Samuel**, só com o ok do
+  dia do Guilherme (rotina 1).
+- Os resultados são uma foto do momento: para afirmar algo, leia de novo. Cite a fonte ("mLabs, <data>").
+
 ## 6. O que precisa de autorização do Guilherme (via Samuel)
 
 - **Fase de testes (atual):** enviar conteúdos para aprovação da cliente (status `aguardando_aprovacao`).
