@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-27 · Gestor WA Concept: com autorização do Guilherme, novo texto no post dos produtos (28/11): chamada "A assinatura WA Concept, também em casa.", legenda nova com CTA do link da bio (padrão da WA) e 4 opções de foto. Bloco segue como aprovado, mas a Dani aprovou antes de pedir a mudança e ainda não viu a versão nova. "Fórmula pensada e pesquisada" não usada sem confirmação dela. Fotos a conferir.
 - 2026-11-27 · Gestor WA Concept: o Guilherme aceitou a sugestão do Revisor no post de 27/11: frase de apoio agora é "A agenda de dezembro está quase cheia. Agende o seu horário com antecedência." (ele ajusta a edição do vídeo). Legenda, data e status sem mudança.
 - 2026-11-27 · Gestor WA Concept: a pedido do Guilherme, o post de 27/11 virou "Agenda de fim de ano" (vídeo já editado). Bloco f91bbca0 atualizado, status mantido. O Revisor apontou no texto da tela que "já está lotada" contradiz "agende"; decisão do Guilherme.
 - 2026-11-27 · Gestor WA Concept: CONFIRMADO pelo Guilherme (via Lari): recesso do estúdio de 30/12 a 04/01 (não 05/01). Vale para calendário e roteiros.

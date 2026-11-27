@@ -24,21 +24,26 @@ Clique no link da bio para falar com a WA Concept.
 ## 2 · Os produtos próprios da WA Concept
 
 📷 Os produtos próprios da WA Concept · foto
-Intenção: mostrar que, além dos atendimentos, a WA Concept tem produtos próprios para o olhar e para os lábios.
+Intenção: mostrar a assinatura da WA Concept nos produtos próprios para o olhar e para os lábios, com percepção de marca consolidada.
 
 **OPÇÕES DE FOTO:**
-- Os dois produtos juntos, na recepção ou na bancada
-- O fortalecedor de cílios e sobrancelhas sozinho, em detalhe
-- O gloss labial autoral sozinho, em detalhe
-- Um dos produtos na mão de uma profissional da equipe
-- Os produtos perto do material arrumado da bancada, com os rótulos de fornecedores fora do quadro
+- Os dois produtos juntos, um deles um pouco à frente do outro, com espaço claro para o texto
+- O fortalecedor de cílios e sobrancelhas em detalhe, com o rótulo da WA de frente
+- O gloss labial autoral em detalhe, com a tampa aberta ao lado se ficar bonito, sem aplicar
+- Um produto na mão de uma profissional da equipe, sem rosto
 
-**TEXTO NA IMAGEM:** "Os produtos da casa."
+**COMO FOTOGRAFAR:**
+- Luz natural de janela, de lado, sem flash
+- Parede de textura clara, superfície bege ou creme e um único verde do estúdio, desfocado
+- Rótulos de fornecedores, material de trabalho e marcas de terceiros fora do quadro
+- Produtos limpos antes de fotografar; sem logo aplicado sobre foto clara
+
+**TEXTO NA IMAGEM:** "A assinatura WA Concept, também em casa."
 
 **LEGENDA:**
-Estes são os dois produtos próprios da WA Concept, o fortalecedor de cílios e sobrancelhas e o gloss labial autoral, para as mesmas áreas que cuidamos nos atendimentos, o olhar e os lábios.
+O fortalecedor de cílios e sobrancelhas e o gloss labial autoral levam a assinatura da WA Concept para fora do estúdio. São produtos próprios, para o olhar e os lábios, as mesmas áreas que a gente cuida em cada atendimento.
 
-Siga o perfil para ver mais do estúdio por aqui.
+Clique no link da bio para falar com a WA Concept.
 
 ---
 
