@@ -87,3 +87,4 @@ Veja a pasta `relatorios/`.
 ## Pendências de dados
 - 2026-11-26 · Analista: sem dados para dezembro. O mLabs abre na tela de login no navegador do Analista e não há login salvo para ele. Conexão de @waconcept__ no mLabs não confirmada.
 - 2026-11-26 · Analista: quando houver acesso ao mLabs, comparar alcance, salvamentos, compartilhamentos e visitas ao perfil por dia, horário e formato, contra a hipótese em `estrategia/dias-e-formatos.md` (não alterar esse arquivo). Gravar aqui e enviar à Estratégia, com fonte e período.
+- 2026-11-27 · Analista: pendências acima atendidas em parte pelas métricas do painel (ver o topo deste arquivo). Continuam sem dado: horário dos posts e visitas ao perfil.
