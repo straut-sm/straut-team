@@ -23,12 +23,14 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 ## Casos em aberto
 | Data | Assunto | Com quem está | Situação |
 |---|---|---|---|
+| 2026-11-27 | Perguntas antes dos roteiros (CRM com UF, dia de produção no consultório, recesso/férias) | Cliente | Enviadas às 9h, aguardando resposta. Depois: respostas ao Samuel; roteiros só após a confirmação dele |
 
 ## Preferências percebidas
 - _—_
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+- 2026-11-27 · Lari: perguntas antes dos próximos roteiros (CRM, dia de produção, recesso), a pedido do Guilherme (não conta nos limites) · enviadas às 9h, entregues, aguardando resposta.
 - 2026-11-26 · Lari: apresentação enviada no grupo do WhatsApp (não conta nos limites) · entregue, sem resposta até o envio.
 
 ## Histórico de envios
