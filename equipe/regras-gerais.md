@@ -124,6 +124,8 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
   clientes, e pelo WhatsApp), renomear perfis ou mudar configurações.
 - **Agendar** (`create_post`, `update_post`, `toggle_post_status`) é só do **Samuel**, só com o ok do
   dia do Guilherme (rotina 1).
+- **Exclusão (Guilherme, 2026-11-27):** ninguém exclui o que já foi postado nem agendado. Se uma
+  exclusão for necessária, **o Guilherme faz pessoalmente**. O bot só avisa o que precisa sair e por quê.
 - Os resultados são uma foto do momento: para afirmar algo, leia de novo. Cite a fonte ("mLabs, <data>").
 
 ## 6. O que precisa de autorização do Guilherme (via Samuel)
