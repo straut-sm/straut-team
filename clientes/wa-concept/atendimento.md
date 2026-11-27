@@ -23,6 +23,7 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 ## Casos em aberto
 | Data | Assunto | Com quem está | Situação |
 |---|---|---|---|
+| 2026-11-27 | Dani pede mudar o tema/comunicação do conteúdo dos produtos (calendário: 28/11) e quer ver as imagens antes | Guilherme | URGENTE: aguardando resposta |
 | 2026-11-26 | Produção de Natal 05/12 e conteúdo extra | Guilherme (responder à Dani) | Respondido em parte; falta decoração e participantes |
 | 2026-11-27 | Aprovação de 16 roteiros (fim de novembro e dezembro); o mais urgente é o de 27/11 | Cliente (Dani) | Aviso enviado, aguardando aprovação |
 | 2026-11-27 | Dani só conseguiu ver a legenda do conteúdo de 27/11 | Cliente (Dani); Guilherme respondeu | Aguardando ela confirmar se vê o roteiro |
@@ -33,6 +34,7 @@ Não repita estes textos. Ao enviar uma nova, acrescente no topo e apague a mais
 
 ## Resumos de interações
 Formato: `AAAA-MM-DD · assunto · desfecho`. A entrada mais nova fica no topo.
+- 2026-11-27 · Lari: Guilherme avisou (12:14) que o vídeo de hoje está na plataforma; Dani (12:33) disse que gostou do tema, que aprovou e que quer fazer alterações. Três áudios (12:38 a 12:42), pelo contexto sobre o conteúdo dos produtos: acha o tema "produtos da casa" genérico, sugere outra chamada (ex.: assinatura / cuidado em cada detalhe), quer passar imagem de marca consolidada que desperte desejo, pergunta se a straut tem as fotos dos produtos do carrossel e quer ver as imagens antes · sem resposta até 13h; repassado ao Samuel, ao Gestor e à Manu.
 - 2026-11-27 · Lari: Dani (10:35) perguntou se o conteúdo de hoje está na plataforma; só conseguiu ver a legenda. Guilherme respondeu (10:50) que o roteiro está para aprovação. Painel (leitura): roteiro de "O estúdio por dentro" presente, aguardando aprovação · sem retorno dela até 11h; repassado ao Samuel e ao Gestor.
 - 2026-11-27 · Lari: Guilherme confirmou que quem escreveu é da equipe do estúdio e corrigia as datas: recesso de 30/12 até 04/01 · repassado ao Gestor WA Concept.
 - 2026-11-27 · Lari: aviso dos roteiros para aprovação enviado às 09:01 (pedido do Guilherme) com o link da página · entregue, aguardando.
