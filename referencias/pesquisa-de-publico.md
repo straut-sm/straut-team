@@ -10,7 +10,7 @@
    de stories, dúvidas que a cliente conta que ouve no consultório, resumos da Lari (`atendimento.md`).
 2. **Garimpar na internet:** lugares onde o público fala sem filtro (tabela abaixo).
 3. **Perguntar direto:** caixinha de perguntas e enquetes nos stories da cliente (a Lari pode sugerir).
-   Sempre com aprovação do Gestor.
+   Sempre com aprovação da Estratégia.
 
 ## Onde procurar (Brasil, Instagram, saúde e estética)
 

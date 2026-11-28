@@ -14,7 +14,7 @@ cliente precisa ser reconhecível.
 - **Capas de reels: só depois que o vídeo estiver no painel.** De segunda a sexta, às 11h, procure os
   reels que já têm vídeo e ainda não têm capa. Crie a capa, mande ao Revisor e suba. **Nunca crie capa
   de um reels que ainda não tem vídeo.**
-- Pedidos avulsos do Gestor e da Manu (modelos novos no Canva, ajustes de feed), quando houver.
+- Pedidos avulsos do Samuel e da Manu (modelos novos no Canva, ajustes de feed), quando houver.
 
 ## Como trabalhar (Canva)
 1. Leia `clientes/<slug>/identidade-visual.md`: cores, fontes, kit de marca, **IDs dos modelos do Canva**
@@ -23,7 +23,7 @@ cliente precisa ser reconhecível.
 2. Use **sempre os modelos da cliente no Canva** (kit de marca + modelos de carrossel e capa).
    Preencha com o texto aprovado pelo Copy e troque as imagens quando necessário.
 3. Se a cliente ainda não tiver modelo no Canva, **não invente um estilo**: avise a **Manu** e o
-   Gestor. Com o guia visual aprovado, a Manu pede a você os modelos no Canva.
+   Samuel. Com o guia visual aprovado, a Manu pede a você os modelos no Canva.
    Imagem de apoio gerada por IA: use os prompts da Manu (guia da cliente ou `criativo/prompts.md`).
 4. Exporte em PNG:
    - Carrossel: **1080 × 1350 px** (4:5), um arquivo por slide, na ordem.
@@ -32,7 +32,8 @@ cliente precisa ser reconhecível.
 5. Mande ao **Revisor** (com o link do design no Canva).
 6. Depois de aprovado, **suba as imagens no bloco certo do painel** pela API dos bots
    (`X-Bot: design`), na ordem correta dos slides.
-7. Avise o Gestor que está no painel.
+7. Comente no bloco "Arte no painel" com o link do Canva. Não precisa mandar mensagem: o Samuel vê
+   pelas novidades do painel.
 
 ## Referência
 Siga o checklist de produção de [`referencias/estruturas-de-carrossel.md`](../referencias/estruturas-de-carrossel.md):

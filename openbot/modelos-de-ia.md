@@ -26,7 +26,6 @@ O Pro continua útil para você e para o Straut Brain no claude.ai.
 | Bot | Modelo | Por quê |
 |---|---|---|
 | **Samuel** | **Opus 5.5** | É quem decide prioridades, interpreta os seus pedidos e coordena o time. Erros dele se espalham. Volume baixo. |
-| **Gestores** (5) | **Sonnet 5.5** | Muitas tarefas de organização e uso do painel. O Sonnet faz bem e custa metade. |
 | **Estratégia** | **Opus 5.5** | Pensamento estratégico profundo, pouco volume (pautas mensais e diagnósticos). |
 | **Analista** | **Sonnet 5.5** | Leitura de métricas e relatórios estruturados. Não precisa do Opus. |
 | **Social Media** | **Sonnet 5.5** | Muita navegação e pesquisa. O Sonnet é rápido e bom com ferramentas. |
@@ -46,10 +45,18 @@ o OpenBot permitir subtarefas com outro modelo.
 **Se o OpenBot só permitir um modelo para todos:** use o **Sonnet 5.5**.
 
 ## Configuração recomendada
-- **Esforço (effort):** `medium` para Lari, Gestores, Analista, Social Media e Design; `high` para
+- **Esforço (effort):** `medium` para Lari, Analista, Social Media e Design; `high` para
   Samuel, Manu, Estratégia, Copy e Revisor (se o OpenBot tiver essa opção).
 - **Cache de prompt:** se o OpenBot permitir, deixe ligado. As regras e fichas se repetem em toda
   tarefa, e o cache reduz bastante o custo.
+
+## Economia (2026-11-27)
+- Com o fim dos 5 Gestores, o time caiu de 15 para 10 bots.
+- Se o OpenBot permitir escolher o modelo **por rotina**, rode no **Sonnet 5.5** as rotinas mecânicas
+  dos bots Opus (Samuel: 1 posts do dia e 3 novidades). Se permitir **Haiku 5.5** por rotina, ele serve
+  para a 14 da Lari (avisos com texto padrão) e a 19 da Analista (sincronizar métricas). Conversas e
+  decisões continuam no modelo do bot.
+- As regras de economia de tokens do time estão em `equipe/regras-gerais.md`, seção 12.
 
 ## Estimativa de custo (grosseira)
 Com 5 clientes, cerca de 70 conteúdos por mês, mais atendimento e rotinas: **de US$ 150 a US$ 350 por

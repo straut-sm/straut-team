@@ -25,7 +25,7 @@ de tudo o que fazem.
 
 ## Autenticação e registro
 - Cabeçalho `Authorization: Bearer <BOTS_API_KEY>`.
-- Cabeçalho `X-Bot: <nome-do-bot>` obrigatório (`samuel`, `gestor-juliana-annunciato`, `design`, `lari`...).
+- Cabeçalho `X-Bot: <nome-do-bot>` obrigatório (`samuel`, `estrategia`, `design`, `lari`...).
 - Toda ação de escrita entra no histórico do bloco como **Straut**, com o nome do bot no texto da ação
   (ex.: "Straut (bot design) adicionou 6 imagens"). Na tela da cliente aparece só "Straut".
 - Limite de requisições (ex.: 60 por minuto) e log de acessos.
@@ -72,12 +72,20 @@ apagar de vez itens da Lixeira, editar o cadastro da cliente, ativar ou desativa
 ## Quem usa o quê (garantido pelas instruções)
 | Bot | Usa |
 |---|---|
-| Analista, Estratégia, Social Media, Copy, Revisor, Lari | Só leitura |
-| Samuel | Leitura + comentários (registrar "Agendado no mLabs para HH:MM") |
-| Gestores | Leitura + criar e editar blocos + avançar roteiros aprovados + enviar para aprovação (com autorização) + comentários. Apagar, publicar e aceitar sugestões estão liberados na API; **quem usa cada um é definido nas instruções dos bots** |
+Desde 2026-11-27 não há mais Gestores de cliente: as tarefas deles foram para o Samuel e a Estratégia.
+
+| Bot | Usa |
+|---|---|
+| Samuel | Leitura + criar e editar blocos + avançar roteiros aprovados + enviar para aprovação (com autorização) + comentários + dias de produção + `novidades`. Apagar, publicar e aceitar sugestões estão liberados na API; **quem usa cada um é definido nas instruções dos bots** |
+| Estratégia | Leitura (inclusive métricas, que lê **do painel**, não do mLabs) |
+| Analista | Leitura + **gravar métricas** (`PUT /clientes/:slug/metricas`). É o único bot que busca números no mLabs |
+| Social Media | Leitura + rascunhos da aba Tendências + "virar roteiro" |
+| Copy | Leitura + criar blocos `roteiro` (`POST /clientes/:slug/blocos`) depois do Revisor + editar o texto deles (`PATCH`) |
+| Revisor | Leitura (recebe e devolve pelo número do bloco) |
+| Lari | Leitura + `novidades` (aprovações e comentários das clientes) |
 | Design | Leitura + upload, anexar e reordenar mídias + comentários (link do Canva) |
 
-O agendamento dos posts é feito pelo Samuel **no mLabs**, não pela API do painel.
+O agendamento e a postagem são do Samuel, **no mLabs**, não pela API do painel.
 
 ---
 
@@ -88,7 +96,7 @@ O agendamento dos posts é feito pelo Samuel **no mLabs**, não pela API do pain
 **Cabeçalhos em toda chamada:**
 ```
 Authorization: Bearer <BOTS_API_KEY>
-X-Bot: <nome-do-bot>          # minúsculas, números e hífen: samuel, design, gestor-jose-erasmo, lari...
+X-Bot: <nome-do-bot>          # minúsculas, números e hífen: samuel, design, estrategia, analista, lari...
 Content-Type: application/json   # nas escritas
 ```
 
@@ -131,6 +139,11 @@ Content-Type: application/json   # nas escritas
 | `GET /blocos/:id` | Bloco completo |
 | `GET /pendencias` | `aguardando_aprovacao_ha_mais_de_48h` (com `aguardando_desde` e `horas_aguardando`), `ajustes_sugeridos`, `comentarios_novos` (com os textos) |
 | `GET /blocos?...` | Todas as clientes ativas. Filtros: `data`, `de`, `ate`, `formato`, `excluir_formato`, `status`, `com_video=sim/nao`, `sem_capa=sim/nao`. **Exige ao menos um** de `data`, `de`, `ate`, `formato` ou `status` |
+| `GET /novidades?desde=<ISO>` | O que mudou desde aquele momento, em ordem: `tipo` (`historico` ou `comentario`), `em`, `quem` (`cliente`, `straut` ou `bot <nome>`), `acao` ou `texto` (+ `interno`), e o bloco (`cliente, bloco_id, titulo, data, formato, status`). Filtros: `cliente=<slug>`, `autor=cliente\|straut`, `incluir_meus=sim` (por padrão esconde o que o próprio bot fez). `desde` até 14 dias atrás. Devolve `ate`: **guarde e use como o próximo `desde`**. Até 300 itens; com `limite_atingido: true`, consulte de novo a partir de `ate` |
+
+**Use `novidades` em vez de varrer o painel.** Uma rotina que só precisa reagir (aprovação da cliente,
+comentário, ajuste sugerido) consulta `GET /novidades?desde=<último ate>&autor=cliente` e, se `total`
+for 0, encerra sem fazer mais nada. Guarde o último `ate` em `gestao/rotinas/registro.md`.
 
 Exemplos das rotinas:
 - Samuel, posts do dia: `GET /blocos?data=2026-12-03&excluir_formato=roteiro`
@@ -157,12 +170,18 @@ Exemplos das rotinas:
 `""` ou `null` tira. Não vale para roteiros. Só preencha com certeza: sem link, o painel liga o post ao
 bloco pela data e pelo formato.
 
-### Métricas do Instagram (só leitura)
-Os números vêm do mLabs pela rotina do Claude (seg a sex, 9h). Mesmas regras da página da cliente.
+### Métricas do Instagram
+A **Analista** é a única que busca números no mLabs e grava no painel. Os outros bots leem daqui
+(`GET`), nunca do mLabs. Mesmas regras da página da cliente.
 
-| Rota | Observações |
-|---|---|
-| `GET /clientes/:slug/metricas?dias=90` | `sincronizado_em` (sem ele, `aguardando_sincronizacao: true` e nada mais); `resumo_do_mes` (período e comparação, `posts`, `alcance_medio` e `_variacao_pct`, `seguidores`, `seguidores_ganhos`, `salvamentos`, `compartilhamentos`, `media_alcance_90_dias`, `posts_com_estrela_no_mes`); `top3` (com `motivo`); `posts` dos últimos `dias` (até 150), cada um com `alcance, visualizacoes, curtidas, comentarios, salvamentos, compartilhamentos, estrela, bloco_id`; `seguidores` por dia |
+| Rota | Corpo | Observações |
+|---|---|---|
+| `GET /clientes/:slug/metricas?dias=90` | — | `sincronizado_em` (sem ele, `aguardando_sincronizacao: true` e nada mais); `resumo_do_mes` (período e comparação, `posts`, `alcance_medio` e `_variacao_pct`, `seguidores`, `seguidores_ganhos`, `salvamentos`, `compartilhamentos`, `media_alcance_90_dias`, `posts_com_estrela_no_mes`); `top3` (com `motivo`); `posts` dos últimos `dias` (até 150), cada um com `alcance, visualizacoes, curtidas, comentarios, salvamentos, compartilhamentos, estrela, bloco_id`; `seguidores` por dia |
+| `PUT /clientes/:slug/metricas` | `{ "perfil_mlabs": "ext_...", "posts": [{ "link": "https://www.instagram.com/reel/...", "publicado_em": "2026-11-24T20:37:06Z", "formato": "reels \| carrossel \| foto", "alcance": 0, "visualizacoes": 0, "curtidas": 0, "comentarios": 0, "salvamentos": 0, "compartilhamentos": 0, "legenda": "...", "motivo": "..." }], "seguidores": [{ "data": "AAAA-MM-DD", "seguidores": 1198 }] }` | **Só a Analista.** Grava ou atualiza (pelo link do post e pela data); nunca apaga. `formato` aceita também os tipos do mLabs (`video`, `reel`, `carousel`, `image`). `motivo` é opcional: use só nos 3 melhores do mês que ainda não têm motivo; **um motivo escrito pela Straut nunca é trocado** (volta em `motivos_mantidos`). Até 500 posts e 400 dias por envio. Marca a cliente como sincronizada (sem isso, os gráficos dela ficam desfocados) |
+
+Rotina da Analista (seg a sex, 9h): para cada cliente com perfil no mLabs, busque os posts e reels
+publicados dos **últimos 45 dias** e o crescimento de seguidores, e mande tudo num `PUT` só por cliente.
+Depois, escreva o motivo dos 3 melhores do mês que vierem com `motivo: null` no `GET`.
 
 Regras: mês atual (dia 1 até hoje) contra os mesmos dias do mês anterior; estrela = alcance acima da
 média dos últimos 90 dias; top 3 = maior alcance + salvamentos + compartilhamentos. Variação em %
@@ -197,7 +216,7 @@ Uma semana (segunda-feira) por vez, com `tendencia_do_mes`, `referencias` e `sto
 | `POST /tendencias/:id/virar-roteiro` | `{ "data": "AAAA-MM-DD" }` (opcional; padrão hoje) | Cria um roteiro em produção no calendário com o texto, o "como adaptar" e o link. Formato planejado: Reels, ou carrossel/foto se a referência for post do feed. Devolve 201 com o bloco |
 
 **Lixeira:** o Guilherme vê tudo o que foi apagado no botão **Lixeira** do painel, com quem apagou
-(ex.: "bot gestor-jose-erasmo") e quantos dias faltam, e pode restaurar. Depois de 30 dias o item e
+(ex.: "bot samuel") e quantos dias faltam, e pode restaurar. Depois de 30 dias o item e
 os arquivos são apagados de vez por uma rotina diária. Os bots não restauram nem apagam de vez.
 
 ### O que fica registrado

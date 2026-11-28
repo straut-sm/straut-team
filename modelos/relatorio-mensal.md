@@ -29,5 +29,5 @@ Fonte: mLabs · Período: <AAAA-MM-01> a <AAAA-MM-último dia>
 <ou "nenhum">
 
 ## Recomendações (3–5)
-1. <ação prática> · para: <Estratégia / Copy / Gestor>
+1. <ação prática> · para: <Estratégia / Copy / Samuel / Manu>
 ```

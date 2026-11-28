@@ -2,7 +2,7 @@
 
 Formato definido pelo feedback da Bia, encaminhado pelo Guilherme em 2026-11-26 (`gestao/decisoes.md`).
 O roteiro é para a produção ler e gravar. Ele não leva data, duração, pilar, objetivo, minutagem nem
-tabela de tempo, cena e texto na tela: esses dados ficam no calendário do Gestor.
+tabela de tempo, cena e texto na tela: esses dados ficam no calendário da Estratégia.
 
 ## Vídeo com fala (roteirizado)
 
@@ -52,4 +52,4 @@ LEGENDA:
   espelho, profissional explicando para a câmera como num anúncio) ou título do tipo "X em cena".
 - **CTA** só na fala do roteiro, na legenda ou no carrossel. No vídeo sem fala, a CTA vai na legenda.
 - Conteúdo mais profundo e criativo: nada de roteiro básico que só descreve o processo.
-- Nada de `⚠️ validar` ou `[FALTA]`: se faltar informação, pergunte ao Gestor antes de escrever.
+- Nada de `⚠️ validar` ou `[FALTA]`: se faltar informação, pergunte à Estratégia antes de escrever.

@@ -17,28 +17,33 @@ Uma pasta por cliente, com o **slug do painel** como nome (ex.: `juliana-annunci
 
 | Arquivo | Conteúdo | Quem mantém |
 |---|---|---|
-| `perfil.md` | Dados básicos, objetivos, público, serviços, restrições | Gestor |
+| `resumo.md` | **Leia primeiro.** Até ~20 linhas: quem é, público, pilares, tom, proibições e "Quem cuida" | Estratégia ("Quem cuida": Samuel) |
+| `perfil.md` | Dados básicos, objetivos, público, serviços, restrições | Estratégia |
 | `posicionamento-e-tom.md` | Posicionamento, pilares, tom de voz, palavras a usar ou evitar | Estratégia (com aprovação) |
 | `identidade-visual.md` | Cores, fontes, kit de marca e modelos do Canva | Design / Guilherme |
 | `textos-aprovados.md` | Exemplos de textos aprovados pela cliente | Copy |
 | `desempenho.md` | Resumo de métricas, recordes, melhores horários e formatos | Analista |
 | `atendimento.md` | Contador semanal da Lari e resumos de interações | Lari |
-| `historico.md` | Linha do tempo de decisões, feedbacks e aprendizados | Gestor, Samuel, Revisor |
+| `historico.md` | Linha do tempo de decisões, feedbacks e aprendizados | Samuel, Revisor |
 | `estrategia/` | Diagnósticos e pautas mensais | Estratégia |
-| `calendario/` | Calendário editorial de cada mês | Gestor |
+| `calendario/` | Calendário editorial de cada mês (listas de gravação: Samuel) | Estratégia |
 | `relatorios/` | Relatórios mensais | Analista |
 | `sugestoes/` | Sugestões de reels viral e stories | Social Media |
+
+> Desde 2026-11-27 não há Gestores de cliente. O que era deles foi para o Samuel e a Estratégia
+> (`equipe/gestor-de-cliente.md`). Entradas antigas do histórico e dos calendários que citam o
+> "Gestor" ficam como estão: são registro.
 | `trafego.md` e `trafego/` | Contas de anúncio, verba, metas, autonomia, planos e relatórios de tráfego pago | Tráfego |
 
 As subpastas são criadas quando o primeiro arquivo for gravado.
 
 ## Cliente nova
 1. Cadastre a cliente no painel (o slug vem de lá).
-2. Copie `_modelo/` para `clientes/<slug>/` e preencha o `perfil.md`.
-3. Crie o bot "Gestor · \<Nome\>" no OpenBot (veja `openbot/README.md`).
+2. Copie `_modelo/` para `clientes/<slug>/` e preencha o `perfil.md` e o `resumo.md`.
+3. Não há bot por cliente: o Samuel e a Estratégia passam a cuidar dela (seção "Quem cuida" do `resumo.md`).
 4. A Estratégia faz o diagnóstico e o posicionamento → aprovação do Guilherme.
 5. O Design monta o kit de marca e os modelos no Canva → aprovação do Guilherme.
 6. Atualize a tabela acima e `equipe/README.md`.
 
 ## Cliente que saiu
-Não apague a pasta. Mude o status na tabela para "inativa" e desative o Gestor no OpenBot.
+Não apague a pasta. Mude o status na tabela para "inativa" e avise o Samuel.

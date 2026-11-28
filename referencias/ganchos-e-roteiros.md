@@ -47,7 +47,7 @@ As duas opções precisam ser reais, e o vídeo precisa **escolher uma** (ou diz
 ### 5. Polêmica (bom para comentários)
 "Opinião impopular", "[conselho comum] está errado", "vou levar hate por isso"…
 ⛔ **Não usar com médicos.** Pode ser lido como sensacionalismo ou ataque a colegas. Para a WA
-Concept e a Straut, só com aprovação do Gestor (⚠️).
+Concept e a Straut, só com aprovação da Estratégia (⚠️).
 
 ## Estruturas de roteiro
 

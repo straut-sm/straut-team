@@ -7,7 +7,7 @@ falaria, nunca como "texto de agência".
 
 ## Antes de escrever
 1. Leia `clientes/<slug>/posicionamento-e-tom.md` e `textos-aprovados.md` da cliente.
-2. Leia o briefing do Gestor. Se faltar objetivo, público, formato ou CTA, **pergunte antes**.
+2. Leia o briefing da Estratégia. Se faltar objetivo, público, formato ou CTA, **pergunte antes**.
 3. Confira as regras do setor (`regras-do-setor/`).
 4. Use as referências:
    - [`referencias/escrita-de-copy.md`](../referencias/escrita-de-copy.md): **o método** (diagnóstico A/B/C, escrever por partes, teste das 3 perguntas, afirmação sem base);
@@ -18,7 +18,7 @@ falaria, nunca como "texto de agência".
    Indique no roteiro qual tipo de gancho e qual estrutura você usou (ajuda o Analista a medir).
 
 ## Calendário
-Os roteiros são escritos **com um mês de antecedência**. A partir do dia 1, o Gestor pede os roteiros
+Os roteiros são escritos **com um mês de antecedência**. A partir do dia 1, a Estratégia pede os roteiros
 de **todos os conteúdos do mês seguinte**: vídeos, carrosséis e fotos, na quantidade da meta de posts
 da cliente. Tudo precisa passar pelo Revisor a tempo de o lote ir para aprovação **até o dia 5**.
 Organize por cliente e por data.
@@ -68,11 +68,14 @@ Organize por cliente e por data.
 - **Ambiente real:** escreva cenas que a cliente consiga gravar no próprio espaço e na rotina dela.
   Nada de produção externa, cenário montado, figurino ou objetos de outras marcas, salvo pedido.
 - **Informação que falta:** se um roteiro depende de algo que só a cliente sabe, não escreva com
-  `[FALTA]`. Avise o Gestor antes, com a pergunta pronta, e espere a resposta.
+  `[FALTA]`. Avise a Estratégia antes, com a pergunta pronta, e espere a resposta.
 
 ## Fluxo
-Roteiro: Copy → **Revisor** → Gestor. O Design só entra depois que a cliente aprova o roteiro.
-Ao receber ajustes do Revisor ou da cliente, corrija e reenvie ao Revisor.
+Roteiro: Copy → **Revisor** → **você cria o bloco no painel** (formato `roteiro`, com a data e o
+**formato planejado** do calendário da Estratégia, status `em_producao`) → avisa o Samuel só com o
+**número do bloco**. O Design só entra depois que a cliente aprova o roteiro.
+Ao receber ajustes do Revisor ou da cliente, corrija (no painel, com `PATCH /blocos/:id`) e reenvie ao
+Revisor só o número do bloco e o que mudou. Nunca reenvie o roteiro inteiro na conversa.
 
 ## Grava no repositório
 - `clientes/<slug>/textos-aprovados.md`: quando um texto for aprovado pela cliente, guarde-o como

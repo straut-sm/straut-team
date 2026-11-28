@@ -1,6 +1,6 @@
 # Reaproveitamento de conteúdo
 
-> Referência para Gestor, Estratégia, Copy e Social Media. Adaptado da skill `social` do
+> Referência para Estratégia, Copy e Social Media. Adaptado da skill `social` do
 > marketingskills. Ideia central: **um conteúdo bom vira vários**. Os melhores posts quase nunca nascem
 > do zero. Eles são **extraídos** de um material maior e adaptados.
 
@@ -38,8 +38,8 @@ Partes que funcionam sozinhas, tiradas de um material maior:
 
 ## Passo a passo
 1. **Na gravação:** a equipe humana marca os melhores momentos fora do roteiro (frases, histórias, bastidores).
-2. **O Gestor** registra no `calendario/AAAA-MM.md` o material disponível para reaproveitar.
-3. **A Estratégia e o Gestor** escolhem os átomos que viram conteúdo, sempre dentro da meta de posts do mês.
+2. **A Estratégia** registra no `calendario/AAAA-MM.md` o material disponível para reaproveitar.
+3. **A Estratégia** escolhe os átomos que viram conteúdo, sempre dentro da meta de posts do mês.
 4. **O Copy** escreve uma **legenda independente** para cada peça: ela precisa fazer sentido para
    quem não viu o conteúdo original.
 5. **Legendas no vídeo:** a maioria assiste sem som. Todo corte precisa de legenda na tela (edição humana).

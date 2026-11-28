@@ -2,7 +2,7 @@
 
 > Vale para clientes como a **WA Concept** (extensão de cílios) e para o perfil da **Straut**.
 > Baseado no Código de Defesa do Consumidor (publicidade enganosa e abusiva) e nas boas práticas do CONAR.
-> Na dúvida, o Revisor bloqueia e o Gestor leva ao Guilherme.
+> Na dúvida, o Revisor bloqueia e o Samuel leva ao Guilherme.
 
 ## Proibido
 - **Publicidade enganosa:** prometer resultados irreais, durabilidade exagerada ("dura para sempre"),

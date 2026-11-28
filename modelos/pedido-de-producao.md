@@ -1,6 +1,6 @@
-# Modelo: pedido de produção (Samuel → Gestor)
+# Modelo: pedido de produção (Samuel → Estratégia)
 
-Use em **todo** pedido de conteúdo a um Gestor: na rotina 4 (dia 1) e nos pedidos avulsos do Guilherme.
+Use em **todo** pedido de conteúdo à Estratégia: na rotina 4 (dia 1) e nos pedidos avulsos do Guilherme.
 Preencha todos os campos. Se um campo ficar sem resposta, resolva antes de enviar. Decisão do
 Guilherme de 2026-11-26 (`gestao/decisoes.md`).
 
@@ -25,7 +25,7 @@ Guilherme de 2026-11-26 (`gestao/decisoes.md`).
 Lições do teste da WA Concept e do feedback da Bia e do Guilherme (2026-11-26):
 - **Formato do roteiro** ([`roteiro-reels.md`](roteiro-reels.md) e [`carrossel.md`](carrossel.md)):
   cabeçalho só com título, formato, intenção e gancho. Nada de data, duração, pilar, objetivo,
-  minutagem ou tabela de cena: isso fica no calendário do Gestor. Vídeo com fala: texto completo para
+  minutagem ou tabela de cena: isso fica no calendário da Estratégia. Vídeo com fala: texto completo para
   o teleprompter. Vídeo sem fala: cenas essenciais em tópicos, 2 frases de apoio e música. Carrossel:
   textos curtos e 2 sugestões de foto. Foto: opções flexíveis, sem ângulo obrigatório.
 - **Conteúdo:** responde ao que o título promete, mostra o benefício de fazer com a cliente e não
@@ -65,7 +65,7 @@ b) Informações da cliente que faltam: perguntas numeradas, prontas para a clie
    ao Guilherme e devolve as respostas. Se estiver vazia, siga para o passo 2 e avise.
 
 PASSO 2 · produção
-Estratégia (pauta, se ainda não houver) → Copy → Revisor → Gestor → painel (formato roteiro,
+Estratégia (pauta, se ainda não houver) → Copy → Revisor → Copy cria o bloco no painel (formato roteiro,
 status em_producao, com data e formato planejado). Copy: 3 opções de gancho por conteúdo, escolhe a
 melhor e só ela vai para o roteiro e o painel. Grave calendario/AAAA-MM.md e registre no historico.md.
 

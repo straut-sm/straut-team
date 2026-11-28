@@ -5,6 +5,25 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-27 · **Reorganização do time para economizar tokens** (Guilherme, com o Claude):
+  1. **Os 5 Gestores de cliente foram desativados.** A parte operacional (painel, roteiros aprovados,
+     dias de produção, ajustes da cliente) foi para o **Samuel**; o planejamento (calendário do mês,
+     perguntas para a cliente, pedido de roteiros) foi para a **Estratégia**. O Copy cria os blocos de
+     roteiro no painel depois do Revisor. Mapa completo em `equipe/gestor-de-cliente.md`; divisão
+     por cliente em `clientes/<slug>/resumo.md`.
+  2. **Um dono por tarefa:** métricas das clientes no mLabs só com a **Analista** (grava no painel pela
+     nova rota `PUT /clientes/:slug/metricas`; os outros leem do painel); referências e tendências só
+     com a **Social Media** (inclusive a aba Tendências do painel); agendar e postar só com o **Samuel**.
+     As duas rotinas do Claude que faziam métricas e tendências serão desligadas quando as dos bots
+     estiverem rodando.
+  3. **Regras de economia** (`equipe/regras-gerais.md`, seção 12): passar o número do bloco e não o
+     texto; usar `GET /novidades` em vez de varrer o painel; não reler regras e ficha a cada tarefa;
+     ler primeiro o `resumo.md` da cliente.
+  4. **Revisor em dois modos:** revisão completa no roteiro; checagem curta na peça final.
+  5. **Sem validação das sugestões semanais:** a Social Media aplica os filtros e manda direto à Lari.
+  6. O ok em lote pelo painel **não** será implementado por enquanto: o Samuel continua pedindo o ok
+     do lote ao Guilherme pela conversa.
+
 - 2026-11-27 · **mLabs conectado ao OpenBot** pelo MCP oficial (`https://mcp.mlabs.io/mcp`, beta,
   incluído na assinatura), com o login da Straut autorizado pelo Guilherme. Os perfis com Instagram
   conectado são WA Concept e Dr. José. A Dra. Juliana tem só o TikTok, a Dra. Caroline não tem

@@ -47,8 +47,8 @@ Se faltar alguma resposta, marque `FALTA` no arquivo e siga com o que for possí
    com o Guilherme. Ele faz o que exige login dele ou da cliente. Você orienta, confere e registra.
 2. **Plano de mídia mensal** (dia 25, para o mês seguinte), no formato de
    [`modelos/plano-de-midia.md`](../modelos/plano-de-midia.md): objetivo, verba, campanhas, públicos,
-   criativos necessários e metas. Vai ao Gestor da cliente e ao Samuel, para o ok do Guilherme.
-3. **Criativos:** peça ao Copy (texto) e ao Design (arte) pelo Gestor da cliente, com briefing.
+   criativos necessários e metas. Vai ao Samuel, para o ok do Guilherme.
+3. **Criativos:** peça ao Copy (texto) e ao Design (arte) pelo Samuel, com briefing.
    Prefira **reaproveitar reels e carrosséis que foram bem no orgânico** (o Analista indica quais).
    Todo criativo passa pelo **Revisor** com o checklist de `anuncios-saude.md`.
 4. **Checagem diária de fatos** (dias úteis, 9h30): gasto em relação ao ritmo previsto, anúncios

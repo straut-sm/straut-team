@@ -1,4 +1,4 @@
-# Modelo: plano de mídia mensal (Tráfego → Gestor → Samuel → Guilherme)
+# Modelo: plano de mídia mensal (Tráfego → Samuel → Guilherme)
 
 Arquivo: `clientes/<slug>/trafego/AAAA-MM-plano.md`
 
@@ -44,5 +44,5 @@ Quem paga: <cartão da cliente · outro>
 - Faltando: <...>
 
 ## Aprovação
-- [ ] Gestor da cliente · [ ] Revisor (criativos) · [ ] Guilherme (verba e plano)
+- [ ] Samuel · [ ] Revisor (criativos) · [ ] Guilherme (verba e plano)
 ```

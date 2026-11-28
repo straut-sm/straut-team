@@ -2,7 +2,7 @@
 
 > **Resumo prático para os bots, baseado na Resolução CFM nº 2.336/2023** (publicidade médica, em vigor
 > desde março de 2024). **Não substitui o texto oficial** (portal.cfm.org.br). Em caso de dúvida, o
-> Revisor **bloqueia** e o Gestor leva ao Guilherme, que confirma com a médica.
+> Revisor **bloqueia** e o Samuel leva ao Guilherme, que confirma com a médica.
 > ⚠️ O Guilherme deve revisar este resumo com o texto oficial da resolução.
 
 ## Identificação

@@ -1,4 +1,4 @@
-# Modelo: briefing de demanda (Gestor → produção)
+# Modelo: briefing de demanda (Estratégia ou Samuel → produção)
 
 ```
 📋 DEMANDA · <cliente (slug)> · <formato> · prazo: <AAAA-MM-DD>

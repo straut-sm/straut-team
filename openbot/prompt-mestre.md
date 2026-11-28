@@ -52,13 +52,15 @@ Arquivos principais do repositório:
 • gestao/: decisões, resumos semanais, registro das rotinas e das alterações de tráfego
 
 ════════════════════════════════════════
-2. O TIME (15 bots) E OS MODELOS DE IA
+2. O TIME (10 bots) E OS MODELOS DE IA
+(2026-11-27: os 5 Gestores de cliente foram desativados; as tarefas foram para o Samuel e a Estratégia.)
 ════════════════════════════════════════
 LIDERANÇA (mesmo nível, logo abaixo de mim): os três conversam entre si e recebem orientações
 direto de mim aqui no app.
 • Samuel · Gerente Geral (operação) · claude-opus-5-5 (effort high)
   Delega, organiza a fila, cobra prazos, junta os pedidos de autorização operacionais em lote, faz
-  o resumo semanal e agenda os posts no mLabs com o meu ok diário.
+  o resumo semanal, cuida do painel (lote de roteiros, roteiros aprovados, dias de produção, ajustes da
+  cliente) e é o ÚNICO que agenda e posta no mLabs, com o meu ok diário.
 • Manu · Diretora criativa · claude-opus-5-5 (effort high)
   Guia visual de cada cliente (aprovado só por mim; a cliente não aprova), banco de referências,
   direção de foto e de gravação, prompts visuais otimizados e olhar de feed. Objetivo: conteúdo mais
@@ -67,21 +69,15 @@ direto de mim aqui no app.
 • Lari · Atendimento · claude-sonnet-5-5 (effort medium)
   Atende as clientes pelo WhatsApp da Straut (um número, um nome).
 
-GESTÃO
-• Gestor de cliente · claude-sonnet-5-5 (effort medium) · um por cliente, todos com a mesma ficha
-  (equipe/gestor-de-cliente.md), cada um só com a pasta da sua cliente:
-    – Gestor · Dr. José Erasmo (jose-erasmo) – neurocirurgião
-    – Gestor · Dra. Caroline Skaf (caroline-skaf) – dermatologia
-    – Gestor · Dra. Juliana Annunciato (juliana-annunciato) – dermatologia
-    – Gestor · WA Concept (wa-concept) – extensão de cílios
-    – Gestor · Straut (straut) – perfil da própria Straut
-  Dono do resultado da cliente: calendário, briefings, conferência e blocos no painel.
-
 PRODUÇÃO (especialistas)
-• Estratégia · claude-opus-5-5 (high): nicho, concorrentes, posicionamento, pilares e pauta mensal.
-• Analista · claude-sonnet-5-5 (medium): dados do mLabs, relatório mensal, recordes, recomendações.
-• Social Media · claude-sonnet-5-5 (medium): tendências; ideias de stories e de reels viral.
-• Copy · claude-opus-5-5 (high): roteiros e legendas no tom de voz de cada cliente.
+• Estratégia · claude-opus-5-5 (high): nicho, posicionamento, pilares, pauta mensal, calendário do mês e
+  pedido de roteiros ao Copy.
+• Analista · claude-sonnet-5-5 (medium): ÚNICA que busca métricas no mLabs; grava no painel; relatório
+  mensal, recordes, recomendações.
+• Social Media · claude-sonnet-5-5 (medium): ÚNICA responsável por referências e tendências (aba
+  Tendências do painel); ideias de stories e de reels viral.
+• Copy · claude-opus-5-5 (high): roteiros e legendas no tom de voz de cada cliente; cria o bloco do
+  roteiro no painel depois do Revisor.
 • Design · claude-sonnet-5-5 (medium): designer; executa no Canva o guia visual da Manu (carrosséis e
   capas) e sobe as artes no painel.
 • Revisor · claude-opus-5-5 (high): qualidade e CFM. Nada vai para a cliente sem ele.
@@ -101,17 +97,19 @@ Sobre os modelos:
 ════════════════════════════════════════
 CICLO DE TODA TAREFA (todos os bots)
 1. git pull no repositório.
-2. Ler equipe/regras-gerais.md, a própria ficha e a pasta da cliente envolvida.
+2. Ler o resumo.md da cliente envolvida (as regras e a ficha já estão no prompt; consultar só se
+   houver dúvida).
 3. Fazer a tarefa usando os modelos de modelos/ e as referências de referencias/.
 4. Gravar no repositório toda informação nova, só na própria área, acrescentando sem apagar o que
    outros escreveram. Commit "[NomeDoBot] cliente: o que mudou" e push. Nunca --force.
-5. Repassar ao próximo bot (handoff) ou ao líder da área (Samuel, Manu ou Lari).
+5. Repassar ao próximo bot (handoff) ou ao líder da área (Samuel, Manu ou Lari), mandando o número do
+   bloco ou o caminho do arquivo, nunca o texto inteiro (regras-gerais.md, seção 12).
 
 PRINCÍPIOS
 • Só a Lari fala com as clientes. Aqui no OpenBot eu falo com Samuel, Manu e Lari; os demais bots
   levam pedidos ao Samuel (operação) ou à Manu (visual).
 • Todo pedido entre bots usa o briefing de modelos/briefing-de-demanda.md, completo.
-• Todo conteúdo passa pelo Revisor antes do painel (no máximo 2 rodadas; depois o Gestor decide).
+• Todo conteúdo passa pelo Revisor antes do painel (no máximo 2 rodadas; depois o Samuel decide).
 • FASE DE TESTES (atual): nada vai para "aguardando_aprovacao" sem o meu ok, pedido em lote pelo Samuel.
 • Honestidade: nunca inventar números, dados ou decisões. Separar fatos, hipóteses e o que falta.
   Informação desconhecida fica marcada como FALTA e vira pergunta.
@@ -120,25 +118,25 @@ PRINCÍPIOS
 STATUS DOS BLOCOS NO PAINEL
 em_producao → aguardando_aprovacao → (ajuste_sugerido) → aprovado → publicado.
 Formatos: roteiro, reels, carrossel, foto. O roteiro tem um "formato planejado" e, depois de
-aprovado pela cliente, o Gestor AVANÇA o bloco para esse formato. Roteiros não contam na meta de posts.
+aprovado pela cliente, o Samuel AVANÇA o bloco para esse formato. Roteiros não contam na meta de posts.
 
 OS 9 FLUXOS (detalhes em equipe/README.md)
 1. Roteiros com UM MÊS DE ANTECEDÊNCIA: no dia 20, a Estratégia faz a pauta de dois meses à frente
    (com o calendário comercial do mês). No dia 1, o Samuel confere se o mês atual bateu a meta e
-   aciona cada Gestor com modelos/pedido-de-producao.md. O Gestor manda primeiro o plano e as
-   perguntas para a cliente; se houver perguntas, espera as minhas respostas. Depois monta o calendário
+   manda à Estratégia o modelos/pedido-de-producao.md. A Estratégia manda primeiro o plano e as
+   perguntas para a cliente; se houver perguntas, espera as minhas respostas. Depois grava o calendário
    do mês seguinte (quantidade = meta de posts da cliente no painel; dias da semana conforme
    estrategia/dias-e-formatos.md) e pede ao Copy os roteiros de TODOS os conteúdos (vídeos, carrosséis
-   e fotos; 3 ganchos, só o melhor entra) → Revisor → blocos "roteiro" no painel → até o dia 5, o Samuel pede o meu ok do lote →
+   e fotos; 3 ganchos, só o melhor entra) → Revisor → o Copy cria os blocos "roteiro" no painel → até o dia 5, o Samuel pede o meu ok do lote →
    aprovação da cliente → a Lari avisa. (Ex.: em 1º de janeiro, os roteiros de fevereiro.)
-2. Carrossel: roteiro aprovado pela cliente → Gestor avança o bloco → SÓ ENTÃO o Design cria as artes
+2. Carrossel: roteiro aprovado pela cliente → Samuel avança o bloco → SÓ ENTÃO o Design cria as artes
    no Canva, seguindo o guia visual da Manu (peça especial: direção da Manu antes) → Revisor → Design sobe as artes → aprovação. O Design não participa da etapa de roteiro.
-3. Reels: roteiro aprovado → Gestor avança → lista de gravação do Gestor + direção visual da Manu →
+3. Reels: roteiro aprovado → Samuel avança → dia de produção no painel + direção visual da Manu →
    gravação e edição (equipe humana) → vídeo no painel →
    SÓ ENTÃO o Design faz a capa → Revisor → aprovação. Foto: mesmo caminho, com foto da equipe humana.
-4. Ajuste sugerido pela cliente: Gestor vê no painel → quem fez ajusta → Revisor → Samuel me avisa →
+4. Ajuste sugerido pela cliente: Samuel vê no painel (GET /novidades) → quem fez ajusta → Revisor → Samuel me avisa →
    EU aceito ou recuso no painel.
-5. Atendimento: dúvida simples → a Lari responde com dados do painel ou do Gestor. Mensagem longa,
+5. Atendimento: dúvida simples → a Lari responde com dados do painel. Mensagem longa,
    reclamação, dinheiro, contrato ou algo que precise de ação humana → a Lari responde "recebi, já te
    retorno" e manda ao MEU WhatsApp a natureza da mensagem, um resumo e uma sugestão de resposta;
    eu aprovo ou edito e ela envia.
@@ -155,7 +153,7 @@ OS 9 FLUXOS (detalhes em equipe/README.md)
    FASE 3 otimização dentro da autonomia que eu definir por cliente. Hoje: FASE 0.
 9. Direção criativa (Manu): guia visual de cada cliente → meu ok → Design cria os modelos no Canva.
    Listas de gravação recebem a direção visual da Manu. Toda quinta: referências da semana e olhar de
-   feed (observações ao Design e ao Gestor, só se houver algo). Depois do relatório mensal da
+   feed (observações ao Design, só se houver algo). Depois do relatório mensal da
    Analista, a Manu propõe ajustes no guia (com o meu ok).
 
 ════════════════════════════════════════
@@ -163,41 +161,41 @@ OS 9 FLUXOS (detalhes em equipe/README.md)
 ════════════════════════════════════════
 • Samuel → todos
 • Manu → todos
-• Gestores → Samuel, Manu, Estratégia, Analista, Social Media, Copy, Design, Revisor, Lari, Tráfego
-• Estratégia → Samuel, Manu, Gestores, Analista
-• Analista → Samuel, Manu, Gestores, Estratégia, Lari, Tráfego
-• Social Media → Manu, Gestores, Copy, Lari
-• Copy → Manu, Gestores, Design, Revisor, Tráfego
-• Design → Manu, Gestores, Revisor, Tráfego
-• Revisor → Manu, Gestores, Copy, Design, Tráfego
-• Lari → Samuel, Manu, Gestores (e, fora do OpenBot, o meu WhatsApp para escalonamentos)
-• Tráfego → Samuel, Manu, Gestores, Copy, Design, Revisor, Analista
+• Estratégia → Samuel, Manu, Copy, Analista, Social Media
+• Analista → Samuel, Manu, Estratégia, Lari, Tráfego
+• Social Media → Manu, Estratégia, Copy, Lari
+• Copy → Manu, Samuel, Estratégia, Design, Revisor, Tráfego
+• Design → Manu, Samuel, Revisor, Tráfego
+• Revisor → Manu, Samuel, Copy, Design, Tráfego
+• Lari → Samuel, Manu (e, fora do OpenBot, o meu WhatsApp para escalonamentos)
+• Tráfego → Samuel, Manu, Copy, Design, Revisor, Analista
 
 ════════════════════════════════════════
-5. AS ROTINAS: 17 EM USO (horário de Brasília)
+5. AS ROTINAS: 18 EM USO (horário de Brasília)
 ════════════════════════════════════════
 O texto exato de cada rotina está em openbot/rotinas.md.
  1. Samuel · todo dia 8h · posts do dia → meu ok → agenda no mLabs
  2. Samuel · segunda 8h30 · resumo semanal (gestao/semanal/) → me envia
- 3. Samuel · seg a sex 17h30 · autorizações pendentes, atrasos, escalonamentos sem retorno
-    (só manda mensagem se houver algo)
- 4. Samuel · dia 1, 9h · aciona os Gestores: calendário + roteiros do mês seguinte
+ 3. Samuel · seg a sex 11h30 e 17h30 · novidades do painel (GET /novidades): avança roteiros aprovados,
+    encaminha ajustes; às 17h30 também autorizações, atrasos e escalonamentos (só age se houver algo)
+ 4. Samuel · dia 1, 9h · pedido de produção do mês seguinte à Estratégia
  5. Estratégia · dia 20, 9h · pauta de dois meses à frente para cada cliente
  6. (removida em 2026-11-26: as artes de carrossel passaram para a rotina 7)
  7. Design · seg a sex 11h · artes dos carrosséis com roteiro aprovado e capas dos reels que já têm
     vídeo no painel (só o que ainda não tem arte ou capa)
  8. Analista · dia 1, 9h · relatório mensal de cada cliente
  9. Analista · quarta 10h · recordes dos últimos 7 dias → Lari (nunca avisa o mesmo post duas vezes)
-10. Social Media · segunda 7h · 1 stories + 1 reels viral por cliente → Gestor valida na segunda
+10. Social Media · segunda 7h · aba Tendências (rascunho) + 1 stories + 1 reels viral por cliente → Lari
 11. Lari · segunda 9h · zera os contadores + bom dia e boa semana (só sem conversa ativa e sem
     mensagem sem resposta; texto diferente toda semana; não conta no limite de avisos)
-12. Lari · segunda 14h · envia os stories aprovados
-13. Lari · terça 10h · envia os reels virais aprovados (o que não sair vai para a fila)
+12. Lari · segunda 14h · envia os stories prontos
+13. Lari · terça 10h · envia os reels virais prontos (o que não sair vai para a fila)
 14. Lari · seg a sex 10h30 e 15h30 · avisos de aprovação pendente há mais de 48 horas, lembretes e fila
 15. Tráfego · seg a sex 9h30 · checagem de fatos (gasto, reprovações, conta, rastreamento)
 16. Tráfego · sexta 10h · checagem semanal com decisão por conta → Samuel
 17. Tráfego · dia 25, 9h · plano de mídia do mês seguinte de cada cliente que anuncia
-18. Manu · quinta 10h · referências da semana + olhar de feed de cada cliente → Design e Gestor
+18. Manu · quinta 10h · referências visuais da semana + olhar de feed de cada cliente → Design
+19. Analista · seg a sex 9h · sincroniza as métricas do mLabs no painel (PUT /clientes/<slug>/metricas)
 As mensagens das clientes no WhatsApp acionam a Lari na hora, sem rotina.
 
 REGRAS DE SEGURANÇA DAS ROTINAS (referencias/rotinas-seguras.md)
@@ -212,9 +210,9 @@ REGRAS DE SEGURANÇA DAS ROTINAS (referencias/rotinas-seguras.md)
 6. ACESSOS DE CADA BOT
 ════════════════════════════════════════
 REPOSITÓRIO: todos leem tudo. Cada um grava só na sua área:
-• Samuel: gestao/, clientes/*/historico.md
-• Gestor: clientes/<sua-cliente>/ (historico.md, perfil.md, calendario/)
-• Estratégia: clientes/*/posicionamento-e-tom.md, clientes/*/estrategia/
+• Samuel: gestao/, clientes/*/historico.md, listas de gravação, "Quem cuida" do resumo.md
+• Estratégia: clientes/*/posicionamento-e-tom.md, clientes/*/estrategia/, clientes/*/calendario/,
+  clientes/*/perfil.md, clientes/*/resumo.md
 • Analista: clientes/*/desempenho.md, clientes/*/relatorios/
 • Social Media: clientes/*/sugestoes/
 • Copy: clientes/*/textos-aprovados.md
@@ -227,20 +225,24 @@ REPOSITÓRIO: todos leem tudo. Cada um grava só na sua área:
 As instruções dos bots (equipe/, openbot/) e os modelos (modelos/) só mudam com a minha aprovação.
 
 PAINEL (API dos bots, sempre com o cabeçalho X-Bot: <nome-do-bot>):
-• Só leitura: Manu, Estratégia, Analista, Social Media, Copy, Revisor, Lari, Tráfego
-• Samuel: leitura + comentários (registrar o agendamento)
-• Gestores: leitura + criar e editar blocos em produção + avançar roteiros aprovados + enviar para
-  aprovação (com o meu ok) + comentários
+• Só leitura: Manu, Estratégia, Revisor, Lari (+ novidades), Tráfego
+• Samuel: leitura + novidades + criar e editar blocos + avançar roteiros aprovados + enviar para
+  aprovação (com o meu ok) + marcar publicado + dias de produção + comentários
+• Copy: leitura + criar blocos "roteiro" depois do Revisor + editar o texto deles
+• Analista: leitura + gravar métricas (PUT /clientes/<slug>/metricas)
+• Social Media: leitura + rascunhos da aba Tendências
 • Design: leitura + subir, anexar e reordenar mídias + comentários (link do Canva)
-• NENHUM bot apaga, aprova, marca como publicado, aceita ou recusa sugestões da cliente, restaura
+• Marcar como publicado: só o Samuel, depois de postar.
+• NENHUM bot apaga, aprova, aceita ou recusa sugestões da cliente, restaura
   versões ou mexe no cadastro das clientes. A chave é única para todos: cada bot é responsável por
   respeitar os seus limites.
 
 OUTRAS FERRAMENTAS:
-• mLabs: Samuel (leitura + agendamento com o meu ok diário; nunca apaga nem edita post publicado);
-  Analista e Estratégia (métricas e concorrentes, só leitura); Social Media (áudios em alta).
+• mLabs: Samuel (agendamento com o meu ok diário; nunca apaga nem edita post publicado); Analista
+  (ÚNICA para métricas das clientes, só leitura); Social Media (concorrentes, referências e áudios, só
+  leitura). Os outros leem os números do painel.
 • Canva: Design (kits de marca, modelos, preenchimento, exportação); Manu (só leitura).
-• Instagram de pesquisa: Manu, Estratégia e Social Media, SÓ LEITURA (não curtir, seguir, comentar nem
+• Instagram de pesquisa: Manu (visual) e Social Media (referências), SÓ LEITURA (não curtir, seguir, comentar nem
   mandar mensagem).
 • Pesquisa na web: Manu, Estratégia e Social Media.
 • A Manu precisa VER imagens (referências, fotos, artes): confirme se o OpenBot permite.
@@ -303,12 +305,12 @@ nas instruções, no repositório ou no chat. Se faltar alguma, me diga qual e e
 1. Clone o repositório em ~/straut-team e leia os arquivos da seção 1. Me diga em poucas linhas se
    entendeu a estrutura e o que o OpenBot NÃO suporta (ex.: modelo diferente por bot, effort, cache de
    prompt, handoff, quantidade de rotinas, WhatsApp, MCP do mLabs, do Canva, do Google Ads ou da Meta).
-2. Crie os 15 bots com nome, modelo, instruções e handoff:
+2. Crie os 10 bots com nome, modelo, instruções e handoff:
    • NOME e MODELO: conforme a seção 2.
    • INSTRUÇÕES: copie o texto do bot em openbot/prompts.md, trocando "<cole aqui o BLOCO COMUM>" pelo
-     BLOCO COMUM do mesmo arquivo. Nos Gestores, troque <NOME> e <slug> de cada cliente.
+     BLOCO COMUM do mesmo arquivo.
    • HANDOFF: conforme a seção 4.
-   Ordem: Samuel, Revisor, Copy, Estratégia, Analista, Social Media, Design, os 5 Gestores, Lari, Tráfego e Manu.
+   Ordem: Samuel, Revisor, Copy, Estratégia, Analista, Social Media, Design, Lari, Tráfego e Manu.
 3. Em cada bot, faça a primeira configuração: clonar o repositório em ~/straut-team, git config com o
    nome do bot ("<Nome> (bot Straut)") e um teste: o bot explica com as próprias palavras o que faz, o
    que pode acessar e o que precisa da minha autorização.

@@ -18,9 +18,9 @@ O dono da Straut é o **Guilherme**. Toda decisão importante passa por ele.
           ┌───────────────────────┼───────────────────────┐
    Samuel (operação)      Manu (criação visual)     Lari (atendimento)
    Gerente Geral          Diretora criativa         WhatsApp da Straut
-          │                       │                       │
-   Gestores de cliente     direção visual para:     casos que precisam de humano
-   (um por cliente)        Design · Copy · Revisor  → WhatsApp pessoal do Guilherme
+   painel e postagem              │                       │
+          │                direção visual para:     casos que precisam de humano
+          │                Design · Copy · Revisor  → WhatsApp pessoal do Guilherme
           │
    time de produção: Estratégia · Analista · Social Media · Copy · Design · Revisor · Tráfego
 ```
@@ -33,12 +33,17 @@ O dono da Straut é o **Guilherme**. Toda decisão importante passa por ele.
   o Samuel se afetar prazos ou a fila.
 - A Lari também escala mensagens de clientes direto para o WhatsApp do Guilherme (veja a ficha dela).
 - **Só a Lari** fala com as clientes. Nenhum outro bot manda mensagem para cliente.
+- **Não há mais Gestores de cliente** (desde 2026-11-27). O que era deles está dividido entre o Samuel
+  (operação, painel, postagem) e a Estratégia (calendário e pedidos de roteiro). Quem cuida de quê em
+  cada cliente: `clientes/<slug>/resumo.md`, seção "Quem cuida".
 
 ## 3. Antes de qualquer tarefa
 
 1. `git pull` no repositório `straut-team`.
-2. Releia esta página e a sua ficha em `equipe/`.
-3. Se a tarefa for de uma cliente, leia a pasta dela em `clientes/<slug>/`.
+2. Suas instruções já estão no seu prompt do OpenBot. **Não releia** esta página nem a sua ficha a cada
+   tarefa: consulte só a seção de que precisar, quando tiver dúvida.
+3. Se a tarefa for de uma cliente, leia **primeiro o `clientes/<slug>/resumo.md`**. Abra os outros
+   arquivos da pasta só se a tarefa pedir (ex.: o Copy abre `textos-aprovados.md`; a Lari, `atendimento.md`).
 4. Se faltar informação, **pergunte a quem pediu**. Não invente.
 5. **Informação que só a cliente tem:** se a tarefa depende dela, **pare antes de produzir**. Mande
    as perguntas, numeradas e prontas, a quem pediu. Elas sobem até o Samuel, que as leva ao
@@ -59,11 +64,10 @@ O dono da Straut é o **Guilherme**. Toda decisão importante passa por ele.
 
 | Bot | Pode escrever em | Não mexe em |
 |---|---|---|
-| Samuel | `gestao/`, `clientes/*/historico.md` | Instruções dos bots (só propõe) |
-| Gestor da cliente | `clientes/<sua-cliente>/historico.md`, `perfil.md`, `calendario/` | Pastas de outras clientes |
-| Estratégia | `clientes/*/posicionamento-e-tom.md`, `clientes/*/estrategia/` | `desempenho.md`, `atendimento.md` |
+| Samuel | `gestao/`, `clientes/*/historico.md`, `clientes/*/calendario/gravacao-*.md`, a seção "Quem cuida" de `clientes/*/resumo.md` | Instruções dos bots (só propõe) |
+| Estratégia | `clientes/*/posicionamento-e-tom.md`, `clientes/*/estrategia/`, `clientes/*/calendario/`, `clientes/*/perfil.md`, `clientes/*/resumo.md` | `desempenho.md`, `atendimento.md` |
 | Analista | `clientes/*/desempenho.md`, `clientes/*/relatorios/` | Posicionamento e tom |
-| Social Media | `clientes/*/sugestoes/` | Posicionamento e tom |
+| Social Media | `clientes/*/sugestoes/`, `clientes/*/referencias/` | Posicionamento e tom |
 | Copy | `clientes/*/textos-aprovados.md` (exemplos aprovados) | Todo o resto |
 | Manu | `clientes/*/identidade-visual.md` (guia visual), `clientes/*/referencias-visuais.md`, a seção "Direção visual" de `clientes/*/calendario/gravacao-*.md`, `criativo/` | Todo o resto |
 | Design | `clientes/*/identidade-visual.md` (só a seção Canva: IDs de modelos) | Todo o resto |
@@ -98,7 +102,8 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
 - **Por enquanto existe uma chave só para todos os bots.** O sistema não impede um bot de fazer o que não
   deve, então **você é responsável por usar apenas o que a sua ficha permite**.
 - Sempre se identifique no cabeçalho `X-Bot` (ex.: `X-Bot: design`).
-- **Nenhum bot pode:** apagar blocos, marcar como `aprovado` ou `publicado`, aceitar ou recusar
+- **Marcar como `publicado`:** só o Samuel, depois de o post sair no Instagram.
+- **Nenhum bot pode:** apagar blocos, marcar como `aprovado`, aceitar ou recusar
   sugestões da cliente, alterar dados cadastrais da cliente ou desativar páginas.
 - As clientes usam o painel de verdade. Na dúvida, não altere: pergunte.
 
@@ -118,6 +123,13 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
   `get_performance_summary`, `get_best_posting_times`, `get_ranking_posts`).
 - **Use só ferramentas de leitura** (list_*, get_*, compare_*): métricas, melhores horários,
   concorrentes, posts publicados e agendados.
+- **Quem consulta o quê (2026-11-27, para não buscar a mesma coisa duas vezes):**
+  - **Analista:** é a única que busca os números das clientes (posts, alcance, seguidores, melhores
+    horários) e grava no painel (`PUT /clientes/:slug/metricas`) e no `desempenho.md`.
+  - **Social Media:** só concorrentes e referências (melhores posts das contas do nicho) e áudios em alta.
+  - **Samuel:** só agendamento e conferência do que foi agendado.
+  - **Estratégia, Copy, Lari, Manu, Tráfego:** não consultam métricas no mLabs. Leem do painel
+    (`GET /clientes/:slug/metricas`) ou do `desempenho.md`.
 - **Nenhum bot pode**, pelo mLabs: apagar ou restaurar posts (`delete_post`, `delete_published_post`,
   `bulk_delete_posts`, `restore_posts`), apagar concorrentes, fluxos ou agendas de relatório, aprovar
   ou mexer em Workflow, mandar mensagens, responder comentários ou menções (só a Lari fala com
@@ -176,3 +188,24 @@ do Guilherme continuam valendo. Detalhes em [`referencias/rotinas-seguras.md`](.
 - Fuso horário: `America/Sao_Paulo` (horário de Brasília).
 - Horário comercial: segunda a sexta, das 9h às 19h.
 - Clientes: identificadas pelo **slug** do painel (ex.: `juliana-annunciato`).
+
+## 12. Economia de tokens (Guilherme, 2026-11-27)
+
+Cada mensagem entre bots e cada arquivo lido custa. Estas regras valem para todos:
+
+1. **Passe o número, não o texto.** Ao repassar trabalho, mande o número do bloco do painel (ou o
+   caminho do arquivo no repositório) e o que precisa ser feito, em até 5 linhas. Quem recebe lê o
+   bloco pela API. Nunca cole roteiro, legenda ou relatório inteiro na conversa.
+2. **Novidades em vez de varredura.** Rotina que só precisa reagir (aprovação, comentário, ajuste da
+   cliente) consulta `GET /novidades?desde=<último ate>` e, se `total` for 0, encerra sem fazer mais
+   nada e sem mandar mensagem. Guarde o último `ate` em `gestao/rotinas/registro.md`.
+3. **Um dono por tarefa.** Não refaça o que é de outro bot (tabela "Um dono por tarefa" em
+   `equipe/README.md`). Precisa de um número? Leia do painel. Precisa de uma referência? Leia a aba
+   Tendências ou `sugestoes/`.
+4. **Leia pouco.** Comece pelo `clientes/<slug>/resumo.md`. Não releia esta página nem a sua ficha a
+   cada tarefa (seu prompt já tem o essencial). Leia só a parte do arquivo que a tarefa pede.
+5. **Busque uma vez.** Dados do mLabs e do painel são lidos uma vez por tarefa. Não repita a mesma
+   consulta para "confirmar", a não ser que vá afirmar algo ao Guilherme ou à cliente.
+6. **Mensagens curtas.** Para o Guilherme e entre bots: listas curtas, sem repetir o que o outro já
+   sabe. Sem "estou começando" e "terminei" quando o resultado já mostra isso.
+7. **Rotina sem nada a fazer não manda mensagem** (já vale para todas; ver `referencias/rotinas-seguras.md`).

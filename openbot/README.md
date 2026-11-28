@@ -40,26 +40,26 @@ Para cada bot: nome, **instruções** (texto em [`prompts.md`](prompts.md)), mod
 | 5 | Analista | Sonnet 5.5 |
 | 6 | Social Media | Sonnet 5.5 |
 | 7 | Design | Sonnet 5.5 |
-| 8–12 | Gestor · Dr. José Erasmo / Dra. Caroline Skaf / Dra. Juliana Annunciato / WA Concept / Straut | Sonnet 5.5 |
+| — | ~~Gestores de cliente~~ (desativados em 2026-11-27: apague os 5 bots no OpenBot) | — |
 | 13 | Lari | Sonnet 5.5 |
 | 14 | Tráfego | Opus 5.5 |
 | 15 | Manu (diretora criativa) | Opus 5.5 |
 
 Em cada bot, peça na primeira conversa:
 > "Clone o repositório straut-sm/straut-team em ~/straut-team, configure o git com o seu nome de bot
-> e leia equipe/regras-gerais.md e a sua ficha. Depois me diga com suas palavras o que você faz e o
+> e leia equipe/regras-gerais.md e a sua ficha (só nesta primeira vez; depois, só quando tiver dúvida). Depois me diga com suas palavras o que você faz e o
 > que precisa de autorização."
 
 Se a resposta estiver certa, o bot está pronto.
 
 ## 4. Rotinas
-Criar as rotinas de [`rotinas.md`](rotinas.md) (17 em uso; a 6 foi removida). As 3 do Tráfego ficam
+Criar as rotinas de [`rotinas.md`](rotinas.md) (18 em uso; a 6 foi removida; a 19 é a sincronização de métricas da Analista). As 3 do Tráfego ficam
 desativadas até a fase 1.
 
 ## 5. Teste antes de ligar para as clientes
 1. **Samuel:** peça "o que tem pendente nas clientes?" e confira se ele delega e responde certo.
 2. **Uma demanda completa:** peça ao Samuel um carrossel para uma cliente e acompanhe o fluxo
-   Gestor → Copy → Design → Revisor → painel (`em_producao`) → pedido de autorização.
+   Estratégia → Copy → Revisor → Copy cria o bloco no painel (`em_producao`) → Samuel → pedido de autorização.
 3. **Lari em teste:** conecte a Lari **ao seu número** primeiro e simule uma cliente: dúvida simples,
    mensagem longa, reclamação, pedido de gravação e a pergunta "você é um robô?".
 4. **Repositório:** confira no GitHub se os bots gravaram e fizeram commit do que deviam.
