@@ -5,6 +5,12 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-28 · **Rotinas, ajuste da noite** (Guilherme): a rotina 3 roda uma vez, às 13h, com os
+  avanços, os pedidos ao Design e as pendências numa só mensagem. A rotina 19 passa para as 7h e
+  monta o envio por script, sem redigitar números. O texto da rotina 11 foi atualizado (a Lari está
+  no WhatsApp). **Todas as rotinas ficam ativas, menos a 18.** Apagadas as rotinas avulsas da Lari já
+  concluídas ou canceladas e a "Dra. Carol · conferir respostas". Fica ativa a checagem de hora em
+  hora do WhatsApp da Lari (só leitura).
 - 2026-11-28 · **Ajuste das rotinas** (Guilherme): o time passa a ter **11 rotinas**.
   - **Excluídas:** 1 (posts do dia do Samuel), 2 (resumo semanal), 7 (artes e capas do Design), 14
     (avisos da Lari) e 15, 16 e 17 (todas do Tráfego, por enquanto). Posts do dia, resumo semanal e

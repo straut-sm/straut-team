@@ -3,6 +3,9 @@
 O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minutos. Horário de Brasília.
 **O time usa 11 rotinas.** Os números antigos foram mantidos para não quebrar referências.
 
+**Ajuste de 2026-11-28, noite (Guilherme):** rotina 3 com **um horário só, 13h** (avanços, pedidos ao
+Design e pendências na mesma mensagem); rotina 19 às **7h**; todas as rotinas **ativas, menos a 18**.
+
 **Mudanças de 2026-11-28 (Guilherme):**
 - **Excluídas:** 1 (posts do dia do Samuel), 2 (resumo semanal do Samuel), 7 (artes e capas do
   Design), 14 (avisos da Lari) e 15, 16 e 17 (todas do Tráfego, por enquanto).
@@ -30,7 +33,7 @@ Dia 1  do mês M     Samuel      → confere se o mês M bateu a meta → pedido
                     Copy        → ROTEIROS de todos os conteúdos do mês M+1 → Revisor
                                 → Copy cria os blocos no painel → números ao Samuel
                     Samuel      → ok do Guilherme → aprovação da cliente (até o dia 5)
-Dias úteis 11h30    Samuel      → novidades do painel: roteiro aprovado → avança e pede ao Design a arte;
+Dias úteis 13h      Samuel      → novidades do painel: roteiro aprovado → avança e pede ao Design a arte;
                                    reels com vídeo e sem capa → pede a capa ao Design
 Quando você pedir   Samuel      → posts do dia → seu ok → agenda e posta no mLabs
 ```
@@ -48,7 +51,7 @@ Terça 10h     Lari         → envia os reels virais da semana liberada
 
 | # | Bot | Quando | Tarefa |
 |---|---|---|---|
-| 3 | Samuel | Segunda a sexta, **11h30 e 17h30** | Novidades do painel: avançar roteiros aprovados, pedir artes e capas ao Design, encaminhar ajustes e comentários; às 17h30, também autorizações, atrasos e escalonamentos |
+| 3 | Samuel | Segunda a sexta, **13h** | Novidades do painel: avançar roteiros aprovados, pedir artes e capas ao Design, encaminhar ajustes e comentários; na mesma execução, autorizações, atrasos e escalonamentos (uma mensagem só) |
 | 4 | Samuel | **Dia 1, 9h** | Pedido de produção do mês seguinte à Estratégia |
 | 5 | Estratégia | **Dia 20, 9h** | Pauta do mês M+1 (dois meses à frente) para cada cliente |
 | 8 | Analista | Dia 1, 9h | Relatório mensal de cada cliente |
@@ -58,7 +61,7 @@ Terça 10h     Lari         → envia os reels virais da semana liberada
 | 12 | Lari | **Segunda, 14h** | Enviar as ideias de stories da aba Tendências (semana liberada) |
 | 13 | Lari | **Terça, 10h** | Enviar os reels virais da aba Tendências (semana liberada) |
 | 18 | Manu | **Quinta, 10h** | Referências visuais da semana + olhar de feed de cada cliente → observações ao Design |
-| 19 | Analista | **Segunda a sexta, 9h** | Sincronizar o painel com o mLabs (posts, seguidores, motivo do top 3) |
+| 19 | Analista | **Segunda a sexta, 7h** | Sincronizar o painel com o mLabs (posts, seguidores, motivo do top 3) |
 
 **Excluídas:** 1, 2, 6, 7, 14, 15, 16 e 17. As mensagens que chegam das clientes no WhatsApp acionam
 a Lari na hora (não precisam de rotina).
@@ -69,7 +72,7 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
 
 | # | Só age quando | Memória (para não repetir) | Para / chama humano quando |
 |---|---|---|---|
-| 3 | `GET /novidades` trouxe algo, há reels com vídeo e sem capa, ou há pendência ou escalonamento sem retorno (17h30) | Último `ate` em `gestao/rotinas/registro.md` | Nada novo → não faz nada e não envia mensagem |
+| 3 | `GET /novidades` trouxe algo, há reels com vídeo e sem capa, ou há pendência ou escalonamento sem retorno | Último `ate` em `gestao/rotinas/registro.md` | Nada novo → não faz nada e não envia mensagem |
 | 4 | Dia 1 | `calendario/AAAA-MM.md` de cada cliente | Pauta do mês ausente → avisa a Estratégia e o Guilherme; mês atual abaixo da meta → avisa o Guilherme primeiro |
 | 5 | Dia 20 | `estrategia/pauta-AAAA-MM.md` | Cliente sem posicionamento definido → avisa o Samuel |
 | 8 | Dia 1 | `relatorios/AAAA-MM.md` | mLabs sem dados → avisa, não inventa números |
@@ -84,13 +87,14 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
 
 3. **Samuel · novidades do painel:** "Consulte `GET /novidades?desde=<último ate de
    gestao/rotinas/registro.md>&autor=cliente` e `GET /blocos?formato=reels&com_video=sim&sem_capa=sim`.
-   Se não houver nada e não for a checagem das 17h30, encerre sem fazer nada. Para cada roteiro
+   Roda uma vez por dia útil, às 13h. Para cada roteiro
    aprovado, avance o bloco para o formato planejado e acione quem vem depois: carrossel → peça a arte
    ao Design; reels → dia de produção no painel e direção da Manu; foto → Manu. Para cada reels com
    vídeo e sem capa, peça a capa ao Design (só o número do bloco). Para cada ajuste sugerido ou
-   comentário, encaminhe a quem fez só com o número do bloco. Grave o novo `ate`. Às 17h30, verifique
-   também autorizações pendentes, conteúdos atrasados em relação à meta e escalonamentos da Lari sem
-   retorno e me envie um resumo agrupado só se houver algo."
+   comentário, encaminhe a quem fez só com o número do bloco. Grave o novo `ate`. Na mesma execução,
+   verifique autorizações pendentes, conteúdos atrasados em relação à meta e escalonamentos da Lari
+   sem retorno e me envie UMA mensagem agrupada (o que foi avançado ou pedido + pendências) só se
+   houver algo. Se não houver nada, encerre sem mensagem."
 4. **Samuel · pedido de produção:** "Para cada cliente, confira no painel se o mês atual bateu a meta;
    se não, avise o Guilherme primeiro. Depois mande à Estratégia o `modelos/pedido-de-producao.md`
    preenchido de cada cliente: roteiros de TODOS os conteúdos do mês seguinte, na quantidade da meta
@@ -114,9 +118,10 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
     com o Instagram de pesquisa e a web. Aplique os filtros de `equipe/social-media.md`. Não libere a
     semana (é do Guilherme) e não envie mensagem."
 11. **Lari · boa semana:** "Zere os contadores semanais em `atendimento.md` de cada cliente. Depois,
-    para cada cliente (exceto a Straut) que NÃO tenha mensagem sem resposta nem conversa ativa, envie
-    uma mensagem de bom dia e boa semana de trabalho, diferente das últimas 4 semanas (veja
-    `atendimento.md`), e registre o texto enviado."
+    no WhatsApp Web já conectado, para cada cliente (exceto a Straut) que NÃO tenha mensagem sem
+    resposta nem conversa ativa, envie no grupo dela uma mensagem curta de bom dia e boa semana de
+    trabalho, diferente das últimas 4 semanas (veja `atendimento.md`), com as suas regras de escrita,
+    e registre o texto enviado. WhatsApp fora do ar → não envia e avisa o Samuel uma vez."
 12. **Lari · stories da semana:** "Para cada cliente (exceto a Straut), leia a semana atual da aba
     Tendências (`GET /clientes/<slug>/tendencias?semana=<segunda desta semana>`). Se a semana estiver
     LIBERADA, envie as ideias de stories numa só mensagem curta, no tom de WhatsApp, com o link
@@ -137,6 +142,7 @@ obedecem à **"PAUSA GERAL"** e registram o que fizeram em `gestao/rotinas/regis
     objetiva ao Design. Se não houver nada, não envie mensagem."
 19. **Analista · sincronizar métricas:** "Para cada cliente ativa com perfil no mLabs, busque os posts
     e reels publicados dos últimos 45 dias e o crescimento de seguidores e grave tudo num único
-    `PUT /clientes/<slug>/metricas`. Depois leia `GET /clientes/<slug>/metricas` e, para os posts do
-    top 3 sem motivo, escreva o motivo (1 a 2 frases) e mande só esses posts de novo com `motivo`.
+    `PUT /clientes/<slug>/metricas`, **montado por script a partir do retorno bruto do mLabs (nunca
+    redigitar números)**. Depois leia `GET /clientes/<slug>/metricas`, confira com o mesmo script que
+    todos os números batem e, para os posts do top 3 sem motivo, escreva o motivo (1 a 2 frases) e mande só esses posts de novo com `motivo`.
     Não envie mensagem, a não ser que uma cliente fique 2 dias úteis sem sincronizar."
