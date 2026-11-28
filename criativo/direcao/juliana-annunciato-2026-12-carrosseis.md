@@ -25,7 +25,7 @@ páginas dos carrosséis "Tem uma parte do corpo que entrega a sua idade", "O bo
 cronograma (Bioestimulador / Liftera / Redtouch). **Use as mesmas fontes, tamanhos e cores
 dessas páginas** (copie as caixas de texto; não troque fonte).
 
-**Formato:** **1080 × 1440 px (3:4)**, igual aos carrosséis publicados dela. Para esta cliente, vale
+**Formato:** **1080 × 1440 px (3:4)** (confirmado em 2026-11-28: é o formato de todos os carrosséis publicados dela), igual aos carrosséis publicados dela. Para esta cliente, vale
 no lugar do 1080 × 1350 da ficha do Design.
 
 **Três fontes, cada uma com uma função:**
@@ -66,8 +66,8 @@ da foto (se não, use a caixa translúcida). Deixe uma margem de 90 px nas borda
 "02 · 07" no canto superior, como no cronograma.
 
 **Último slide de todos:** CTA do roteiro + assinatura pequena "Dra. Juliana Annunciato ·
-Dermatologista e tricologista". O CRM/RQE ainda não está definido no guia: **não coloque** até o
-Guilherme confirmar.
+Dermatologista · CRM 140.346 · RQE 51.127" (2026-11-28 · Manu, após o Revisor: identificação
+exigida pelo CFM; dados da bio dela; sem "tricologista", que não é especialidade registrada).
 
 **Nunca:** antes e depois, agulha no rosto de paciente identificável, marca de medicamento ou de
 produto de terceiro em destaque, emoji, fundo escuro em todos os slides, mais de uma fonte script no
@@ -214,3 +214,5 @@ URL: `https://images.unsplash.com/<código>?w=2160&q=85`
 Ajuste das fotos: tom quente (puxe levemente para o âmbar se vierem frias), um pouco de grão, e
 corte em 1080 × 1440 deixando a área do texto livre. O vermelho do 22/12 sai: nenhuma foto boa
 tinha o acento sem marca de produto.
+
+2026-11-28 · Manu: foto de procedimento só sem rosto de paciente (sem olhos, nariz e boca), mesmo que já tenha sido publicada antes.
