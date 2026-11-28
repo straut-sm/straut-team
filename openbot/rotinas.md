@@ -5,9 +5,9 @@ O OpenBot permite **até 20 rotinas ativas**, com intervalo mínimo de 15 minuto
 **Mudanças de 2026-11-27 (Guilherme):**
 - Os Gestores de cliente foram desativados; as tarefas foram para o Samuel e a Estratégia.
 - A **Analista** passou a sincronizar as métricas do painel (rotina 19, nova). A rotina do Claude que
-  fazia isso no computador do Guilherme será desligada.
+  fazia isso no computador do Guilherme foi desligada em 2026-11-27.
 - A **Social Media** passou a preencher a aba Tendências (rotina 10). A rotina do Claude que fazia isso
-  será desligada.
+  foi desligada em 2026-11-27.
 - A checagem do Samuel usa `GET /novidades` e ganhou um horário às 11h30 (rotina 3).
 - As rotinas 3 e 14 só agem se houver novidade. Sem novidade, encerram sem mensagem.
 
