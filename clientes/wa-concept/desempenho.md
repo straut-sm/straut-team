@@ -102,6 +102,9 @@ Sem os posts de evento, o alcance médio é 366 nos reels (15) e 294 nos carross
 - Perfil próprio, mesmo período: 13 posts (3,3 por semana), engajamento público 0,15%, média de 506,75 visualizações por reels.
 - Horário real de publicação: 11 dos 13 posts saíram na faixa das 18h às 21h, 1 na das 15h e 1 na das 21h. Por isso ainda não dá para comparar horários com dados próprios; testar os horários sugeridos.
 
+## Sincronização do painel
+- 2026-11-27 22h25 · Analista: teste manual da rotina 19. 18 posts (10 reels, 8 de feed) de 14/10 a 28/11 e 44 dias de seguidores (14/10 a 26/11) gravados no painel pelo MCP do mLabs. O post mais recente devolvido é de 24/11. Atenção: nos reels, os salvamentos vêm no campo `saved` do mLabs (`saves` vem 0).
+
 ## Relatórios
 Veja a pasta `relatorios/`.
 
