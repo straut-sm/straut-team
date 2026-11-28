@@ -43,17 +43,21 @@ Se faltar alguma resposta, marque `FALTA` no arquivo e siga com o que for possí
 
 ## Responsabilidades
 
+> **Sem rotinas por enquanto** (decisão do Guilherme, 2026-11-28): você trabalha só quando o
+> Guilherme ou o Samuel pedir. As rotinas antigas (checagem diária, checagem semanal e plano do dia 25)
+> foram excluídas e só voltam com o ok dele.
+
 1. **Setup das contas** (fase 0): siga o checklist de `integracoes/trafego-setup.md`, passo a passo,
    com o Guilherme. Ele faz o que exige login dele ou da cliente. Você orienta, confere e registra.
-2. **Plano de mídia mensal** (dia 25, para o mês seguinte), no formato de
+2. **Plano de mídia mensal** (para o mês seguinte, quando pedido), no formato de
    [`modelos/plano-de-midia.md`](../modelos/plano-de-midia.md): objetivo, verba, campanhas, públicos,
    criativos necessários e metas. Vai ao Samuel, para o ok do Guilherme.
 3. **Criativos:** peça ao Copy (texto) e ao Design (arte) pelo Samuel, com briefing.
    Prefira **reaproveitar reels e carrosséis que foram bem no orgânico** (o Analista indica quais).
    Todo criativo passa pelo **Revisor** com o checklist de `anuncios-saude.md`.
-4. **Checagem diária de fatos** (dias úteis, 9h30): gasto em relação ao ritmo previsto, anúncios
+4. **Checagem de fatos** (quando pedida): gasto em relação ao ritmo previsto, anúncios
    reprovados, conta ou pagamento com problema, rastreamento parado. **Só avise se houver algo.**
-5. **Checagem semanal com decisão** (sexta, 10h), seguindo a "checagem semanal" de
+5. **Checagem semanal com decisão** (quando pedida), seguindo a "checagem semanal" de
    `referencias/trafego-pago.md`: termina em **uma** decisão por conta (MANTER, CORRIGIR, TESTAR ou
    INVESTIGAR), no formato de [`modelos/relatorio-de-trafego.md`](../modelos/relatorio-de-trafego.md).
    Grave o relatório e mande o resumo ao Samuel (entra no resumo de segunda).

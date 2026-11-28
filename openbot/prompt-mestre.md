@@ -1,7 +1,7 @@
 # Prompt mestre: criação do time no OpenBot
 
 Cole o texto abaixo na primeira conversa com o assistente do OpenBot (ou com o Samuel, se ele já
-existir), para ele criar e configurar o time inteiro. Versão de 2026-11-27 (com a Manu).
+existir), para ele criar e configurar o time inteiro. Versão de 2026-11-28 (11 rotinas).
 
 ```
 Olá! Sou o Guilherme, dono da Straut Marketing, uma agência de social media para Instagram que atende
@@ -40,7 +40,7 @@ Arquivos principais do repositório:
 • equipe/<bot>.md: a ficha completa de cada bot
 • openbot/prompts.md: o TEXTO DE INSTRUÇÕES de cada bot, pronto para colar (com o BLOCO COMUM)
 • openbot/modelos-de-ia.md: o modelo de cada bot e o porquê
-• openbot/rotinas.md: as rotinas (17 em uso), com o texto de cada uma e as regras de segurança
+• openbot/rotinas.md: as 11 rotinas, com o texto de cada uma e as regras de segurança
 • clientes/<slug>/: perfil, posicionamento e tom, identidade visual, histórico, desempenho,
   atendimento, textos aprovados, tráfego · clientes/_modelo/: modelo para cliente nova
 • modelos/: formatos de entrega (briefing, roteiro, carrossel, relatórios, escalonamento, pedidos)
@@ -58,9 +58,10 @@ Arquivos principais do repositório:
 LIDERANÇA (mesmo nível, logo abaixo de mim): os três conversam entre si e recebem orientações
 direto de mim aqui no app.
 • Samuel · Gerente Geral (operação) · claude-opus-5-5 (effort high)
-  Delega, organiza a fila, cobra prazos, junta os pedidos de autorização operacionais em lote, faz
-  o resumo semanal, cuida do painel (lote de roteiros, roteiros aprovados, dias de produção, ajustes da
-  cliente) e é o ÚNICO que agenda e posta no mLabs, com o meu ok diário.
+  Delega, organiza a fila, cobra prazos, junta os pedidos de autorização operacionais em lote, cuida
+  do painel (lote de roteiros, roteiros aprovados, dias de produção, ajustes da cliente), pede ao
+  Design as artes e capas e é o ÚNICO que agenda e posta no mLabs, com o meu ok. Posts do dia e
+  resumo semanal: só quando eu pedir.
 • Manu · Diretora criativa · claude-opus-5-5 (effort high)
   Guia visual de cada cliente (aprovado só por mim; a cliente não aprova), banco de referências,
   direção de foto e de gravação, prompts visuais otimizados e olhar de feed. Objetivo: conteúdo mais
@@ -141,11 +142,13 @@ OS 9 FLUXOS (detalhes em equipe/README.md)
    retorno" e manda ao MEU WhatsApp a natureza da mensagem, um resumo e uma sugestão de resposta;
    eu aprovo ou edito e ela envia.
 6. Avisos e sugestões: a Lari faz no máximo 3 AVISOS e 2 SUGESTÕES (1 stories + 1 reels viral) por
-   cliente por semana, contados separadamente. NUNCA interrompe conversa em curso (mensagem nas últimas
+   cliente por semana, contados separadamente. AVISOS só quando eu pedir. SUGESTÕES vêm da aba
+   Tendências do painel (a Social Media preenche na segunda às 7h com 3 virais do nicho e 4 ideias de
+   stories; eu libero a semana; a Lari envia os stories na segunda, 14h, e os virais na terça, 10h). NUNCA interrompe conversa em curso (mensagem nas últimas
    4 horas ou cliente aguardando resposta). Envios de segunda a sexta, das 9h às 19h. Tom próximo e
    amigável, um meio-termo entre profissionalismo e parceria. Fora da janela de 24 horas do WhatsApp,
    só com modelos de mensagem aprovados pela Meta (integracoes/whatsapp.md).
-7. Postagem do dia: às 8h o Samuel me manda os posts de hoje de todas as clientes (qualquer etapa,
+7. Postagem do dia (SÓ QUANDO EU PEDIR): o Samuel me manda os posts do dia de todas as clientes (qualquer etapa,
    menos roteiro, com o link de cada bloco no painel), pergunta se pode seguir e, com o meu ok, agenda
    no mLabs só o que eu liberar e comenta "Agendado no mLabs para HH:MM" no bloco.
 8. Tráfego pago, em fases, cada avanço com o meu ok: FASE 0 setup das contas comigo
@@ -171,31 +174,26 @@ OS 9 FLUXOS (detalhes em equipe/README.md)
 • Tráfego → Samuel, Manu, Copy, Design, Revisor, Analista
 
 ════════════════════════════════════════
-5. AS ROTINAS: 18 EM USO (horário de Brasília)
+5. AS ROTINAS: 11 EM USO (horário de Brasília)
 ════════════════════════════════════════
-O texto exato de cada rotina está em openbot/rotinas.md.
- 1. Samuel · todo dia 8h · posts do dia → meu ok → agenda no mLabs
- 2. Samuel · segunda 8h30 · resumo semanal (gestao/semanal/) → me envia
+O texto exato de cada rotina está em openbot/rotinas.md. Os números antigos foram mantidos.
  3. Samuel · seg a sex 11h30 e 17h30 · novidades do painel (GET /novidades): avança roteiros aprovados,
-    encaminha ajustes; às 17h30 também autorizações, atrasos e escalonamentos (só age se houver algo)
+    pede ao Design as artes e as capas dos reels com vídeo, encaminha ajustes; às 17h30 também
+    autorizações, atrasos e escalonamentos (só age se houver algo)
  4. Samuel · dia 1, 9h · pedido de produção do mês seguinte à Estratégia
  5. Estratégia · dia 20, 9h · pauta de dois meses à frente para cada cliente
- 6. (removida em 2026-11-26: as artes de carrossel passaram para a rotina 7)
- 7. Design · seg a sex 11h · artes dos carrosséis com roteiro aprovado e capas dos reels que já têm
-    vídeo no painel (só o que ainda não tem arte ou capa)
  8. Analista · dia 1, 9h · relatório mensal de cada cliente
- 9. Analista · quarta 10h · recordes dos últimos 7 dias → Lari (nunca avisa o mesmo post duas vezes)
-10. Social Media · segunda 7h · aba Tendências (rascunho) + 1 stories + 1 reels viral por cliente → Lari
+ 9. Analista · quarta 10h · recordes dos últimos 7 dias → Lari (ela me pergunta antes de enviar)
+10. Social Media · segunda 7h · pesquisa de tendências → aba Tendências do painel (rascunho): 3 virais
+    do nicho + 4 ideias de stories por cliente
 11. Lari · segunda 9h · zera os contadores + bom dia e boa semana (só sem conversa ativa e sem
     mensagem sem resposta; texto diferente toda semana; não conta no limite de avisos)
-12. Lari · segunda 14h · envia os stories prontos
-13. Lari · terça 10h · envia os reels virais prontos (o que não sair vai para a fila)
-14. Lari · seg a sex 10h30 e 15h30 · avisos de aprovação pendente há mais de 48 horas, lembretes e fila
-15. Tráfego · seg a sex 9h30 · checagem de fatos (gasto, reprovações, conta, rastreamento)
-16. Tráfego · sexta 10h · checagem semanal com decisão por conta → Samuel
-17. Tráfego · dia 25, 9h · plano de mídia do mês seguinte de cada cliente que anuncia
+12. Lari · segunda 14h · envia as ideias de stories da aba Tendências (só semana liberada por mim)
+13. Lari · terça 10h · envia os reels virais da aba Tendências (só semana liberada por mim)
 18. Manu · quinta 10h · referências visuais da semana + olhar de feed de cada cliente → Design
 19. Analista · seg a sex 9h · sincroniza as métricas do mLabs no painel (PUT /clientes/<slug>/metricas)
+EXCLUÍDAS (2026-11-28): 1 (posts do dia), 2 (resumo semanal), 7 (Design), 14 (avisos da Lari) e
+15, 16 e 17 (Tráfego). Essas tarefas só acontecem quando eu (ou o Samuel, no caso do Design) pedir.
 As mensagens das clientes no WhatsApp acionam a Lari na hora, sem rotina.
 
 REGRAS DE SEGURANÇA DAS ROTINAS (referencias/rotinas-seguras.md)
@@ -297,7 +295,7 @@ nas instruções, no repositório ou no chat. Se faltar alguma, me diga qual e e
 • FICHAS DAS CLIENTES: sendo preenchidas pelo Straut Brain · Clientes. Campos marcados FALTA viram
   perguntas, não suposições.
 • WHATSAPP: a Lari ainda NÃO é conectada ao número da Straut. Primeiro testamos com o meu número.
-• TRÁFEGO: na fase 0 (setup). As rotinas 15, 16 e 17 só são ativadas a partir da fase 1.
+• TRÁFEGO: na fase 0 (setup) e sem rotinas por enquanto; trabalha só quando eu ou o Samuel pedir.
 
 ════════════════════════════════════════
 11. O QUE EU QUERO QUE VOCÊ FAÇA (etapas)
@@ -314,7 +312,7 @@ nas instruções, no repositório ou no chat. Se faltar alguma, me diga qual e e
 3. Em cada bot, faça a primeira configuração: clonar o repositório em ~/straut-team, git config com o
    nome do bot ("<Nome> (bot Straut)") e um teste: o bot explica com as próprias palavras o que faz, o
    que pode acessar e o que precisa da minha autorização.
-4. Crie as rotinas de openbot/rotinas.md (17 em uso; a 6 foi removida), mas DEIXE TODAS DESATIVADAS até eu liberar.
+4. Crie as 11 rotinas de openbot/rotinas.md, mas DEIXE TODAS DESATIVADAS até eu liberar.
 5. NÃO conecte a Lari ao WhatsApp da Straut ainda.
 6. Ao terminar, me mande um relatório:
    ✅ o que foi criado · ⚠️ o que não foi possível e por quê · 🔑 credenciais que faltam ·

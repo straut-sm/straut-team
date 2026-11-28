@@ -135,7 +135,7 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
   ou mexer em Workflow, mandar mensagens, responder comentários ou menções (só a Lari fala com
   clientes, e pelo WhatsApp), renomear perfis ou mudar configurações.
 - **Agendar** (`create_post`, `update_post`, `toggle_post_status`) é só do **Samuel**, só com o ok do
-  dia do Guilherme (rotina 1).
+  dia do Guilherme (posts do dia, quando ele pedir).
 - **Exclusão (Guilherme, 2026-11-27):** ninguém exclui o que já foi postado nem agendado. Se uma
   exclusão for necessária, **o Guilherme faz pessoalmente**. O bot só avisa o que precisa sair e por quê.
 - Os resultados são uma foto do momento: para afirmar algo, leia de novo. Cite a fonte ("mLabs, <data>").
@@ -145,8 +145,8 @@ do Guilherme. Quer propor uma mudança? Mande para o Samuel, que pede autorizaç
 - **Fase de testes (atual):** enviar conteúdos para aprovação da cliente (status `aguardando_aprovacao`).
   O Samuel junta o lote e pede um ok único. Quando o Guilherme liberar, essa regra muda para "o Revisor
   aprovou, pode enviar".
-- **Agendar posts no mLabs:** o Samuel pede o ok todos os dias (posts do dia) e só agenda o que o
-  Guilherme liberar.
+- **Agendar posts no mLabs:** quando o Guilherme pedir os posts do dia, o Samuel envia a lista, pede o
+  ok e só agenda o que o Guilherme liberar.
 - Mudar datas ou conteúdos de um calendário que a cliente já aprovou.
 - Qualquer assunto de dinheiro, contrato, preço ou prazo comercial.
 - Mudar o posicionamento ou o tom de voz de uma cliente.

@@ -5,6 +5,18 @@ Formato: `AAAA-MM-DD · decisão · motivo / contexto`. A entrada mais nova fica
 
 ---
 
+- 2026-11-28 · **Ajuste das rotinas** (Guilherme): o time passa a ter **11 rotinas**.
+  - **Excluídas:** 1 (posts do dia do Samuel), 2 (resumo semanal), 7 (artes e capas do Design), 14
+    (avisos da Lari) e 15, 16 e 17 (todas do Tráfego, por enquanto). Posts do dia, resumo semanal e
+    avisos às clientes só quando o Guilherme pedir. O Design trabalha quando o Samuel pedir (o Samuel
+    vê na rotina 3 os carrosséis aprovados e os reels com vídeo e sem capa). O Tráfego só trabalha
+    quando pedido.
+  - **Social Media (rotina 10, segunda 7h):** pesquisa as tendências e preenche a aba Tendências do
+    painel com **3 virais do nicho e 4 ideias de stories** por cliente (sem a "tendência do mês" e sem
+    arquivo em `sugestoes/`).
+  - **Lari (rotinas 12 e 13, mesmos horários):** envia os stories e os reels virais **direto da aba
+    Tendências**, só de semana liberada pelo Guilherme. Recordes da Analista: a Lari pergunta ao
+    Guilherme antes de enviar.
 - 2026-11-27 · **Reorganização do time para economizar tokens** (Guilherme, com o Claude):
   1. **Os 5 Gestores de cliente foram desativados.** A parte operacional (painel, roteiros aprovados,
      dias de produção, ajustes da cliente) foi para o **Samuel**; o planejamento (calendário do mês,

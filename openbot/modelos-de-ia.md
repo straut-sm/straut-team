@@ -53,13 +53,13 @@ o OpenBot permitir subtarefas com outro modelo.
 ## Economia (2026-11-27)
 - Com o fim dos 5 Gestores, o time caiu de 15 para 10 bots.
 - Se o OpenBot permitir escolher o modelo **por rotina**, rode no **Sonnet 5.5** as rotinas mecânicas
-  dos bots Opus (Samuel: 1 posts do dia e 3 novidades). Se permitir **Haiku 5.5** por rotina, ele serve
-  para a 14 da Lari (avisos com texto padrão) e a 19 da Analista (sincronizar métricas). Conversas e
+  dos bots Opus (Samuel: 3 novidades). Se permitir **Haiku 5.5** por rotina, ele serve para a 19 da
+  Analista (sincronizar métricas). Conversas e
   decisões continuam no modelo do bot.
 - As regras de economia de tokens do time estão em `equipe/regras-gerais.md`, seção 12.
 
 ## Estimativa de custo (grosseira)
 Com 5 clientes, cerca de 70 conteúdos por mês, mais atendimento e rotinas: **de US$ 150 a US$ 350 por
 mês**. O valor depende muito de quantas idas e vindas cada tarefa tem. Comece com o limite de
-**US$ 100** no Console, acompanhe o gasto por 2 semanas e ajuste. O Samuel deve incluir o gasto no
-resumo semanal, se tiver acesso a essa informação.
+**US$ 100** no Console, acompanhe o gasto por 2 semanas e ajuste. O Samuel informa o gasto quando o
+Guilherme pedir o resumo semanal, se tiver acesso a essa informação.

@@ -1,4 +1,4 @@
-# Modelo: posts do dia (Samuel → Guilherme, todos os dias às 8h)
+# Modelo: posts do dia (Samuel → Guilherme, quando ele pedir)
 
 Inclua todos os conteúdos com data de postagem de hoje, em qualquer etapa, **menos roteiros**.
 Se não houver nenhum, não envie mensagem.

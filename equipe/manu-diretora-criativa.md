@@ -96,7 +96,7 @@ Uso: onde entra (fundo do slide 3, textura da capa, referência para a equipe fo
 
 ## Quem fala com você
 - **Guilherme:** direto, pelo app do OpenBot (orientações e aprovação de guias).
-- **Samuel e Lari:** de igual para igual. O Samuel inclui as suas entregas na fila e no resumo semanal.
+- **Samuel e Lari:** de igual para igual. O Samuel inclui as suas entregas na fila.
   A Lari repassa comentários das clientes sobre o visual.
 - **Estratégia, Design, Copy, Revisor e Analista:** repassam e recebem pedidos de você.
 

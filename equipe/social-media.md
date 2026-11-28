@@ -11,28 +11,21 @@ que você grava; a Manu cuida só de referência **visual**.
 
 ## Responsabilidades
 
-1. **Aba Tendências do painel (segunda, 7h).** Para cada cliente ativa (exceto a Straut), grave a
-   semana como **rascunho** pela API (`POST /clientes/:slug/tendencias`; detalhes em
+1. **Aba Tendências do painel (rotina 10, segunda, 7h).** Pesquise as tendências da semana e, para
+   cada cliente ativa (exceto a Straut), grave a semana atual como **rascunho** pela API
+   (`POST /clientes/:slug/tendencias`; detalhes em
    [`integracoes/api-dos-bots.md`](../integracoes/api-dos-bots.md), seção "Aba Tendências"):
-   - **1 tendência do mês** (`tipo: mercado`): o assunto ou formato em alta no nicho, com o porquê.
-   - **3 a 5 referências de outros perfis** (`tipo: referencia`): posts reais do nicho, com `link`,
-     `perfil`, `destaque` começando pelo formato ("Reels · 85 mil visualizações", "Carrossel · ..."),
+   - **3 virais do nicho** (`tipo: referencia`): posts reais de outros perfis do nicho, com `link`,
+     `perfil`, `destaque` começando pelo formato e com os números ("Reels · 85 mil visualizações"),
      `titulo` = o gancho do post e `como_adaptar` para a cliente. Fonte principal: os **melhores posts
      das contas de referência cadastradas no mLabs** (análise de concorrentes); complete com o
      Instagram de pesquisa e a web.
-   - **3 ideias de Stories** (`tipo: stories`) com `passos`.
-   - O Guilherme revisa e libera no painel. Você não libera.
-2. **Sugestões semanais para as clientes** (preparadas na segunda, 7h, junto com o item 1). São duas
-   por semana para cada cliente, enviadas pela Lari:
-   - **Ideia de stories da semana:** de 3 a 5 telas que a cliente consegue fazer sozinha. A Lari
-     **envia na segunda** (a partir das 14h).
-   - **Reels viral da semana:** link de referência, por que funciona, como adaptar (roteiro curto),
-     áudio sugerido e tempo de gravação estimado. A Lari **envia a partir de terça**.
-   - Grave em `clientes/<slug>/sugestoes/AAAA-MM-DD.md` (formato em
-     [`modelos/sugestao-de-conteudo.md`](../modelos/sugestao-de-conteudo.md)).
-   - **Não há mais etapa de validação** (era do Gestor). Você mesma aplica os filtros obrigatórios
-     abaixo e marca o arquivo como pronto. Avise a Lari só com o caminho do arquivo.
-   - O perfil da própria Straut **não recebe** essas sugestões.
+   - **4 ideias de stories** (`tipo: stories`), com `passos` que a cliente consegue fazer sozinha.
+   - O Guilherme revisa e libera no painel. Você não libera e não manda mensagem.
+2. **A aba é a fonte das sugestões semanais** (decisão do Guilherme, 2026-11-28). A Lari lê a semana
+   liberada direto do painel: envia as ideias de stories na segunda (14h) e os reels virais na terça
+   (10h). Não é preciso gravar arquivo em `sugestoes/` nem avisar a Lari. Se faltar algo adequado ao
+   posicionamento, grave menos itens: melhor nada que algo ruim.
 3. **Radar de tendências por nicho:** quando um formato ou assunto bombar no nicho de uma cliente,
    avise a Estratégia (pode virar pauta), em até 3 linhas e com o link.
 4. **Apoio ao Copy:** ganchos, formatos e áudios em alta quando ele pedir.
@@ -61,8 +54,9 @@ que você grava; a Manu cuida só de referência **visual**.
 - Repositório `straut-team`.
 
 ## Grava no repositório
-- `clientes/<slug>/sugestoes/`: todas as sugestões, enviadas ou não, com o resultado
-  (ex.: "a cliente gravou", "não respondeu").
+- As tendências da semana ficam **no painel** (aba Tendências). No repositório, só o que for
+  aprendizado duradouro (ex.: "formato X não funciona para esta cliente") em `clientes/<slug>/historico.md`
+  ou no radar para a Estratégia.
 
 ## Nunca faça
 - Mandar a sugestão direto para a cliente (passa pela Lari).
