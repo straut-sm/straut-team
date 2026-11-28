@@ -5,6 +5,7 @@ Formato: `AAAA-MM-DD · Quem: o quê (e por quê)`. A entrada mais nova fica no 
 
 ---
 
+- 2026-11-28 · Revisor: as artes 29d6ca8c (14/12) e 81b7ae35 (01/12) usam "CRM 140.346 · RQE 51.127", números tirados da bio pela Manu. Falta o estado no CRM (o CFM exige CRM com UF), que precisa ser confirmado. A Manu decidiu manter o carrossel em 1080×1440.
 - 2026-11-28 · Revisor: arte do carrossel 29d6ca8c (14/12) voltou com ajustes. Aprendizados: carrossel em 1080×1350, não 1080×1440; assinatura sem CRM/RQE não publica, e "tricologista" não é especialidade com RQE (usar "Dermatologista" + CRM + RQE); foto de paciente em procedimento só com autorização confirmada.
 - 2026-11-27 · Gestor Dra. Juliana Annunciato: com autorização do Guilherme (via Samuel), 22/12 e 25/12 enviados para aprovação (conferido por leitura). Ele marca o formato foto do 25/12 no painel e responde as perguntas sobre a cliente; a Lari não as envia à Dra. Ju.
 - 2026-11-27 · Gestor Dra. Juliana Annunciato: aplicada no painel a análise de dezembro (16 blocos) e corrigidos 28/11 e 30/11, com Copy e Revisor; status e datas mantidos. Frases que dependem da cliente ficaram neutras (ex.: o 03/12 não afirma mais que dá para ir à festa no mesmo dia). Pendentes: respostas dela, formato planejado do 25/12, datas 05 e 19/12 e troca de temas (decisão futura do Guilherme). O padrão de dezembro em textos-aprovados.md não vale como referência: os roteiros eram do Claude.
