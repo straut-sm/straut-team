@@ -174,3 +174,43 @@ de mel.
 - [ ] Nenhuma pessoa, pele ou resultado gerado por IA; nenhum antes e depois.
 - [ ] Tudo legível no celular (veja em 30% de zoom).
 - [ ] Os 5 lado a lado parecem do mesmo perfil.
+
+---
+
+## 4. Fotos escolhidas (2026-11-28 · Manu)
+Banco gratuito Unsplash (licença permite uso comercial, sem crédito obrigatório). Para subir no
+Canva: `upload-asset-from-url` com o link abaixo (já em 2160 px). "Base" = reaproveitar a foto que
+já está no arquivo-base `DAHIPyMwpbU`.
+
+URL: `https://images.unsplash.com/<código>?w=2160&q=85`
+
+| Carrossel | Slide | Foto | Código ou origem |
+|---|---|---|---|
+| 01/12 | Capa | ombro e colo ao sol com sombra de folhas | `photo-1783542010884-269722872f74` |
+| 01/12 | 2 | piscina com sombra de folhas | Base (capa do "Cronograma de verão") |
+| 01/12 | 9 | Dra. Ju sorrindo | Base (blusa lilás, "Um completa o outro") |
+| 10/12 | Capa | mulher de costas na piscina, cabelo molhado | `photo-1655667711519-673c294a49c2` |
+| 10/12 | 2 | mão sob ducha ao ar livre | `photo-1786384457104-a9e35cca90de` |
+| 10/12 | 3 | mão segurando chapéu de palha | `photo-1606508345145-3e9972c41e4f` |
+| 10/12 | 4 | espuma do mar na areia | `photo-1721096142075-ae3defd47f2e` |
+| 10/12 | 5 | cabelo loiro contra o sol | `photo-1786517815480-2886645eb8c7` |
+| 10/12 | 6 | escova de madeira em fundo quente | `photo-1669646100849-8c064be27dfd` |
+| 10/12 | 7 | mala aberta com chapéu e bolsa | `photo-1557183200-f0fec6612738` |
+| 14/12 | 3 | aparelho CoolFase | **falta: foto real da clínica (pedida ao Guilherme)** |
+| 22/12 | 1 | Dra. Ju, retrato | Base (foto do consultório claro, "Tudo que eu trouxe") |
+| 22/12 | 2 | braço com 3 gotas de protetor sobre linho | `photo-1603401712778-ab0575182f12` |
+| 22/12 | 3 | tricoscópio | Base ("Tricologia · Quando devemos avaliar?") |
+| 22/12 | 4 | pele natural em macro | Base ("Tem uma parte do corpo...", slide 1) |
+| 22/12 | 5 | café, caderno de couro e caneta com sombra de janela | `photo-1637689113621-73951984fcc1` |
+| 22/12 | 6 | mão com celular, fundo bege | `photo-1554672408-17407e0322ce` |
+| 28/12 | Capa | costas e ombro com gotas de suor | `photo-1654781350550-0dc72ecb6fae` |
+| 28/12 | 2 | pele com gotas, mais perto | `photo-1771688221238-06ded2ea59c7` |
+| 28/12 | 3 | textura de gel translúcido | `photo-1698067942904-ad7f3181421a` |
+| 28/12 | 4 | pincelada de creme em fundo quente | `photo-1632127579802-ff69469091a4` |
+| 28/12 | 5 | mãos em concha sob a torneira | `photo-1584961503022-d19acee0af7b` |
+| 28/12 | 6 | costas com roupa de treino, luz de fim de tarde | `photo-1645207803533-e2cfe1382f2c` |
+| 28/12 | 7 | cabelo castanho de costas, fundo escuro | `photo-1730740505665-511513481bce` |
+
+Ajuste das fotos: tom quente (puxe levemente para o âmbar se vierem frias), um pouco de grão, e
+corte em 1080 × 1440 deixando a área do texto livre. O vermelho do 22/12 sai: nenhuma foto boa
+tinha o acento sem marca de produto.
